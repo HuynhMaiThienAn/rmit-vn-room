@@ -1,0 +1,648 @@
+{
+  "date": "2026-06-16",
+  "schedules": [
+    {
+      "id": "55791337-429d-4ae7-8ad4-e77243493f00",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T10:00:00+00:00",
+      "endTime": "2026-06-16T12:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Hanoi Campus",
+      "roomId": "fdd57b0f-b3e9-4511-a3a7-6423e5f9af7f"
+    },
+    {
+      "id": "830e5118-65ec-4509-ba52-12b05802fe87",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-16T03:30:00+00:00",
+      "endTime": "2026-06-16T05:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies",
+      "roomId": "6971b49f-2d32-4ebe-966c-94bb6b9d2c0c"
+    },
+    {
+      "id": "81cff6d4-d03b-4afb-aa35-9ec1b3ef7556",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T03:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies",
+      "roomId": "94743b0d-bc93-4222-8bfe-8f028774a063"
+    },
+    {
+      "id": "f15bfcfa-24ff-45de-882d-bb84d1a5bb6e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T03:30:00+00:00",
+      "endTime": "2026-06-16T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies",
+      "roomId": "94743b0d-bc93-4222-8bfe-8f028774a063"
+    },
+    {
+      "id": "d918a0a4-0171-4bd1-9af8-5e0bf4487654",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T03:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies",
+      "roomId": "c1eb68a4-7e05-4f1e-8a0f-f8eb8614df01"
+    },
+    {
+      "id": "8d367dee-0330-43ab-b4ad-bffde422ee90",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T06:00:00+00:00",
+      "endTime": "2026-06-16T08:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies",
+      "roomId": "c1eb68a4-7e05-4f1e-8a0f-f8eb8614df01"
+    },
+    {
+      "id": "5559ee5d-e957-40ed-897b-f67085a3acdc",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T00:00:00+00:00",
+      "endTime": "2026-06-16T09:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "1ddad24a-037e-43a1-85c3-8552e81e2f85"
+    },
+    {
+      "id": "80488ba2-8686-4bb8-a12f-ef258b5fd252",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T00:00:00+00:00",
+      "endTime": "2026-06-16T09:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "f35a08fd-2c99-49b6-b5fd-13627c18fcc7"
+    },
+    {
+      "id": "9d45f33d-3e50-47be-a30b-23b198edb5bb",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "adbd200e-6cfe-491d-b96e-b9687f83d11b"
+    },
+    {
+      "id": "2ee8fbd8-083b-481f-b79e-9e8218126e18",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-16T03:30:00+00:00",
+      "endTime": "2026-06-16T05:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "adbd200e-6cfe-491d-b96e-b9687f83d11b"
+    },
+    {
+      "id": "85dd727c-79ed-4ab8-8394-74c6bdce558b",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T11:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "4e8451f4-fda1-4079-89aa-b089477f440e"
+    },
+    {
+      "id": "e15254f0-5ea9-4e75-aa22-cdd1c44041ae",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T03:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "cb8f88b1-0d49-4c80-b975-91d12e09000d"
+    },
+    {
+      "id": "1c52b4a5-9757-40ec-8ba4-0a14d15abd45",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T03:30:00+00:00",
+      "endTime": "2026-06-16T05:30:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Quyen Bui (Quyen Booth-Jones)",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "cb8f88b1-0d49-4c80-b975-91d12e09000d"
+    },
+    {
+      "id": "051065bf-270f-4557-8cd9-223f2e8af7f0",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T06:00:00+00:00",
+      "endTime": "2026-06-16T08:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "cb8f88b1-0d49-4c80-b975-91d12e09000d"
+    },
+    {
+      "id": "ec1d10d0-5981-4905-964e-13664845fa0d",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "61f8d3f2-a6a6-4b78-81e4-92a141d24e62"
+    },
+    {
+      "id": "315964fa-39a5-4f00-b9fd-48936a62b85b",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T00:00:00+00:00",
+      "endTime": "2026-06-16T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "ce24d242-2508-4a80-89fa-b524da1e18af"
+    },
+    {
+      "id": "77e36392-e2f1-4fca-aff9-f9c94558578c",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T00:00:00+00:00",
+      "endTime": "2026-06-16T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "a7f66173-ff4a-4116-a79c-429fac539f63"
+    },
+    {
+      "id": "4c0c817b-3491-4f97-ad5e-808b7107a758",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T00:00:00+00:00",
+      "endTime": "2026-06-16T09:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "a38a7b08-1b0a-4325-84e9-5c2989d68226"
+    },
+    {
+      "id": "7386726c-151c-49c5-99ab-9d013dd2524d",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T03:00:00+00:00",
+      "endTime": "2026-06-16T04:30:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "da49931a-276a-41ae-ae4b-1df3bf375681"
+    },
+    {
+      "id": "c80e90b7-2fcd-4448-900c-63b0099e5945",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T03:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Chau Nguyen",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "26760ce2-65c8-4dcc-81d3-85b06735966d"
+    },
+    {
+      "id": "4d7cb881-ec9c-4701-bcd7-0194d2b0c641",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T03:30:00+00:00",
+      "endTime": "2026-06-16T05:30:00+00:00",
+      "courseName": "Creative Narratives",
+      "instructorName": "Damien French",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "26760ce2-65c8-4dcc-81d3-85b06735966d"
+    },
+    {
+      "id": "d17a52ee-15d9-4353-aa1c-e991525c74f8",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T06:00:00+00:00",
+      "endTime": "2026-06-16T08:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "26760ce2-65c8-4dcc-81d3-85b06735966d"
+    },
+    {
+      "id": "0c5862bf-2a80-41d7-ba8e-495fb98f9b18",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T03:00:00+00:00",
+      "courseName": "Marketing and Communication",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "e9610fc3-c571-46e7-99fe-4516c461c912"
+    },
+    {
+      "id": "dd7dda5f-08aa-4663-9bd6-e2a6aa254ad8",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T03:30:00+00:00",
+      "endTime": "2026-06-16T05:30:00+00:00",
+      "courseName": "Media: Power and Persuasion",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "e9610fc3-c571-46e7-99fe-4516c461c912"
+    },
+    {
+      "id": "cd16ba80-1238-4544-991c-1e4de1ceef3f",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T00:00:00+00:00",
+      "endTime": "2026-06-16T09:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "540d5117-9d6b-458d-87de-9e10b169cb30"
+    },
+    {
+      "id": "34c32234-41ea-478e-85dc-916e661a1855",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T00:00:00+00:00",
+      "endTime": "2026-06-16T09:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "78b18748-e495-4df1-b85f-2663c9578f8e"
+    },
+    {
+      "id": "7077e622-c0c5-4b8c-b6a8-928e50486c48",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-16T08:30:00+00:00",
+      "endTime": "2026-06-16T10:30:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "ac323bae-fbc5-4fec-9c55-cddc2a1135ad"
+    },
+    {
+      "id": "37859830-a022-4fbf-9b19-53abf844b269",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T00:00:00+00:00",
+      "endTime": "2026-06-16T09:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "abcc1ca1-89e3-4762-aee1-e18f30ca8ff7"
+    },
+    {
+      "id": "e20f1e97-4f7a-49f3-bcc6-bbdead7e4c57",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T00:00:00+00:00",
+      "endTime": "2026-06-16T09:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "81f4ea68-3b9a-439b-ad87-d1b4ed61470b"
+    },
+    {
+      "id": "2612c7a0-caef-4ccd-ad40-91da55187457",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T00:00:00+00:00",
+      "endTime": "2026-06-16T09:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "81f4ea68-3b9a-439b-ad87-d1b4ed61470b"
+    },
+    {
+      "id": "4bb7888d-2dde-47a2-9c3f-8067f59f4e53",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "81f4ea68-3b9a-439b-ad87-d1b4ed61470b"
+    },
+    {
+      "id": "5adbecea-0c02-4109-8562-ed241d547c24",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T00:00:00+00:00",
+      "endTime": "2026-06-16T09:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "95cebbca-dbf7-4bf0-adf0-b728846c61bc"
+    },
+    {
+      "id": "c272e548-3c65-4ae3-bccf-53772ba3bf05",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T00:00:00+00:00",
+      "endTime": "2026-06-16T12:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "831a8bf7-37ab-460d-8e1d-36d319c9e223"
+    },
+    {
+      "id": "2685021a-8fba-41a1-bb12-e3174311fcc9",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T03:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "2ab1e883-ebb3-4f0a-8504-73aa6bd38dbe"
+    },
+    {
+      "id": "f059dfed-9c14-4ec8-96d4-2ebfbd3e9743",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T03:00:00+00:00",
+      "courseName": "General Mathematics",
+      "instructorName": "Dao Le",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "f97c5996-1de8-4021-85ef-a8b16104a0bf"
+    },
+    {
+      "id": "b3ad69f2-0294-4617-9b7d-fbdb89f2b32f",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-16T03:00:00+00:00",
+      "endTime": "2026-06-16T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "f97c5996-1de8-4021-85ef-a8b16104a0bf"
+    },
+    {
+      "id": "26f671e7-7f69-4757-a23a-210c0407d998",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T08:30:00+00:00",
+      "endTime": "2026-06-16T10:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "f97c5996-1de8-4021-85ef-a8b16104a0bf"
+    },
+    {
+      "id": "09eb7034-017b-4364-8543-b1320be040e6",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T03:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "60d33f56-5584-488d-8dd4-9a720c3f1624"
+    },
+    {
+      "id": "a0562be3-d4cf-4f06-b66e-cc3c45da098d",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T04:00:00+00:00",
+      "endTime": "2026-06-16T06:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Chau Nguyen",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "2c3f1935-5b31-4ce6-aab6-b0af7d9bbfdd"
+    },
+    {
+      "id": "3baca668-3ce0-4e1a-b4ca-7176816d00fb",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T06:00:00+00:00",
+      "endTime": "2026-06-16T08:00:00+00:00",
+      "courseName": "Marketing and Communication",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "2c3f1935-5b31-4ce6-aab6-b0af7d9bbfdd"
+    },
+    {
+      "id": "107de668-0f30-4ba2-85ce-53c7e8bf856c",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T08:30:00+00:00",
+      "endTime": "2026-06-16T10:30:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "2c3f1935-5b31-4ce6-aab6-b0af7d9bbfdd"
+    },
+    {
+      "id": "cfb19f2b-45fe-4965-ae91-47a019866ffd",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T03:30:00+00:00",
+      "endTime": "2026-06-16T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "43f0d405-58e4-4a7c-8aa0-de7c899eb70f"
+    },
+    {
+      "id": "58f856f9-310e-400f-8636-216b557a78b7",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "d6448f8d-2554-4f99-80e1-6fd67d4c822e"
+    },
+    {
+      "id": "ec846d2c-dc33-47df-bd1f-b15b0d39a2f3",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "3b9066ca-b519-4356-a4d5-dafc66ebf204"
+    },
+    {
+      "id": "1e870617-cebc-46bb-9522-95fc9fe6fd99",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "6f709343-c9b6-441f-8df1-fd17abfb80ad"
+    },
+    {
+      "id": "7cd08cb7-bf9e-4038-8b65-901271f664b4",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "024d2b78-909d-42ea-8a34-1e060c54aab1"
+    },
+    {
+      "id": "c720336f-eced-4959-8c37-aaa8570a762b",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "9c9e1f61-5d11-4b92-8e87-d12ef14700e9"
+    },
+    {
+      "id": "e565fc01-2e0c-4555-b85a-8be725fd5f8f",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "82f14587-994b-417a-a981-ebd5850c2fde"
+    },
+    {
+      "id": "e4888923-29d4-422f-99f9-dedf53fde191",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "97af720f-19da-4fea-a4f7-bc7dec537adf"
+    },
+    {
+      "id": "ad460fb5-15b2-48bc-8318-cf7fda5bcc84",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T00:00:00+00:00",
+      "endTime": "2026-06-16T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "64109b1d-1b81-4dad-b9a9-eea9a1928d60"
+    },
+    {
+      "id": "3203894c-d0ad-4f66-9006-8b05c9d7b895",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "64109b1d-1b81-4dad-b9a9-eea9a1928d60"
+    },
+    {
+      "id": "e610ea55-ca4f-4781-a312-8516fd3a8606",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T00:00:00+00:00",
+      "endTime": "2026-06-16T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "a8cc6e94-b144-4d80-943a-3d4e1f24a534"
+    },
+    {
+      "id": "ba5b8d70-98d7-421f-92d3-50cb9a8d43e2",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T10:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "a8cc6e94-b144-4d80-943a-3d4e1f24a534"
+    },
+    {
+      "id": "d0c8be4d-3d7e-421d-812e-af0684c04f91",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T00:00:00+00:00",
+      "endTime": "2026-06-16T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "686e45c7-f3dc-418c-b50e-bc6494532f67"
+    },
+    {
+      "id": "cb26f131-d760-47c8-b8bc-05f7a3519e1c",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T00:00:00+00:00",
+      "endTime": "2026-06-16T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "e21f02e3-efc5-4a68-b277-f987db2970dc"
+    },
+    {
+      "id": "3f3cb235-313e-487b-a704-2c962d2636c8",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "69e997c7-eae5-4c5d-b78f-666ffc4f98bc"
+    },
+    {
+      "id": "933fdbed-1564-4b8e-9d01-c8315e20e2f1",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "62d27796-64d5-4d19-9b65-731019528df8"
+    },
+    {
+      "id": "6c7e6737-a1e2-476f-9a39-97285546f45f",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "e443e6b4-ec19-45e6-a01c-3d8be5e73921"
+    },
+    {
+      "id": "1f288f43-fa57-4cc9-81f7-56bd71643f6d",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "3c2e2563-d2e0-4f47-9298-b143fd9b86a0"
+    },
+    {
+      "id": "e09e9efb-656c-4603-a0d0-024a80449b6a",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "54a338e9-9bc1-4192-b432-b2da5c33acde"
+    },
+    {
+      "id": "51505416-47bb-49af-b969-cb68a1f05653",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "f9bf172d-96d6-4c29-a382-f33e217ff739"
+    },
+    {
+      "id": "5f410a36-6cff-42b6-a4f0-6c19a701b4ec",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "89088b9b-b212-4f17-afd4-18f161a76643"
+    },
+    {
+      "id": "e5e3cc77-7938-43ab-8838-1502d6368366",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "7a325726-e962-4554-a46d-8a1db24f64f3"
+    },
+    {
+      "id": "0a8fe28a-97cc-45d5-bc1f-c41f5ec86193",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T11:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "b4522c27-58ac-4294-927a-dabf6b09db83"
+    },
+    {
+      "id": "575283be-3842-4b0b-918e-890f406c6646",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "d5467e25-fd97-440b-a343-b5daa2c34fde"
+    },
+    {
+      "id": "05ed6923-ea7f-4d00-a937-faf5cb72ec4c",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "0a4d20c8-9c99-4ba1-8ac5-1aef38c49623"
+    },
+    {
+      "id": "3c7fc545-c9ac-4123-83a3-e1eab66cc8b8",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "87d57b82-26f4-4c81-a8f5-eac9a27d10b4"
+    },
+    {
+      "id": "31d55b20-e7f1-46dc-a3f1-7592701b3ae2",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T13:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "68f4f692-f72b-448e-be34-e8e3670a1677"
+    },
+    {
+      "id": "92659ec4-5c8d-4720-83c4-309fb428097f",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "a78d984d-ea81-45f8-96f6-4272894ac58a"
+    },
+    {
+      "id": "294eebde-4357-427f-94f5-ced8458bf330",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T06:00:00+00:00",
+      "endTime": "2026-06-16T10:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "0e702f3f-a97a-4f19-b19b-4a0f8495efcb"
+    },
+    {
+      "id": "ac62b344-93ac-4df4-91af-cf467a49bdbf",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T10:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "47a6d847-a644-47f9-be42-da910ec4f515"
+    }
+  ]
+}

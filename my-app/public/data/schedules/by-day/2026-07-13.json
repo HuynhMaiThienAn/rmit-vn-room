@@ -1,0 +1,296 @@
+{
+  "date": "2026-07-13",
+  "schedules": [
+    {
+      "id": "a8243794-3cd8-4cf2-a499-27e4a683042b",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T01:00:00+00:00",
+      "endTime": "2026-07-13T03:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies",
+      "roomId": "94743b0d-bc93-4222-8bfe-8f028774a063"
+    },
+    {
+      "id": "a3c43b42-abaf-49f0-8d88-3fbd36433f43",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T03:30:00+00:00",
+      "endTime": "2026-07-13T05:30:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies",
+      "roomId": "94743b0d-bc93-4222-8bfe-8f028774a063"
+    },
+    {
+      "id": "8b5f69f0-b6ac-4c2f-9400-ee675e117d18",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T01:00:00+00:00",
+      "endTime": "2026-07-13T03:00:00+00:00",
+      "courseName": "Marketing and Communication",
+      "instructorName": "Bui My",
+      "department": "HN-SEUP-Foundation Studies",
+      "roomId": "c1eb68a4-7e05-4f1e-8a0f-f8eb8614df01"
+    },
+    {
+      "id": "cca65d80-b38a-4131-902c-133f735ae79c",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T03:30:00+00:00",
+      "endTime": "2026-07-13T05:30:00+00:00",
+      "courseName": "Global Studies",
+      "instructorName": "Bui My",
+      "department": "HN-SEUP-Foundation Studies",
+      "roomId": "c1eb68a4-7e05-4f1e-8a0f-f8eb8614df01"
+    },
+    {
+      "id": "ef179c6b-ce25-44ef-b981-60ff72eaf1f0",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T06:00:00+00:00",
+      "endTime": "2026-07-13T08:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies",
+      "roomId": "c1eb68a4-7e05-4f1e-8a0f-f8eb8614df01"
+    },
+    {
+      "id": "9b2651d5-9740-40ef-9b58-bf4f02b0fd31",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-13T06:30:00+00:00",
+      "endTime": "2026-07-13T08:30:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "adbd200e-6cfe-491d-b96e-b9687f83d11b"
+    },
+    {
+      "id": "6f1be9dc-0394-49e2-a042-6bde9c58e822",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-13T08:30:00+00:00",
+      "endTime": "2026-07-13T10:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "adbd200e-6cfe-491d-b96e-b9687f83d11b"
+    },
+    {
+      "id": "986b2ae8-e799-4453-9a69-1e4e8162a21e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T02:30:00+00:00",
+      "endTime": "2026-07-13T04:30:00+00:00",
+      "courseName": "Marketing and Communication",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "cb8f88b1-0d49-4c80-b975-91d12e09000d"
+    },
+    {
+      "id": "e570a3cf-8e42-4489-b2da-c276a5f61240",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T06:00:00+00:00",
+      "endTime": "2026-07-13T08:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "cb8f88b1-0d49-4c80-b975-91d12e09000d"
+    },
+    {
+      "id": "fc160574-ac55-411a-a9fc-d6fb747e1cf6",
+      "activityType": "Booking (space planning)",
+      "startTime": "2026-07-13T00:00:00+00:00",
+      "endTime": "2026-07-13T01:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "61f8d3f2-a6a6-4b78-81e4-92a141d24e62"
+    },
+    {
+      "id": "f1378374-95d3-4b4a-946f-e01673a2228b",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T01:00:00+00:00",
+      "endTime": "2026-07-13T03:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "26760ce2-65c8-4dcc-81d3-85b06735966d"
+    },
+    {
+      "id": "9b4e783f-77e4-451a-aacd-5f55f29b9fec",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T05:30:00+00:00",
+      "endTime": "2026-07-13T07:30:00+00:00",
+      "courseName": "Creative Narratives",
+      "instructorName": "Damien French",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "26760ce2-65c8-4dcc-81d3-85b06735966d"
+    },
+    {
+      "id": "30542c9b-e52b-4fc1-a65f-cc8a0aef6748",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-07-13T07:30:00+00:00",
+      "endTime": "2026-07-13T08:30:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "26760ce2-65c8-4dcc-81d3-85b06735966d"
+    },
+    {
+      "id": "99c98da0-98fe-414e-bdd6-6886c7a37899",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T02:30:00+00:00",
+      "endTime": "2026-07-13T04:30:00+00:00",
+      "courseName": "Media: Power and Persuasion",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "e9610fc3-c571-46e7-99fe-4516c461c912"
+    },
+    {
+      "id": "847ec061-a758-446a-ab95-17388f060ca2",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T04:30:00+00:00",
+      "endTime": "2026-07-13T06:30:00+00:00",
+      "courseName": "Global Studies",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "e9610fc3-c571-46e7-99fe-4516c461c912"
+    },
+    {
+      "id": "a9483b34-c17e-4779-afa7-07a202fdaa6b",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T08:30:00+00:00",
+      "endTime": "2026-07-13T10:30:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "e9610fc3-c571-46e7-99fe-4516c461c912"
+    },
+    {
+      "id": "3c40c337-f022-42f3-8564-76c8a14f1e8c",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-13T08:30:00+00:00",
+      "endTime": "2026-07-13T10:30:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "ac323bae-fbc5-4fec-9c55-cddc2a1135ad"
+    },
+    {
+      "id": "6885c590-8bed-498c-94ae-5612b98341db",
+      "activityType": "Booking",
+      "startTime": "2026-07-13T00:00:00+00:00",
+      "endTime": "2026-07-13T12:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "831a8bf7-37ab-460d-8e1d-36d319c9e223"
+    },
+    {
+      "id": "26e3ba65-f4b6-40ea-bbee-10ddf28f4bdd",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T05:00:00+00:00",
+      "endTime": "2026-07-13T07:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Quyen Bui (Quyen Booth-Jones)",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "2ab1e883-ebb3-4f0a-8504-73aa6bd38dbe"
+    },
+    {
+      "id": "8aaa6b6e-22f2-4e29-aa8c-179a7769741b",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T03:30:00+00:00",
+      "endTime": "2026-07-13T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "f97c5996-1de8-4021-85ef-a8b16104a0bf"
+    },
+    {
+      "id": "28a4c372-9e2a-48b7-bdd2-511bfb759d0d",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-07-13T07:00:00+00:00",
+      "endTime": "2026-07-13T08:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "f97c5996-1de8-4021-85ef-a8b16104a0bf"
+    },
+    {
+      "id": "cae16317-ef9b-4bad-9a19-3c8d8b0b01c0",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T01:00:00+00:00",
+      "endTime": "2026-07-13T03:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "60d33f56-5584-488d-8dd4-9a720c3f1624"
+    },
+    {
+      "id": "5954a5d9-3eef-4ae1-bae7-c669304d3ed8",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T03:30:00+00:00",
+      "endTime": "2026-07-13T05:30:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "60d33f56-5584-488d-8dd4-9a720c3f1624"
+    },
+    {
+      "id": "7b32aaef-59aa-40c0-a49c-b8afd8a0d1c7",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T01:00:00+00:00",
+      "endTime": "2026-07-13T03:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "2c3f1935-5b31-4ce6-aab6-b0af7d9bbfdd"
+    },
+    {
+      "id": "c5fa6587-4555-4f02-b17c-0169707dc4ae",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T03:30:00+00:00",
+      "endTime": "2026-07-13T05:30:00+00:00",
+      "courseName": "Advanced Mathematics",
+      "instructorName": "Dao Le",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "2c3f1935-5b31-4ce6-aab6-b0af7d9bbfdd"
+    },
+    {
+      "id": "dc719314-3b47-4e5f-87a7-1896b9d4ba30",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T06:00:00+00:00",
+      "endTime": "2026-07-13T08:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "2c3f1935-5b31-4ce6-aab6-b0af7d9bbfdd"
+    },
+    {
+      "id": "3b998b05-37d4-43ad-9ba5-ecf8bfd03457",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T08:30:00+00:00",
+      "endTime": "2026-07-13T10:30:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies",
+      "roomId": "2c3f1935-5b31-4ce6-aab6-b0af7d9bbfdd"
+    }
+  ]
+}

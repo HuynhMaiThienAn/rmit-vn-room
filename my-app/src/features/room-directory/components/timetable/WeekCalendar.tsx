@@ -1,8 +1,7 @@
 'use client';
 
 import React from 'react';
-import { getVietnamDateInfo, formatShortClock } from '../../utils/date';
-import { getActivityColor, shortenActivityType } from '../../utils/format';
+import { getVietnamDateInfo, formatShortClock, getActivityColor, shortenActivityType, getCalendarPlacement } from '../../utils/helpers';
 import type { ScheduleRecord } from '../../../../types/room';
 
 interface WeekDayInfo {
@@ -119,31 +118,25 @@ export function WeekCalendar({
                     className="border-r border-black last:border-r-0 relative h-full z-10"
                   >
                     {daySchedules.map((schedule) => {
-                      const startInfo = getVietnamDateInfo(schedule.startTime);
-                      const endInfo = getVietnamDateInfo(schedule.endTime);
-
-                      const decimalStart = startInfo.hours + startInfo.minutes / 60;
-                      const decimalEnd = endInfo.hours + endInfo.minutes / 60;
-
-                      if (decimalEnd <= START_HOUR || decimalStart >= END_HOUR) return null;
-
-                      const displayStart = Math.max(START_HOUR, decimalStart);
-                      const displayEnd = Math.min(END_HOUR, decimalEnd);
-
-                      const topOffset = (displayStart - START_HOUR) * ROW_HEIGHT;
-                      const blockHeight = (displayEnd - displayStart) * ROW_HEIGHT;
+                      const placement = getCalendarPlacement(
+                        schedule.startTime,
+                        schedule.endTime,
+                        START_HOUR,
+                        END_HOUR,
+                        ROW_HEIGHT
+                      );
+                      if (!placement) return null;
 
                       const colorClasses = getActivityColor(schedule.activityType);
-                      const titleText =
-                        schedule.courseName ?? schedule.course?.subjectDescription ?? 'Reserved';
+                      const titleText = schedule.courseName ?? 'Reserved';
 
                       return (
                         <div
                           key={schedule.id}
                           className={`absolute inset-x-0.5 rounded border p-1 lg:p-1.5 shadow-2xs overflow-hidden flex flex-col transition-all duration-200 hover:shadow-sm hover:z-20 hover:scale-[1.03] cursor-pointer ${colorClasses}`}
                           style={{
-                            top: `${topOffset + 2}px`,
-                            height: `${blockHeight - 4}px`,
+                            top: `${placement.topOffset + 2}px`,
+                            height: `${placement.blockHeight - 4}px`,
                           }}
                           title={`${titleText} (${schedule.activityType})`}
                         >

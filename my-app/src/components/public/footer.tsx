@@ -13,12 +13,12 @@ export function Footer() {
   // Hydration placeholder: prevents the 1-frame visual layout jump on mobile
   if (!mounted) {
     return (
-      <div className="shrink-0 h-[80px] md:h-[110px] bg-[#000054] border-t border-white/10 w-full" />
+      <div className="shrink-0 h-[48px] md:h-[64px] bg-[#000054] border-t border-white/10 w-full" />
     );
   }
 
   return (
-    <footer className="shrink-0 mt-0 border-t border-white/10 bg-[#000054] text-slate-300 font-sans py-4 md:py-8 px-6">
+    <footer className="shrink-0 mt-0 border-t border-white/10 bg-[#000054] text-slate-300 font-sans py-2.5 md:py-4 px-6">
       <div className="mx-auto max-w-7xl flex flex-row items-start justify-between gap-4 text-xs md:text-sm">
         
         {/* Column 1: Brand & Description */}

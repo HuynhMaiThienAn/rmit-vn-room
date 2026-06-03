@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-24",
+  "schedules": [
+    {
+      "id": "12cd989f-3f79-4b87-bef6-6b774e6dd698",
+      "activityType": "Booking",
+      "startTime": "2026-10-24T00:00:00+00:00",
+      "endTime": "2026-10-24T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "ce24d242-2508-4a80-89fa-b524da1e18af"
+    },
+    {
+      "id": "21e618d8-4dc3-431c-99ca-1e0dbba641a0",
+      "activityType": "Booking",
+      "startTime": "2026-10-24T00:00:00+00:00",
+      "endTime": "2026-10-24T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "a7f66173-ff4a-4116-a79c-429fac539f63"
+    },
+    {
+      "id": "d9510130-abf0-4564-9c9b-e3b6056bba5c",
+      "activityType": "Booking",
+      "startTime": "2026-10-24T00:00:00+00:00",
+      "endTime": "2026-10-24T11:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "d6448f8d-2554-4f99-80e1-6fd67d4c822e"
+    },
+    {
+      "id": "c3e6fba5-b751-4921-be80-7a5d9dbebb7d",
+      "activityType": "Booking",
+      "startTime": "2026-10-24T00:00:00+00:00",
+      "endTime": "2026-10-24T11:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "3b9066ca-b519-4356-a4d5-dafc66ebf204"
+    },
+    {
+      "id": "3a32a267-fd48-4eb0-a927-ea40790fe249",
+      "activityType": "Booking",
+      "startTime": "2026-10-24T00:00:00+00:00",
+      "endTime": "2026-10-24T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "686e45c7-f3dc-418c-b50e-bc6494532f67"
+    },
+    {
+      "id": "ad9aff6e-bc4b-4845-aa20-ca37f4287b51",
+      "activityType": "Booking",
+      "startTime": "2026-10-24T00:00:00+00:00",
+      "endTime": "2026-10-24T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "e21f02e3-efc5-4a68-b277-f987db2970dc"
+    }
+  ]
+}

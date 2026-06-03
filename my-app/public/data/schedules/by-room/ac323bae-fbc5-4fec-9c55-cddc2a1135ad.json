@@ -1,0 +1,275 @@
+{
+  "roomId": "ac323bae-fbc5-4fec-9c55-cddc2a1135ad",
+  "schedules": [
+    {
+      "id": "2f99d6a4-75a5-41a9-a832-47ca1bd5c418",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-02T08:30:00+00:00",
+      "endTime": "2026-06-02T10:30:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "34bfac19-243c-457b-8f19-c88a1b3edfba",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-03T01:00:00+00:00",
+      "endTime": "2026-06-03T04:00:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c14d7f06-f2bf-45aa-a098-bdaed958c4e6",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-04T01:00:00+00:00",
+      "endTime": "2026-06-04T04:00:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "83fa32c2-2bd6-4bd5-a749-bcd60c5d96d7",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-08T08:30:00+00:00",
+      "endTime": "2026-06-08T10:30:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f97f08b6-f584-415c-bb0d-82019eb1329e",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-09T08:30:00+00:00",
+      "endTime": "2026-06-09T10:30:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "a5377f3b-4f61-480c-8de8-d3de91d87852",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-10T01:00:00+00:00",
+      "endTime": "2026-06-10T04:00:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "3fd835f7-91b2-4a16-9556-70723fce2c36",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-11T01:00:00+00:00",
+      "endTime": "2026-06-11T04:00:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "175bb51d-4b7d-461e-8ea2-3ebf292f7d2c",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-15T08:30:00+00:00",
+      "endTime": "2026-06-15T10:30:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "7077e622-c0c5-4b8c-b6a8-928e50486c48",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-16T08:30:00+00:00",
+      "endTime": "2026-06-16T10:30:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "706fd5c4-aeab-4cde-9a22-10e3563c1ccd",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-17T01:00:00+00:00",
+      "endTime": "2026-06-17T04:00:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "dc40098c-5611-44cb-bb01-ded9a3da8bbc",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-18T01:00:00+00:00",
+      "endTime": "2026-06-18T04:00:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "774d27e9-f433-415d-b722-d39863c8c416",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-22T08:30:00+00:00",
+      "endTime": "2026-06-22T10:30:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "76d63a7b-302d-4644-a8b6-30afef7edd5d",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-23T08:30:00+00:00",
+      "endTime": "2026-06-23T10:30:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e930fa63-a8a9-4255-b161-da68a16c47ed",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-24T01:00:00+00:00",
+      "endTime": "2026-06-24T04:00:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "13570319-5c42-4c00-8fa4-5b116cffc283",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-25T01:00:00+00:00",
+      "endTime": "2026-06-25T04:00:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "394bc434-1c49-42ac-b545-e133b2a0b990",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-29T08:30:00+00:00",
+      "endTime": "2026-06-29T10:30:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c2ada92e-c544-42c0-aa5a-786c5bc8ca9a",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-30T08:30:00+00:00",
+      "endTime": "2026-06-30T10:30:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "ab721f3c-23b2-4a77-a744-d1a895cfe8c4",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-01T01:00:00+00:00",
+      "endTime": "2026-07-01T04:00:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "21924dfe-f0a9-4834-af1a-cff8895efc38",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-02T01:00:00+00:00",
+      "endTime": "2026-07-02T04:00:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1e0dd80b-ef4b-4b51-b0dc-e83c1083072a",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-06T08:30:00+00:00",
+      "endTime": "2026-07-06T10:30:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "2d4c7cbe-b0e8-42d4-bd3c-4916ea844277",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-07T08:30:00+00:00",
+      "endTime": "2026-07-07T10:30:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "01a31ab0-a41c-47b9-a90d-eb2eb85fb1af",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-08T01:00:00+00:00",
+      "endTime": "2026-07-08T04:00:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "17f9a33a-2c65-4c60-9b53-72acd75c23ab",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-09T01:00:00+00:00",
+      "endTime": "2026-07-09T04:00:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "3c40c337-f022-42f3-8564-76c8a14f1e8c",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-13T08:30:00+00:00",
+      "endTime": "2026-07-13T10:30:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "555a1686-1596-4bc9-ae29-8cadcc99689c",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-14T08:30:00+00:00",
+      "endTime": "2026-07-14T10:30:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "ff8cd7be-96d8-4c71-b078-30541504f2a5",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-15T01:00:00+00:00",
+      "endTime": "2026-07-15T04:00:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d515cfba-72ff-4dc8-b603-84c76572ff24",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-16T01:00:00+00:00",
+      "endTime": "2026-07-16T04:00:00+00:00",
+      "courseName": "Multimedia",
+      "instructorName": "Kieu-Anh Truong (Kieu Anh Truong)",
+      "department": "SGS-SEUP-Foundation Studies"
+    }
+  ]
+}

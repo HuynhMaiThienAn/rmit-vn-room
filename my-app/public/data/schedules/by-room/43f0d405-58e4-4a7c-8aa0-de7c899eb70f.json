@@ -1,0 +1,635 @@
+{
+  "roomId": "43f0d405-58e4-4a7c-8aa0-de7c899eb70f",
+  "schedules": [
+    {
+      "id": "ed776383-0468-418c-bf7c-3a5271e88fc6",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-02T03:30:00+00:00",
+      "endTime": "2026-06-02T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e4add81e-8f32-417e-b94b-77e8c572efab",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-04T01:00:00+00:00",
+      "endTime": "2026-06-04T03:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "ab29fa3a-6bcc-49d9-9ed8-aa81bcf5ada8",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-04T03:00:00+00:00",
+      "endTime": "2026-06-04T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "3a3627a1-484d-4a82-8ee7-5145f4f5d895",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-04T04:00:00+00:00",
+      "endTime": "2026-06-04T06:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "ff2f1e54-aa61-4c7e-9bab-5b9e74e26102",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T01:00:00+00:00",
+      "endTime": "2026-06-05T02:00:00+00:00",
+      "courseName": "Global Studies",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "2faf7e84-8015-4c04-88ae-58c7bc665e30",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T02:00:00+00:00",
+      "endTime": "2026-06-05T03:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0a25c92d-3d9e-42df-abfd-4a8d2a286131",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T03:00:00+00:00",
+      "endTime": "2026-06-05T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "94c5fbb8-88f7-46e8-b365-baaa71bf11dd",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T04:00:00+00:00",
+      "endTime": "2026-06-05T05:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Quyen Bui (Quyen Booth-Jones)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "8905d06d-40b8-46a5-8648-4314f516101f",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T05:00:00+00:00",
+      "endTime": "2026-06-05T06:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "8cf0d0c5-4d06-45bd-8339-c0b7b7ab0e6d",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-09T03:30:00+00:00",
+      "endTime": "2026-06-09T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "26856862-ae2c-44e5-b981-b676d5da4c30",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-11T01:00:00+00:00",
+      "endTime": "2026-06-11T03:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e2f768a7-8274-4dc7-9519-bc267c7798ed",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-11T03:00:00+00:00",
+      "endTime": "2026-06-11T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d512676c-07a0-40cb-b82a-ce889cf25f20",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-11T04:00:00+00:00",
+      "endTime": "2026-06-11T06:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "dc811e5e-e1dd-4552-be76-f2e22caf30d6",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T01:00:00+00:00",
+      "endTime": "2026-06-12T02:00:00+00:00",
+      "courseName": "Global Studies",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "fff22192-f3a2-4731-92fa-02b27c7378b6",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T02:00:00+00:00",
+      "endTime": "2026-06-12T03:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c7d1d41c-b9c3-4171-bca3-1673a2e19670",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T03:00:00+00:00",
+      "endTime": "2026-06-12T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "13e04bea-f860-40da-b489-3d25a3527e56",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T04:00:00+00:00",
+      "endTime": "2026-06-12T05:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Quyen Bui (Quyen Booth-Jones)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "5bd69983-c3f5-4d78-bc9d-a0ceeb418259",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T05:00:00+00:00",
+      "endTime": "2026-06-12T06:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "cfb19f2b-45fe-4965-ae91-47a019866ffd",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T03:30:00+00:00",
+      "endTime": "2026-06-16T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "155cee18-036b-48f3-a3a1-e98457fc0b2c",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-18T01:00:00+00:00",
+      "endTime": "2026-06-18T03:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "4f20ed67-7fac-4a19-8fe2-d977c26ea49f",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-18T03:00:00+00:00",
+      "endTime": "2026-06-18T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "8449703f-c35b-4abf-9f16-4bd155b2938e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-18T04:00:00+00:00",
+      "endTime": "2026-06-18T06:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "dcebb8ea-63d3-48a1-bced-86fec20731e8",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T01:00:00+00:00",
+      "endTime": "2026-06-19T02:00:00+00:00",
+      "courseName": "Global Studies",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "a6beffc0-4cce-412c-af9a-14f52788aaec",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T02:00:00+00:00",
+      "endTime": "2026-06-19T03:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "040c1675-10c5-4f1e-ae14-363264105d2f",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T03:00:00+00:00",
+      "endTime": "2026-06-19T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "eeed8cd4-790c-4084-985b-5f76fab734f4",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T04:00:00+00:00",
+      "endTime": "2026-06-19T05:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Quyen Bui (Quyen Booth-Jones)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "45528aff-8695-422e-be56-4c4839f8d230",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T05:00:00+00:00",
+      "endTime": "2026-06-19T06:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "9a78398e-680d-4c01-afe4-34ae926c4d3a",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-23T03:30:00+00:00",
+      "endTime": "2026-06-23T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1d4a1e39-6ec8-4a36-94d1-eb1f812096c8",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-25T01:00:00+00:00",
+      "endTime": "2026-06-25T03:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "29e422c4-a212-40b7-9fd8-648c90d011d4",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-25T03:00:00+00:00",
+      "endTime": "2026-06-25T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "3bf17dba-860c-4a0f-b6f8-fdaa1a8b0d08",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-25T04:00:00+00:00",
+      "endTime": "2026-06-25T06:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "7c87588f-dd99-4419-bfca-40f84fa8b92b",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T01:00:00+00:00",
+      "endTime": "2026-06-26T02:00:00+00:00",
+      "courseName": "Global Studies",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e84867b6-2750-4051-8251-0cd724c7dbd2",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T02:00:00+00:00",
+      "endTime": "2026-06-26T03:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f50a0770-73c1-4aa8-a648-e26aaf288427",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T03:00:00+00:00",
+      "endTime": "2026-06-26T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "5bed28e4-0fcb-494a-bed2-7ffbca9c7f08",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T04:00:00+00:00",
+      "endTime": "2026-06-26T05:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Quyen Bui (Quyen Booth-Jones)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "da955246-d530-4e33-9f06-b8279602f31e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T05:00:00+00:00",
+      "endTime": "2026-06-26T06:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d8222274-c4c1-4461-b125-f18c6d0eb88e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-30T03:30:00+00:00",
+      "endTime": "2026-06-30T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "864df565-298c-430d-a49b-d07bd894dc90",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-02T01:00:00+00:00",
+      "endTime": "2026-07-02T03:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "a773b436-1dd6-4d09-89f0-95e1c5ac887a",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-07-02T03:00:00+00:00",
+      "endTime": "2026-07-02T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "a6785b5f-dbd6-431d-a812-3d32fa746393",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-02T04:00:00+00:00",
+      "endTime": "2026-07-02T06:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "34c46cea-7b3b-4f39-8ba6-77fb8b50f839",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T01:00:00+00:00",
+      "endTime": "2026-07-03T02:00:00+00:00",
+      "courseName": "Global Studies",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c9b49892-9de8-4c9d-be8f-0aa1386f01d3",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T02:00:00+00:00",
+      "endTime": "2026-07-03T03:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e8aa4e67-8b32-45f9-8554-628428c7db26",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T03:00:00+00:00",
+      "endTime": "2026-07-03T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c0ad1164-2e86-4bf4-9f72-5a3307f8268a",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T04:00:00+00:00",
+      "endTime": "2026-07-03T05:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Quyen Bui (Quyen Booth-Jones)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "52919d15-1023-416e-8734-251bfc5ca5df",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T05:00:00+00:00",
+      "endTime": "2026-07-03T06:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "9384ca6e-604a-4ab9-9619-c00f1da89c0e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-07T03:30:00+00:00",
+      "endTime": "2026-07-07T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "30372d16-156e-4d1c-9cba-f75fbedd2767",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-09T01:00:00+00:00",
+      "endTime": "2026-07-09T03:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "372a7686-d766-41cd-8999-93ebdae83460",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-07-09T03:00:00+00:00",
+      "endTime": "2026-07-09T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c74d0d98-82f9-4fd6-bb70-d4fabfcd0404",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-09T04:00:00+00:00",
+      "endTime": "2026-07-09T06:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0ccf4b9a-65bf-4a20-8b21-2f06fe1559d4",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T01:00:00+00:00",
+      "endTime": "2026-07-10T02:00:00+00:00",
+      "courseName": "Global Studies",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "888539c2-0e83-4c30-8e2c-0e02e697cc29",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T02:00:00+00:00",
+      "endTime": "2026-07-10T03:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "4248767b-7816-4d85-9444-aae3738796a3",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T03:00:00+00:00",
+      "endTime": "2026-07-10T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "bc8ea4a5-0286-476f-b77d-422a97f21e19",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T04:00:00+00:00",
+      "endTime": "2026-07-10T05:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Quyen Bui (Quyen Booth-Jones)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "9607ae60-db4c-46bb-9fe1-d798d6ded15c",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T05:00:00+00:00",
+      "endTime": "2026-07-10T06:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "a4e09c16-fcf6-4cad-9dfc-6986f6479acd",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-14T03:30:00+00:00",
+      "endTime": "2026-07-14T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "84d236d1-b05a-4e45-964a-42f48bcbafc1",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-16T01:00:00+00:00",
+      "endTime": "2026-07-16T03:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "9f463a67-12cc-4a32-8978-2afe95b95cb6",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-07-16T03:00:00+00:00",
+      "endTime": "2026-07-16T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "3a670948-f985-4c11-9955-3cf580a1b23d",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-16T04:00:00+00:00",
+      "endTime": "2026-07-16T06:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "22d52b2e-c16f-4afb-993f-f829c625049a",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T01:00:00+00:00",
+      "endTime": "2026-07-17T02:00:00+00:00",
+      "courseName": "Global Studies",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0cf50537-7427-49cb-955a-ce4908b46cde",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T02:00:00+00:00",
+      "endTime": "2026-07-17T03:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e2e0d33b-f536-4ee1-b34e-7ce20f0a513f",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T03:00:00+00:00",
+      "endTime": "2026-07-17T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "44e070d6-9a20-46dc-bd35-1af0c34ef3c1",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T04:00:00+00:00",
+      "endTime": "2026-07-17T05:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Quyen Bui (Quyen Booth-Jones)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "ff8a093e-0bdf-470f-95d6-b329926f69a0",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T05:00:00+00:00",
+      "endTime": "2026-07-17T06:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    }
+  ]
+}

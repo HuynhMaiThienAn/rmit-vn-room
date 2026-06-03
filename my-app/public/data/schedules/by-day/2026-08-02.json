@@ -1,0 +1,13 @@
+{
+  "date": "2026-08-02",
+  "schedules": [
+    {
+      "id": "f4bfdbb1-419a-4bee-a7f8-42e7f7c69c0c",
+      "activityType": "Booking",
+      "startTime": "2026-08-02T00:00:00+00:00",
+      "endTime": "2026-08-02T12:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus",
+      "roomId": "831a8bf7-37ab-460d-8e1d-36d319c9e223"
+    }
+  ]
+}

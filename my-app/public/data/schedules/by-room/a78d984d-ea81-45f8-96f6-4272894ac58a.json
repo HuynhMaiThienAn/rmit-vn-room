@@ -1,0 +1,145 @@
+{
+  "roomId": "a78d984d-ea81-45f8-96f6-4272894ac58a",
+  "schedules": [
+    {
+      "id": "7a4860df-641b-4b62-897d-2aff0197f281",
+      "activityType": "Booking",
+      "startTime": "2026-06-02T01:00:00+00:00",
+      "endTime": "2026-06-02T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus"
+    },
+    {
+      "id": "66920c97-dca0-4c22-a080-b464563b8385",
+      "activityType": "Booking",
+      "startTime": "2026-06-03T01:00:00+00:00",
+      "endTime": "2026-06-03T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus"
+    },
+    {
+      "id": "2fed3935-0094-4850-9092-7e8bf42a29b6",
+      "activityType": "Booking",
+      "startTime": "2026-06-04T01:00:00+00:00",
+      "endTime": "2026-06-04T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus"
+    },
+    {
+      "id": "fa8a5488-9258-4e8d-8e89-1c5c03f9350a",
+      "activityType": "Booking",
+      "startTime": "2026-06-05T01:00:00+00:00",
+      "endTime": "2026-06-05T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus"
+    },
+    {
+      "id": "2f80d389-2f62-43f1-bfe6-4375412ec440",
+      "activityType": "Booking",
+      "startTime": "2026-06-06T01:00:00+00:00",
+      "endTime": "2026-06-06T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus"
+    },
+    {
+      "id": "ff1e45c2-bda5-4a60-8cb3-125a6d5ee22c",
+      "activityType": "Booking",
+      "startTime": "2026-06-07T01:00:00+00:00",
+      "endTime": "2026-06-07T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus"
+    },
+    {
+      "id": "b32523e2-c098-4d85-99a5-2048945a18a2",
+      "activityType": "Booking",
+      "startTime": "2026-06-08T01:00:00+00:00",
+      "endTime": "2026-06-08T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus"
+    },
+    {
+      "id": "e26b0aec-850a-4a17-b064-3d9b4fb79b62",
+      "activityType": "Booking",
+      "startTime": "2026-06-09T01:00:00+00:00",
+      "endTime": "2026-06-09T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus"
+    },
+    {
+      "id": "cd901349-2b19-4f69-b434-34249089687e",
+      "activityType": "Booking",
+      "startTime": "2026-06-10T01:00:00+00:00",
+      "endTime": "2026-06-10T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus"
+    },
+    {
+      "id": "f34d0f48-430a-483a-967b-495ed5fadf43",
+      "activityType": "Booking",
+      "startTime": "2026-06-11T01:00:00+00:00",
+      "endTime": "2026-06-11T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus"
+    },
+    {
+      "id": "a1deab14-adf9-4002-b63c-f74a93474602",
+      "activityType": "Booking",
+      "startTime": "2026-06-12T01:00:00+00:00",
+      "endTime": "2026-06-12T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus"
+    },
+    {
+      "id": "122af67b-e589-433a-89ff-009c8b09ed31",
+      "activityType": "Booking",
+      "startTime": "2026-06-13T01:00:00+00:00",
+      "endTime": "2026-06-13T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus"
+    },
+    {
+      "id": "e1864c29-c716-4517-b78b-06b914ed38a8",
+      "activityType": "Booking",
+      "startTime": "2026-06-14T01:00:00+00:00",
+      "endTime": "2026-06-14T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus"
+    },
+    {
+      "id": "888eff35-8d60-4a7d-ac3f-5b00fa49d8c1",
+      "activityType": "Booking",
+      "startTime": "2026-06-15T01:00:00+00:00",
+      "endTime": "2026-06-15T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus"
+    },
+    {
+      "id": "92659ec4-5c8d-4720-83c4-309fb428097f",
+      "activityType": "Booking",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus"
+    },
+    {
+      "id": "33fe1745-3b84-4b7c-8a8c-9d303984280a",
+      "activityType": "Booking",
+      "startTime": "2026-06-17T01:00:00+00:00",
+      "endTime": "2026-06-17T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus"
+    },
+    {
+      "id": "262bdaa9-93f6-46b5-864c-ea91ac1da5fc",
+      "activityType": "Booking",
+      "startTime": "2026-06-18T01:00:00+00:00",
+      "endTime": "2026-06-18T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus"
+    },
+    {
+      "id": "8e2b89e5-4a12-462e-a14d-8414c06474e2",
+      "activityType": "Booking",
+      "startTime": "2026-06-19T01:00:00+00:00",
+      "endTime": "2026-06-19T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus"
+    },
+    {
+      "id": "0f6616b8-af18-420b-970c-ffeb295ae323",
+      "activityType": "Booking",
+      "startTime": "2026-06-20T01:00:00+00:00",
+      "endTime": "2026-06-20T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus"
+    },
+    {
+      "id": "bdf790a2-d984-4f9b-a613-ede443856552",
+      "activityType": "Booking",
+      "startTime": "2026-06-21T01:00:00+00:00",
+      "endTime": "2026-06-21T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Saigon Campus"
+    }
+  ]
+}

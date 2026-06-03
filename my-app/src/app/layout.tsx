@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Suspense } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import "./globals.css";
-import PageviewTracker from '../components/analytics/pageview-tracker';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,9 +34,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <Suspense fallback={null}>
-          <PageviewTracker />
-        </Suspense>
+        <Analytics />
         {children}
       </body>
     </html>

@@ -1,95 +1,43 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
-import { useAvailability } from '../hooks/use-availability';
-import { useRoomFilter } from '../hooks/use-room-filter';
-import { useRoomSelection } from '../hooks/use-room-selection';
-import { useCalendar } from '../hooks/use-calendar';
+import React from 'react';
+import { useDirectoryState } from '../hooks/use-directory-state';
 import { DirectoryHeader } from './DirectoryHeader';
 import { RoomList } from './RoomList';
 import { TimetablePanel } from './timetable/TimetablePanel';
 import Footer from '../../../components/public/footer';
-import { toDatetimeLocalValue, getVietnamDateInfo } from '../utils/date';
-import { cleanDescriptionText } from '../utils/format';
-import type { RoomRecord } from '../../../types/room';
-
-const DASHBOARD_WINDOW_MS = 60 * 60 * 1000;
+import { cleanDescriptionText } from '../utils/helpers';
 
 export function RoomDirectory() {
-  // 1. Lift state up: Core Filter & Query States
-  const [selectedSemester, setSelectedSemester] = useState('ALL');
-  const [searchText, setSearchText] = useState('');
-  const [activeCampus, setActiveCampus] = useState<string | null>('SGS');
-  const [activeBuilding, setActiveBuilding] = useState<string | null>(null);
-
-  // Time bounds matching the 1-hour availability slot
-  const [queryStart, setQueryStart] = useState('');
-  const [queryEnd, setQueryEnd] = useState('');
-
-  // Initialise availability time window on mount
-  useEffect(() => {
-    const now = new Date();
-    const initial = toDatetimeLocalValue(now);
-    setQueryStart(initial);
-    setQueryEnd(toDatetimeLocalValue(new Date(now.getTime() + DASHBOARD_WINDOW_MS)));
-  }, []);
-
-  // 2. Fetch room availability matrix via custom hook
-  const { matrix, loading, error, nowTime, syncSelectedRoom } = useAvailability(
-    queryStart,
-    queryEnd,
-    selectedSemester
-  );
-
-  // 3. Filter & sort rooms by floor using custom hook
-  const { buildingOptions, roomsByFloor } = useRoomFilter({
-    matrix,
-    nowTime,
+  const {
+    selectedSemester,
+    setSelectedSemester,
+    searchText,
+    setSearchText,
     activeCampus,
+    setActiveCampus,
     activeBuilding,
     setActiveBuilding,
-    searchText,
-    selectedSemester,
-    queryStart,
-  });
-
-  // 4. Handle Room Selection and Persistence
-  const { selectedRoom, setSelectedRoom, selectedRoomSchedules } = useRoomSelection(
-    activeCampus,
-    activeBuilding,
-    queryStart,
-    queryEnd,
-    selectedSemester,
-    searchText
-  );
-
-  // Reconcile selected room updates from background polling
-  useEffect(() => {
-    syncSelectedRoom(selectedRoom, setSelectedRoom);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [matrix]);
-
-  // 5. Calendar dates, navigation and floor collapse states
-  const {
+    loading,
+    error,
+    nowTime,
+    selectedRoom,
+    setSelectedRoom,
+    loadingSchedules,
     calendarView,
     setCalendarView,
     currentLocalDateStr,
-    setCurrentLocalDateStr,
     expandedFloors,
+    buildingOptions,
+    roomsByFloor,
+    selectedRoomSchedules,
+    currentWeekDays,
+    calendarHeaderTitle,
     handleNavigateCalendar,
     handleJumpToToday,
     toggleFloorCollapse,
-    currentWeekDays,
-    calendarHeaderTitle,
-  } = useCalendar();
-
-  // Set the default calendar view and selection states on room select
-  const handleSelectRoom = (room: RoomRecord) => {
-    setSelectedRoom(room);
-    setCalendarView('day');
-    const todayInfo = getVietnamDateInfo(new Date().toISOString());
-    setCurrentLocalDateStr(todayInfo.dateString);
-  };
+    handleSelectRoom,
+  } = useDirectoryState();
 
   return (
     <main className="min-h-screen bg-white text-slate-900 antialiased font-sans flex flex-col lg:h-screen lg:overflow-hidden">
@@ -141,6 +89,7 @@ export function RoomDirectory() {
                   calendarHeaderTitle={calendarHeaderTitle}
                   handleNavigateCalendar={handleNavigateCalendar}
                   handleJumpToToday={handleJumpToToday}
+                  loadingSchedules={loadingSchedules}
                 />
               ) : (
                 <div className="flex-1 flex flex-col items-center justify-center border-2 border-dashed border-black rounded-xl p-8 text-center text-black">
@@ -200,6 +149,7 @@ export function RoomDirectory() {
               calendarHeaderTitle={calendarHeaderTitle}
               handleNavigateCalendar={handleNavigateCalendar}
               handleJumpToToday={handleJumpToToday}
+              loadingSchedules={loadingSchedules}
             />
           </div>
         </div>

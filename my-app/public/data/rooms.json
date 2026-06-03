@@ -1,0 +1,1085 @@
+{
+  "generatedAt": "2026-06-03T21:28:14.529601+07:00",
+  "rooms": [
+    {
+      "id": "d4a1a3b8-94d9-495e-95be-ce2bcbe257cf",
+      "roomName": "VH85102005",
+      "description": "HN/1.2.005 (Lab-Windows)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 2
+    },
+    {
+      "id": "4054b20d-931f-48ea-8b74-8db3dbb3f8d3",
+      "roomName": "VH85102015",
+      "description": "HN/1.2.015 (Lab-Windows)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 2
+    },
+    {
+      "id": "dea5320c-6ae0-416d-858b-a2a7e6b2f602",
+      "roomName": "VH85102016",
+      "description": "HN/1.2.016 (Lab-Mac)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 2
+    },
+    {
+      "id": "59a384cd-c074-4fdf-b259-7ae0ef0aa571",
+      "roomName": "VH85103A001",
+      "description": "HN/1.3.A001 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 3
+    },
+    {
+      "id": "639be589-d6f6-40c8-8550-6440ef20b8cd",
+      "roomName": "VH85103A002",
+      "description": "HN/1.3.A002 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 3
+    },
+    {
+      "id": "8a8ff828-ef6b-46fe-8e8e-984ab4d4d100",
+      "roomName": "VH85103A003",
+      "description": "HN/1.3.A003 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 3
+    },
+    {
+      "id": "28049a5f-bede-4766-99a3-51d9c7a1eea7",
+      "roomName": "VH85103A004",
+      "description": "HN/1.3.A004 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 3
+    },
+    {
+      "id": "11fc9c8b-3c80-432d-a502-d9de0ccc7477",
+      "roomName": "VH85103B001",
+      "description": "HN/1.3.B001 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 3
+    },
+    {
+      "id": "a1f8f11f-0f76-44d1-b367-5781a21f10ef",
+      "roomName": "VH85103B002",
+      "description": "HN/1.3.B002 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 3
+    },
+    {
+      "id": "aa830d95-87b9-409f-ad77-b91f9e69dc3d",
+      "roomName": "VH85103B005",
+      "description": "HN/1.3.B005 (Lab-Windows)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 3
+    },
+    {
+      "id": "8de2de5f-7cad-40b6-8626-afb1fe651b9f",
+      "roomName": "VH85103B006",
+      "description": "HN/1.3.B006 (Lab-Mac)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 3
+    },
+    {
+      "id": "ef91bd43-70f5-453e-bd68-ef0bc3cdb264",
+      "roomName": "VH85104B001",
+      "description": "HN/1.4.B001 (Lab-Specialised)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 4
+    },
+    {
+      "id": "a2b1ab87-0e3a-4ac2-8eec-8612d30a0a9d",
+      "roomName": "VH85104B002",
+      "description": "HN/1.4.B002 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 4
+    },
+    {
+      "id": "421daa3d-8df1-46bc-a7c2-e4cf2b154e51",
+      "roomName": "VH85104B003",
+      "description": "HN/1.4.B003 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 4
+    },
+    {
+      "id": "cb93fa4e-03af-42f8-8f84-2049f5b8e53d",
+      "roomName": "VH85104B004",
+      "description": "HN/1.4.B004 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 4
+    },
+    {
+      "id": "09c60492-2c86-465c-9e0e-8f4af6013fa0",
+      "roomName": "VH85104B005",
+      "description": "HN/1.4.B005 (Lab-Windows)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 4
+    },
+    {
+      "id": "65b239d8-2113-495f-ba73-a0af5a6158b7",
+      "roomName": "VH85105003",
+      "description": "HN/1.5.003 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 5
+    },
+    {
+      "id": "2b853f2f-e5dc-4904-9d67-cae63fc12c9a",
+      "roomName": "VH85105004",
+      "description": "HN/1.5.004 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 5
+    },
+    {
+      "id": "749d4ca0-a8a9-41b6-a58a-501db4e48789",
+      "roomName": "VH85105005",
+      "description": "HN/1.5.005 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 5
+    },
+    {
+      "id": "17b936be-6d6e-4ad8-847f-b689de820fab",
+      "roomName": "VH85106B001",
+      "description": "HN/1.6.B001 (Studio)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 6
+    },
+    {
+      "id": "037196d4-dd5e-4130-8ac4-9f918adb5948",
+      "roomName": "VH85106B004",
+      "description": "HN/1.6.B004 (Lab-Specialised)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 6
+    },
+    {
+      "id": "5bc8084d-1b33-4646-b407-256b00cfe966",
+      "roomName": "VH85106B005",
+      "description": "HN/1.6.B005 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 6
+    },
+    {
+      "id": "8cad287d-8d22-43e9-af62-aa7f6b40e3d8",
+      "roomName": "VH85106B006",
+      "description": "HN/1.6.B006 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 6
+    },
+    {
+      "id": "fdd57b0f-b3e9-4511-a3a7-6423e5f9af7f",
+      "roomName": "VH85106B007",
+      "description": "HN/1.6.B007 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 6
+    },
+    {
+      "id": "6971b49f-2d32-4ebe-966c-94bb6b9d2c0c",
+      "roomName": "VH85107B002",
+      "description": "HN/1.7.B002 (Lab-Windows)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 7
+    },
+    {
+      "id": "41f49fee-6ac7-41b4-9328-bb83b36e0e9f",
+      "roomName": "VH85107B003",
+      "description": "HN/1.7.B003 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 7
+    },
+    {
+      "id": "1ba93b49-a7f2-492f-8849-353d46dd784f",
+      "roomName": "VH85107B004",
+      "description": "HN/1.7.B004 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 7
+    },
+    {
+      "id": "23ea4ac9-48bf-464c-b8dd-b050e23e6eee",
+      "roomName": "VH85107B005",
+      "description": "HN/1.7.B005 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 7
+    },
+    {
+      "id": "94743b0d-bc93-4222-8bfe-8f028774a063",
+      "roomName": "VH85107B006",
+      "description": "HN/1.7.B006 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 7
+    },
+    {
+      "id": "c1eb68a4-7e05-4f1e-8a0f-f8eb8614df01",
+      "roomName": "VH85107B007",
+      "description": "HN/1.7.B007 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 7
+    },
+    {
+      "id": "28438dbd-6345-4039-96a2-2de3c8193af1",
+      "roomName": "VH85110B001",
+      "description": "HN/1.10.B001 (Lab-Mac)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 10
+    },
+    {
+      "id": "57cd12b1-57de-41a8-8cd0-1b226ca3bdcc",
+      "roomName": "VH85110B002",
+      "description": "HN/1.10.B002 (Lab-Windows)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 10
+    },
+    {
+      "id": "9eeb83c4-5723-49f9-8f7b-04f98a916194",
+      "roomName": "VH85110B003",
+      "description": "HN/1.10.B003 (Lab-Windows)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 10
+    },
+    {
+      "id": "a0bf5c0b-d089-47d1-bc64-ecaa7d7ffbe9",
+      "roomName": "VH85110B004",
+      "description": "HN/1.10.B004 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 10
+    },
+    {
+      "id": "cfa859dc-292e-4ca8-9ea3-38882589cdc5",
+      "roomName": "VH85114B001",
+      "description": "HN/1.14.B001 (Lab-BYOD)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 14
+    },
+    {
+      "id": "2ccd3a22-431f-4e8b-b2fb-73ab132795f5",
+      "roomName": "VH85114B002",
+      "description": "HN/1.14.B002 (Lab-BYOD)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 14
+    },
+    {
+      "id": "419c3de5-76c5-4f3c-94aa-65dfc628e380",
+      "roomName": "VH85114B003",
+      "description": "HN/1.14.B003 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 14
+    },
+    {
+      "id": "ad4aea06-3615-48bd-b655-adb63c166dd7",
+      "roomName": "VH85114B004",
+      "description": "HN/1.14.B004 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 14
+    },
+    {
+      "id": "347df36b-fe8f-4fe5-91c9-08de9685b04e",
+      "roomName": "VH85114B005",
+      "description": "HN/1.14.B005 (Classroom)",
+      "campus": "HN",
+      "building": "1",
+      "floorLevel": 14
+    },
+    {
+      "id": "0e0f5bd4-ee81-46f3-948f-e14c5b4fffc9",
+      "roomName": "VS80101015",
+      "description": "SGS/1.1.015 (Theatre)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 1
+    },
+    {
+      "id": "bb196a89-5e37-4325-a58d-48e375c2c901",
+      "roomName": "VS80101034",
+      "description": "SGS/1.1.034 (Studio)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 1
+    },
+    {
+      "id": "de5156a9-6f27-4299-b342-9c3857540aa5",
+      "roomName": "VS80102006",
+      "description": "SGS/1.2.006 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 2
+    },
+    {
+      "id": "30e7d9e2-44f6-4ff8-b887-0b9b28784677",
+      "roomName": "VS80102008",
+      "description": "SGS/1.2.008 (Lab-Windows)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 2
+    },
+    {
+      "id": "1ddad24a-037e-43a1-85c3-8552e81e2f85",
+      "roomName": "VS80102013",
+      "description": "SGS/1.2.013 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 2
+    },
+    {
+      "id": "f35a08fd-2c99-49b6-b5fd-13627c18fcc7",
+      "roomName": "VS80102014",
+      "description": "SGS/1.2.014 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 2
+    },
+    {
+      "id": "1444d116-118d-436f-8133-8d376c1f7361",
+      "roomName": "VS80102016",
+      "description": "SGS/1.2.016 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 2
+    },
+    {
+      "id": "adbd200e-6cfe-491d-b96e-b9687f83d11b",
+      "roomName": "VS80102017",
+      "description": "SGS/1.2.017 (Lab-Windows)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 2
+    },
+    {
+      "id": "4e8451f4-fda1-4079-89aa-b089477f440e",
+      "roomName": "VS80102018",
+      "description": "SGS/1.2.018 (Lab-Mac)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 2
+    },
+    {
+      "id": "b6f4dbb1-26c5-4078-ba01-085aeeeefeb5",
+      "roomName": "VS80102019",
+      "description": "SGS/1.2.019 (Lab-Specialised)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 2
+    },
+    {
+      "id": "f7cfb8ec-11e4-4ba9-a15f-6e8168092fe4",
+      "roomName": "VS80102021",
+      "description": "SGS/1.2.021 (Studio)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 2
+    },
+    {
+      "id": "3707db33-53be-4057-a98d-6742403f1d0d",
+      "roomName": "VS80102026",
+      "description": "SGS/1.2.026 (Lab-Windows)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 2
+    },
+    {
+      "id": "0b58a32b-26ac-4c3b-8396-24f4d6f704a1",
+      "roomName": "VS80102027",
+      "description": "SGS/1.2.027 (Lab-Mac)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 2
+    },
+    {
+      "id": "626d45f1-dda8-4505-9bc3-de48bb325712",
+      "roomName": "VS80102028",
+      "description": "SGS/1.2.028 (Online)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 2
+    },
+    {
+      "id": "0047bbfe-334c-4f16-a3c2-6598e055868b",
+      "roomName": "VS80102029",
+      "description": "SGS/1.2.029 (Online)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 2
+    },
+    {
+      "id": "cb8f88b1-0d49-4c80-b975-91d12e09000d",
+      "roomName": "VS80102030",
+      "description": "SGS/1.2.030 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 2
+    },
+    {
+      "id": "ddb76510-7148-4b39-9837-df8274bdb38b",
+      "roomName": "VS80102035",
+      "description": "SGS/1.2.035 (Theatre)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 2
+    },
+    {
+      "id": "61f8d3f2-a6a6-4b78-81e4-92a141d24e62",
+      "roomName": "VS80102036",
+      "description": "SGS/1.2.036 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 2
+    },
+    {
+      "id": "74f4afba-2e6d-4644-b097-ce6a61870794",
+      "roomName": "VS80103006",
+      "description": "SGS/1.3.006 (Lab-Mac)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 3
+    },
+    {
+      "id": "ce24d242-2508-4a80-89fa-b524da1e18af",
+      "roomName": "VS80103012",
+      "description": "SGS/1.3.012 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 3
+    },
+    {
+      "id": "a7f66173-ff4a-4116-a79c-429fac539f63",
+      "roomName": "VS80103013",
+      "description": "SGS/1.3.013 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 3
+    },
+    {
+      "id": "a38a7b08-1b0a-4325-84e9-5c2989d68226",
+      "roomName": "VS80103014",
+      "description": "SGS/1.3.014 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 3
+    },
+    {
+      "id": "da49931a-276a-41ae-ae4b-1df3bf375681",
+      "roomName": "VS80103016",
+      "description": "SGS/1.3.016 (Lab-Windows)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 3
+    },
+    {
+      "id": "26760ce2-65c8-4dcc-81d3-85b06735966d",
+      "roomName": "VS80103017",
+      "description": "SGS/1.3.017 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 3
+    },
+    {
+      "id": "e9610fc3-c571-46e7-99fe-4516c461c912",
+      "roomName": "VS80103018",
+      "description": "SGS/1.3.018 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 3
+    },
+    {
+      "id": "540d5117-9d6b-458d-87de-9e10b169cb30",
+      "roomName": "VS80103020",
+      "description": "SGS/1.3.020 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 3
+    },
+    {
+      "id": "78b18748-e495-4df1-b85f-2663c9578f8e",
+      "roomName": "VS80103021",
+      "description": "SGS/1.3.021 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 3
+    },
+    {
+      "id": "ac323bae-fbc5-4fec-9c55-cddc2a1135ad",
+      "roomName": "VS80103022",
+      "description": "SGS/1.3.022 (Lab-Mac)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 3
+    },
+    {
+      "id": "c3d10455-db79-46d7-b499-d75e20bff11c",
+      "roomName": "VS80103023",
+      "description": "SGS/1.3.023 (Lab-Specialised)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 3
+    },
+    {
+      "id": "a7191668-5021-4606-8a0f-16e55a76ea2e",
+      "roomName": "VS80104010",
+      "description": "SGS/1.4.010 (Lab-Windows)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 4
+    },
+    {
+      "id": "3a9bf9ff-ede9-4d6c-8391-9b2cf4d76488",
+      "roomName": "VS80104015",
+      "description": "SGS/1.4.015 (Lab-Windows)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 4
+    },
+    {
+      "id": "16dc5209-6b53-490b-9830-605fee1740af",
+      "roomName": "VS80104016",
+      "description": "SGS/1.4.016 (Lab-Mac)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 4
+    },
+    {
+      "id": "abcc1ca1-89e3-4762-aee1-e18f30ca8ff7",
+      "roomName": "VS80104017",
+      "description": "SGS/1.4.017 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 4
+    },
+    {
+      "id": "5a38e2c0-c9c2-4184-b04c-94433bf21323",
+      "roomName": "VS80104018",
+      "description": "SGS/1.4.018 (Pitch)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 4
+    },
+    {
+      "id": "81f4ea68-3b9a-439b-ad87-d1b4ed61470b",
+      "roomName": "VS80104020",
+      "description": "SGS/1.4.020 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 4
+    },
+    {
+      "id": "95cebbca-dbf7-4bf0-adf0-b728846c61bc",
+      "roomName": "VS80104021",
+      "description": "SGS/1.4.021 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 4
+    },
+    {
+      "id": "ca300a63-30d9-4c3a-9fc1-c909e5967be0",
+      "roomName": "VS80104037",
+      "description": "SGS/1.4.037 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 4
+    },
+    {
+      "id": "831a8bf7-37ab-460d-8e1d-36d319c9e223",
+      "roomName": "VS80105002",
+      "description": "SGS/1.5.002 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 5
+    },
+    {
+      "id": "2ab1e883-ebb3-4f0a-8504-73aa6bd38dbe",
+      "roomName": "VS80105005",
+      "description": "SGS/1.5.005 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 5
+    },
+    {
+      "id": "f97c5996-1de8-4021-85ef-a8b16104a0bf",
+      "roomName": "VS80105006",
+      "description": "SGS/1.5.006 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 5
+    },
+    {
+      "id": "2b243f9b-3d0f-4d1a-a82d-f99282358a4a",
+      "roomName": "VS80105007A",
+      "description": "SGS/1.5.007A (Online)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 5
+    },
+    {
+      "id": "43309d13-0b6a-4286-ba73-cb248d7ed3ea",
+      "roomName": "VS80105007B",
+      "description": "SGS/1.5.007B (Online)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 5
+    },
+    {
+      "id": "89fa2bd4-eeb1-416f-a881-97391d1bb38e",
+      "roomName": "VS80105007C",
+      "description": "SGS/1.5.007C (Online)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 5
+    },
+    {
+      "id": "60d33f56-5584-488d-8dd4-9a720c3f1624",
+      "roomName": "VS80105009",
+      "description": "SGS/1.5.009 (Studio)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 5
+    },
+    {
+      "id": "2c3f1935-5b31-4ce6-aab6-b0af7d9bbfdd",
+      "roomName": "VS80105010",
+      "description": "SGS/1.5.010 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 5
+    },
+    {
+      "id": "43f0d405-58e4-4a7c-8aa0-de7c899eb70f",
+      "roomName": "VS80105011",
+      "description": "SGS/1.5.011 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 5
+    },
+    {
+      "id": "df6789a7-47a4-49e9-9d3b-601f8950dd3b",
+      "roomName": "VS80105014",
+      "description": "SGS/1.5.014 (Classroom)",
+      "campus": "SGS",
+      "building": "1",
+      "floorLevel": 5
+    },
+    {
+      "id": "8f0f9fba-a2d0-400c-a614-c68b27326648",
+      "roomName": "VS80201004",
+      "description": "SGS/2.1.004 (Theatre)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 1
+    },
+    {
+      "id": "d6448f8d-2554-4f99-80e1-6fd67d4c822e",
+      "roomName": "VS80201006",
+      "description": "SGS/2.1.006 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 1
+    },
+    {
+      "id": "3b9066ca-b519-4356-a4d5-dafc66ebf204",
+      "roomName": "VS80201007",
+      "description": "SGS/2.1.007 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 1
+    },
+    {
+      "id": "6f709343-c9b6-441f-8df1-fd17abfb80ad",
+      "roomName": "VS80202001",
+      "description": "SGS/2.2.001 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 2
+    },
+    {
+      "id": "ca6acf0b-e415-4e27-bf60-aa36a54b36b7",
+      "roomName": "VS80202002",
+      "description": "SGS/2.2.002 (Lab-Windows)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 2
+    },
+    {
+      "id": "fe2771ba-77db-491b-b463-552f2ae5fce9",
+      "roomName": "VS80202003",
+      "description": "SGS/2.2.003 (Lab-Windows)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 2
+    },
+    {
+      "id": "99b34991-7327-42f6-bf9a-db600ce9a615",
+      "roomName": "VS80202004",
+      "description": "SGS/2.2.004 (Lab-Specialised)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 2
+    },
+    {
+      "id": "024d2b78-909d-42ea-8a34-1e060c54aab1",
+      "roomName": "VS80202006",
+      "description": "SGS/2.2.006 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 2
+    },
+    {
+      "id": "9c9e1f61-5d11-4b92-8e87-d12ef14700e9",
+      "roomName": "VS80202007",
+      "description": "SGS/2.2.007 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 2
+    },
+    {
+      "id": "82f14587-994b-417a-a981-ebd5850c2fde",
+      "roomName": "VS80202008",
+      "description": "SGS/2.2.008 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 2
+    },
+    {
+      "id": "97af720f-19da-4fea-a4f7-bc7dec537adf",
+      "roomName": "VS80202009",
+      "description": "SGS/2.2.009 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 2
+    },
+    {
+      "id": "64109b1d-1b81-4dad-b9a9-eea9a1928d60",
+      "roomName": "VS80203001",
+      "description": "SGS/2.3.001 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 3
+    },
+    {
+      "id": "d55dda88-39a4-41a8-b2d9-f8769dce9db1",
+      "roomName": "VS80203002",
+      "description": "SGS/2.3.002 (Lab-Windows)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 3
+    },
+    {
+      "id": "755c94e0-ea28-42fd-ba40-3ce1158b31b9",
+      "roomName": "VS80203003",
+      "description": "SGS/2.3.003 (Lab-Mac)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 3
+    },
+    {
+      "id": "a8cc6e94-b144-4d80-943a-3d4e1f24a534",
+      "roomName": "VS80203004",
+      "description": "SGS/2.3.004 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 3
+    },
+    {
+      "id": "686e45c7-f3dc-418c-b50e-bc6494532f67",
+      "roomName": "VS80203005",
+      "description": "SGS/2.3.005 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 3
+    },
+    {
+      "id": "e21f02e3-efc5-4a68-b277-f987db2970dc",
+      "roomName": "VS80203006",
+      "description": "SGS/2.3.006 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 3
+    },
+    {
+      "id": "69e997c7-eae5-4c5d-b78f-666ffc4f98bc",
+      "roomName": "VS80203007",
+      "description": "SGS/2.3.007 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 3
+    },
+    {
+      "id": "62d27796-64d5-4d19-9b65-731019528df8",
+      "roomName": "VS80203008",
+      "description": "SGS/2.3.008 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 3
+    },
+    {
+      "id": "e443e6b4-ec19-45e6-a01c-3d8be5e73921",
+      "roomName": "VS80204001",
+      "description": "SGS/2.4.001 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 4
+    },
+    {
+      "id": "0c56c10f-4fe3-42fd-b310-540eaa5750e3",
+      "roomName": "VS80204002",
+      "description": "SGS/2.4.002 (Lab-Windows)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 4
+    },
+    {
+      "id": "f824b392-db5a-4762-93b3-be09f947ba2d",
+      "roomName": "VS80204003",
+      "description": "SGS/2.4.003 (Lab-Windows)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 4
+    },
+    {
+      "id": "3c2e2563-d2e0-4f47-9298-b143fd9b86a0",
+      "roomName": "VS80204004",
+      "description": "SGS/2.4.004 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 4
+    },
+    {
+      "id": "54a338e9-9bc1-4192-b432-b2da5c33acde",
+      "roomName": "VS80204005",
+      "description": "SGS/2.4.005 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 4
+    },
+    {
+      "id": "f9bf172d-96d6-4c29-a382-f33e217ff739",
+      "roomName": "VS80204006",
+      "description": "SGS/2.4.006 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 4
+    },
+    {
+      "id": "89088b9b-b212-4f17-afd4-18f161a76643",
+      "roomName": "VS80204007",
+      "description": "SGS/2.4.007 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 4
+    },
+    {
+      "id": "7a325726-e962-4554-a46d-8a1db24f64f3",
+      "roomName": "VS80204008",
+      "description": "SGS/2.4.008 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 4
+    },
+    {
+      "id": "0e9b8dc3-7158-491e-904d-f6195d9cd3b6",
+      "roomName": "VS80204040",
+      "description": "SGS/2.4.040 (Lab-Specialised)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 4
+    },
+    {
+      "id": "5ce87e30-7fde-44b5-ad11-ea17a521d4db",
+      "roomName": "VS80204041",
+      "description": "SGS/2.4.041 (Linux Lab)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 4
+    },
+    {
+      "id": "9c7b647b-02c0-4e4f-bf37-a2d73993b6fb",
+      "roomName": "VS80204044",
+      "description": "SGS/2.4.044 (Lab-Windows)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 4
+    },
+    {
+      "id": "1079b160-0d11-4e1b-95db-443fbf2e189e",
+      "roomName": "VS80205002",
+      "description": "SGS/2.5.002 (Lab-Windows)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 5
+    },
+    {
+      "id": "b4522c27-58ac-4294-927a-dabf6b09db83",
+      "roomName": "VS80205003",
+      "description": "SGS/2.5.003 (Lab-Mac)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 5
+    },
+    {
+      "id": "8456e74f-2ebc-4ad4-87b0-66bf95b03599",
+      "roomName": "VS80205004",
+      "description": "SGS/2.5.004 (Lab-Windows)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 5
+    },
+    {
+      "id": "d5467e25-fd97-440b-a343-b5daa2c34fde",
+      "roomName": "VS80205005",
+      "description": "SGS/2.5.005 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 5
+    },
+    {
+      "id": "0a4d20c8-9c99-4ba1-8ac5-1aef38c49623",
+      "roomName": "VS80205006",
+      "description": "SGS/2.5.006 (Classroom)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 5
+    },
+    {
+      "id": "87d57b82-26f4-4c81-a8f5-eac9a27d10b4",
+      "roomName": "VS80205007",
+      "description": "SGS/2.5.007 (Classroom-CLS)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 5
+    },
+    {
+      "id": "68f4f692-f72b-448e-be34-e8e3670a1677",
+      "roomName": "VS80205008",
+      "description": "SGS/2.5.008 (Classroom-CLS)",
+      "campus": "SGS",
+      "building": "2",
+      "floorLevel": 5
+    },
+    {
+      "id": "5aae867a-8cab-4599-9a14-7a39c40b1778",
+      "roomName": "VS80801001",
+      "description": "SGS/8.1.001 (Lab-Specialised)",
+      "campus": "SGS",
+      "building": "8",
+      "floorLevel": 1
+    },
+    {
+      "id": "f565daae-0e95-4c28-931f-ecffbbf2fa51",
+      "roomName": "VS80801002",
+      "description": "SGS/8.1.002 (Lab-Specialised)",
+      "campus": "SGS",
+      "building": "8",
+      "floorLevel": 1
+    },
+    {
+      "id": "e5d68afe-8269-4d22-a2be-fdd2d5ea0cc0",
+      "roomName": "VS80802001",
+      "description": "SGS/8.2.001 (Classroom)",
+      "campus": "SGS",
+      "building": "8",
+      "floorLevel": 2
+    },
+    {
+      "id": "75e5c9b7-1ffa-4a6e-bfb6-9bb114e26116",
+      "roomName": "VS80802002",
+      "description": "SGS/8.2.002 (Classroom)",
+      "campus": "SGS",
+      "building": "8",
+      "floorLevel": 2
+    },
+    {
+      "id": "a78d984d-ea81-45f8-96f6-4272894ac58a",
+      "roomName": "VS80802008",
+      "description": "SGS/8.2.008 (Classroom)",
+      "campus": "SGS",
+      "building": "8",
+      "floorLevel": 2
+    },
+    {
+      "id": "0e702f3f-a97a-4f19-b19b-4a0f8495efcb",
+      "roomName": "VS80802009",
+      "description": "SGS/8.2.009 (Classroom)",
+      "campus": "SGS",
+      "building": "8",
+      "floorLevel": 2
+    },
+    {
+      "id": "47a6d847-a644-47f9-be42-da910ec4f515",
+      "roomName": "VS80803001",
+      "description": "SGS/8.3.001 (Classroom)",
+      "campus": "SGS",
+      "building": "8",
+      "floorLevel": 3
+    },
+    {
+      "id": "b6726423-5811-4978-b236-b2890c06a25e",
+      "roomName": "VS80803002",
+      "description": "SGS/8.3.002 (Classroom)",
+      "campus": "SGS",
+      "building": "8",
+      "floorLevel": 3
+    },
+    {
+      "id": "a06d62f2-200b-4ae2-8966-42afc466195a",
+      "roomName": "VS80803006",
+      "description": "SGS/8.3.006 (Classroom)",
+      "campus": "SGS",
+      "building": "8",
+      "floorLevel": 3
+    },
+    {
+      "id": "9b17c8e6-3efe-4de2-b97c-8db2a20b1dd9",
+      "roomName": "VS80803007",
+      "description": "SGS/8.3.007 (Classroom)",
+      "campus": "SGS",
+      "building": "8",
+      "floorLevel": 3
+    },
+    {
+      "id": "eecd30a5-d86c-41bd-b051-bef70ff75c3e",
+      "roomName": "VS80804001",
+      "description": "SGS/8.4.001 (Classroom)",
+      "campus": "SGS",
+      "building": "8",
+      "floorLevel": 4
+    },
+    {
+      "id": "599d21d8-6aa0-4768-bce0-234f81c696c9",
+      "roomName": "VS80804008",
+      "description": "SGS/8.4.008 (Classroom)",
+      "campus": "SGS",
+      "building": "8",
+      "floorLevel": 4
+    }
+  ]
+}

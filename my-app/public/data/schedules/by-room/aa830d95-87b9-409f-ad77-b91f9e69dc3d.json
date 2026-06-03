@@ -1,0 +1,19 @@
+{
+  "roomId": "aa830d95-87b9-409f-ad77-b91f9e69dc3d",
+  "schedules": [
+    {
+      "id": "df62ecda-19b9-4c0b-b5ab-a1e278884b23",
+      "activityType": "Booking",
+      "startTime": "2026-06-02T01:00:00+00:00",
+      "endTime": "2026-06-02T11:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Hanoi Campus"
+    },
+    {
+      "id": "cce40b2e-5819-4fee-ad60-c95b7d62fa96",
+      "activityType": "Booking",
+      "startTime": "2026-06-04T06:30:00+00:00",
+      "endTime": "2026-06-04T07:30:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 1 - Hanoi Campus"
+    }
+  ]
+}

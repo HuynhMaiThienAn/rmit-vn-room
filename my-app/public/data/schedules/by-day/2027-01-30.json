@@ -1,0 +1,37 @@
+{
+  "date": "2027-01-30",
+  "schedules": [
+    {
+      "id": "36d51343-42e3-4eb4-a4dd-412e61fadf43",
+      "activityType": "Booking",
+      "startTime": "2027-01-30T01:00:00+00:00",
+      "endTime": "2027-01-30T11:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      "roomId": "024d2b78-909d-42ea-8a34-1e060c54aab1"
+    },
+    {
+      "id": "b4102be2-e8b2-4604-bb96-a776ade9a433",
+      "activityType": "Booking",
+      "startTime": "2027-01-30T01:00:00+00:00",
+      "endTime": "2027-01-30T11:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      "roomId": "9c9e1f61-5d11-4b92-8e87-d12ef14700e9"
+    },
+    {
+      "id": "d247e4bc-1975-4d63-9e9e-937adfb958fb",
+      "activityType": "Booking",
+      "startTime": "2027-01-30T01:00:00+00:00",
+      "endTime": "2027-01-30T11:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      "roomId": "82f14587-994b-417a-a981-ebd5850c2fde"
+    },
+    {
+      "id": "db6dd813-4061-439b-a854-5ed397ef5bba",
+      "activityType": "Booking",
+      "startTime": "2027-01-30T01:00:00+00:00",
+      "endTime": "2027-01-30T11:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      "roomId": "97af720f-19da-4fea-a4f7-bc7dec537adf"
+    }
+  ]
+}

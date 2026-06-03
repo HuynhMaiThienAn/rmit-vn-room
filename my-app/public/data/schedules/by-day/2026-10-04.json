@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-04",
+  "schedules": [
+    {
+      "id": "db57f333-cba4-4660-b2b8-61a91d06926b",
+      "activityType": "Booking",
+      "startTime": "2026-10-04T00:00:00+00:00",
+      "endTime": "2026-10-04T10:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "d6448f8d-2554-4f99-80e1-6fd67d4c822e"
+    },
+    {
+      "id": "cdba82a8-d6be-4567-a67f-911f34e90396",
+      "activityType": "Booking",
+      "startTime": "2026-10-04T00:00:00+00:00",
+      "endTime": "2026-10-04T10:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "3b9066ca-b519-4356-a4d5-dafc66ebf204"
+    },
+    {
+      "id": "49d5af6d-0312-4105-9bac-09f53a6b94df",
+      "activityType": "Booking",
+      "startTime": "2026-10-04T00:00:00+00:00",
+      "endTime": "2026-10-04T10:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "ca6acf0b-e415-4e27-bf60-aa36a54b36b7"
+    },
+    {
+      "id": "a51bc439-5c69-4c4d-b0e4-87a5c332f165",
+      "activityType": "Booking",
+      "startTime": "2026-10-04T00:00:00+00:00",
+      "endTime": "2026-10-04T10:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "fe2771ba-77db-491b-b463-552f2ae5fce9"
+    },
+    {
+      "id": "2d4a7d78-dbc0-4feb-9aa4-e8d13e506776",
+      "activityType": "Booking",
+      "startTime": "2026-10-04T00:00:00+00:00",
+      "endTime": "2026-10-04T10:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "024d2b78-909d-42ea-8a34-1e060c54aab1"
+    },
+    {
+      "id": "5ed6cdff-954e-457b-89b9-8417fee1d2d2",
+      "activityType": "Booking",
+      "startTime": "2026-10-04T00:00:00+00:00",
+      "endTime": "2026-10-04T10:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "9c9e1f61-5d11-4b92-8e87-d12ef14700e9"
+    },
+    {
+      "id": "22da21f9-9e85-4c0f-ad36-0465d6eab850",
+      "activityType": "Booking",
+      "startTime": "2026-10-04T00:00:00+00:00",
+      "endTime": "2026-10-04T10:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "82f14587-994b-417a-a981-ebd5850c2fde"
+    },
+    {
+      "id": "24260d36-748b-47d8-852d-1aa6188c6335",
+      "activityType": "Booking",
+      "startTime": "2026-10-04T00:00:00+00:00",
+      "endTime": "2026-10-04T10:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "97af720f-19da-4fea-a4f7-bc7dec537adf"
+    },
+    {
+      "id": "795c4848-b81a-42af-805b-5ee2f63554a1",
+      "activityType": "Booking",
+      "startTime": "2026-10-04T00:00:00+00:00",
+      "endTime": "2026-10-04T10:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "d55dda88-39a4-41a8-b2d9-f8769dce9db1"
+    },
+    {
+      "id": "c3bb205c-d99f-41a3-b4b1-ba3d3dea1e80",
+      "activityType": "Booking",
+      "startTime": "2026-10-04T00:00:00+00:00",
+      "endTime": "2026-10-04T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "686e45c7-f3dc-418c-b50e-bc6494532f67"
+    },
+    {
+      "id": "d5ef9a46-ad73-4e9a-8cba-5002c8f4bd65",
+      "activityType": "Booking",
+      "startTime": "2026-10-04T00:00:00+00:00",
+      "endTime": "2026-10-04T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "e21f02e3-efc5-4a68-b277-f987db2970dc"
+    },
+    {
+      "id": "4fce3c1e-e499-4831-b3e0-13b44a0f5ad0",
+      "activityType": "Booking",
+      "startTime": "2026-10-04T00:00:00+00:00",
+      "endTime": "2026-10-04T10:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "69e997c7-eae5-4c5d-b78f-666ffc4f98bc"
+    },
+    {
+      "id": "e76e99aa-6727-46ad-a044-ee7337b176ef",
+      "activityType": "Booking",
+      "startTime": "2026-10-04T00:00:00+00:00",
+      "endTime": "2026-10-04T10:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "62d27796-64d5-4d19-9b65-731019528df8"
+    },
+    {
+      "id": "152d8d00-c06b-4203-b117-792d3c6f2c15",
+      "activityType": "Booking",
+      "startTime": "2026-10-04T00:00:00+00:00",
+      "endTime": "2026-10-04T10:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "0c56c10f-4fe3-42fd-b310-540eaa5750e3"
+    },
+    {
+      "id": "f1c60d67-7d83-4b8f-b63b-8fb2ea8e38c7",
+      "activityType": "Booking",
+      "startTime": "2026-10-04T00:00:00+00:00",
+      "endTime": "2026-10-04T10:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "f824b392-db5a-4762-93b3-be09f947ba2d"
+    },
+    {
+      "id": "d7018cc9-66d2-4d72-8bff-35fd5c6a7a2d",
+      "activityType": "Booking",
+      "startTime": "2026-10-04T00:00:00+00:00",
+      "endTime": "2026-10-04T10:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "54a338e9-9bc1-4192-b432-b2da5c33acde"
+    },
+    {
+      "id": "77830486-5074-4874-9e39-fca0b9eed647",
+      "activityType": "Booking",
+      "startTime": "2026-10-04T00:00:00+00:00",
+      "endTime": "2026-10-04T10:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "f9bf172d-96d6-4c29-a382-f33e217ff739"
+    },
+    {
+      "id": "6d42254b-78dc-4386-9849-bc7e027d6943",
+      "activityType": "Booking",
+      "startTime": "2026-10-04T00:00:00+00:00",
+      "endTime": "2026-10-04T10:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "89088b9b-b212-4f17-afd4-18f161a76643"
+    },
+    {
+      "id": "02ab401f-d73f-441b-9863-63f601b54c67",
+      "activityType": "Booking",
+      "startTime": "2026-10-04T00:00:00+00:00",
+      "endTime": "2026-10-04T10:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 2 - Saigon Campus",
+      "roomId": "7a325726-e962-4554-a46d-8a1db24f64f3"
+    }
+  ]
+}

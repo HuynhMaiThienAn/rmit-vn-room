@@ -1,0 +1,1025 @@
+{
+  "roomId": "26760ce2-65c8-4dcc-81d3-85b06735966d",
+  "schedules": [
+    {
+      "id": "a11b5d15-8850-48a5-9464-0d88f764b864",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-02T01:00:00+00:00",
+      "endTime": "2026-06-02T03:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Chau Nguyen",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "30bc9022-59db-4320-86fb-88e7da6ffb04",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-02T03:30:00+00:00",
+      "endTime": "2026-06-02T05:30:00+00:00",
+      "courseName": "Creative Narratives",
+      "instructorName": "Damien French",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0e5991fd-841e-46aa-871a-809d6d5980aa",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-02T06:00:00+00:00",
+      "endTime": "2026-06-02T08:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "98f2ce1f-09a7-4dde-b428-c2f0116285aa",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-03T03:30:00+00:00",
+      "endTime": "2026-06-03T05:30:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Quyen Bui (Quyen Booth-Jones)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "fa52d166-0403-4a8e-8390-112b31e60650",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-03T05:30:00+00:00",
+      "endTime": "2026-06-03T07:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "19b408c6-91c3-4ef0-867e-6854da165fc5",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-03T07:30:00+00:00",
+      "endTime": "2026-06-03T08:30:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "afd69ca0-3879-4fc2-8746-a768016201b4",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-04T01:00:00+00:00",
+      "endTime": "2026-06-04T03:00:00+00:00",
+      "courseName": "Global Studies",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d3d636e6-3301-4844-acaf-33c6aa457fbf",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-04T04:30:00+00:00",
+      "endTime": "2026-06-04T06:30:00+00:00",
+      "courseName": "Media: Power and Persuasion",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "bac42272-b04b-4665-81e3-30615e70fc4b",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T03:00:00+00:00",
+      "endTime": "2026-06-05T04:00:00+00:00",
+      "courseName": "Marketing and Communication",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "fb0b3117-3f24-47f5-8894-34209256cd99",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T04:00:00+00:00",
+      "endTime": "2026-06-05T05:00:00+00:00",
+      "courseName": "Marketing and Communication",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "b9ff8dbc-afe2-4348-b167-b8b87f8bae37",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T05:00:00+00:00",
+      "endTime": "2026-06-05T06:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Chau Nguyen",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "922f5063-98a5-402f-b793-5ff4f46efabb",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T07:00:00+00:00",
+      "endTime": "2026-06-05T08:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "5d0e8f37-727d-4fcd-9744-407193c4dfa3",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-08T01:00:00+00:00",
+      "endTime": "2026-06-08T03:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0cf9aa86-3970-4596-b91d-c4b6bfc6aa25",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-08T05:30:00+00:00",
+      "endTime": "2026-06-08T07:30:00+00:00",
+      "courseName": "Creative Narratives",
+      "instructorName": "Damien French",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "598345c0-0207-4afc-b76f-afefbf0a8682",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-08T07:30:00+00:00",
+      "endTime": "2026-06-08T08:30:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1d5f78c0-a763-4219-8d42-3de83c03956f",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-09T01:00:00+00:00",
+      "endTime": "2026-06-09T03:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Chau Nguyen",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "81ffec8c-773b-400e-921f-3691e6bd96df",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-09T03:30:00+00:00",
+      "endTime": "2026-06-09T05:30:00+00:00",
+      "courseName": "Creative Narratives",
+      "instructorName": "Damien French",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "3f508667-aff0-45c2-a932-a0d9a2dabe70",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-09T06:00:00+00:00",
+      "endTime": "2026-06-09T08:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f074002c-0c23-4d8e-b5a0-cadc198dc449",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-10T03:30:00+00:00",
+      "endTime": "2026-06-10T05:30:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Quyen Bui (Quyen Booth-Jones)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "ecc9be24-ce7c-49dc-b45b-0767d0f19de6",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-10T05:30:00+00:00",
+      "endTime": "2026-06-10T07:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "7191d098-1367-429f-a0a6-550676fa6bbf",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-10T07:30:00+00:00",
+      "endTime": "2026-06-10T08:30:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "4f038852-a38c-46b9-bde4-a0035d0b1cd4",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-11T01:00:00+00:00",
+      "endTime": "2026-06-11T03:00:00+00:00",
+      "courseName": "Global Studies",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f73a7e87-fa6d-46ee-b8c3-5e339181c634",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-11T04:30:00+00:00",
+      "endTime": "2026-06-11T06:30:00+00:00",
+      "courseName": "Media: Power and Persuasion",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "993d6486-8f70-4e30-a11a-7bc8e2533a7f",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T03:00:00+00:00",
+      "endTime": "2026-06-12T04:00:00+00:00",
+      "courseName": "Marketing and Communication",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "4ff035dd-c80f-457a-9f18-18e537d05b12",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T04:00:00+00:00",
+      "endTime": "2026-06-12T05:00:00+00:00",
+      "courseName": "Marketing and Communication",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "265560b5-e6c9-4e6c-aaa6-df9123dc32a4",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T05:00:00+00:00",
+      "endTime": "2026-06-12T06:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Chau Nguyen",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1760487f-64f8-4402-9249-cc20ad54419f",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T07:00:00+00:00",
+      "endTime": "2026-06-12T08:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f72d7858-8ec9-4eac-82ef-bdbdce3f742d",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-15T01:00:00+00:00",
+      "endTime": "2026-06-15T03:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0c4366bf-2974-4ab7-9d3d-69be2bcec0cf",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-15T05:30:00+00:00",
+      "endTime": "2026-06-15T07:30:00+00:00",
+      "courseName": "Creative Narratives",
+      "instructorName": "Damien French",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "26794e99-7fca-4424-b5b9-0ac34072f84b",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-15T07:30:00+00:00",
+      "endTime": "2026-06-15T08:30:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c80e90b7-2fcd-4448-900c-63b0099e5945",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T03:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Chau Nguyen",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "4d7cb881-ec9c-4701-bcd7-0194d2b0c641",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T03:30:00+00:00",
+      "endTime": "2026-06-16T05:30:00+00:00",
+      "courseName": "Creative Narratives",
+      "instructorName": "Damien French",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d17a52ee-15d9-4353-aa1c-e991525c74f8",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T06:00:00+00:00",
+      "endTime": "2026-06-16T08:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "86fb324b-0ef7-414f-ab5c-cc2153285509",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-17T03:30:00+00:00",
+      "endTime": "2026-06-17T05:30:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Quyen Bui (Quyen Booth-Jones)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "767a0a88-a877-4309-af9c-c083879b8771",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-17T05:30:00+00:00",
+      "endTime": "2026-06-17T07:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "9bab5f81-0eb6-4c63-9517-7e39df7360c7",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-17T07:30:00+00:00",
+      "endTime": "2026-06-17T08:30:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f55c232f-66ad-4d79-857e-6a280ddf50b4",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-18T01:00:00+00:00",
+      "endTime": "2026-06-18T03:00:00+00:00",
+      "courseName": "Global Studies",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "207d2ff8-6c89-4fd9-b028-7c74fd581c5b",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-18T04:30:00+00:00",
+      "endTime": "2026-06-18T06:30:00+00:00",
+      "courseName": "Media: Power and Persuasion",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0c976e45-df63-4297-918e-3ce3563a252b",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T03:00:00+00:00",
+      "endTime": "2026-06-19T04:00:00+00:00",
+      "courseName": "Marketing and Communication",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1b18ecbf-6e87-422b-b0b8-06689fd04b47",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T04:00:00+00:00",
+      "endTime": "2026-06-19T05:00:00+00:00",
+      "courseName": "Marketing and Communication",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "b3582c86-d40c-4119-ad93-3de6f406ec8e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T05:00:00+00:00",
+      "endTime": "2026-06-19T06:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Chau Nguyen",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "63e2a095-e344-4b03-b63c-5bed7a0edd38",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T07:00:00+00:00",
+      "endTime": "2026-06-19T08:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "cffb9a8b-cb29-462d-b66d-5e6a719a550f",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-22T01:00:00+00:00",
+      "endTime": "2026-06-22T03:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "54146966-e172-4aca-99e3-810088a4a2c6",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-22T05:30:00+00:00",
+      "endTime": "2026-06-22T07:30:00+00:00",
+      "courseName": "Creative Narratives",
+      "instructorName": "Damien French",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "ae21213f-3edd-45a8-9a32-0b5a13611951",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-22T07:30:00+00:00",
+      "endTime": "2026-06-22T08:30:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c9ed3695-541f-4cf8-9bfd-3a46696a227a",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-23T01:00:00+00:00",
+      "endTime": "2026-06-23T03:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Chau Nguyen",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "7615dace-3191-467e-b47e-870b40d4e7b5",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-23T03:30:00+00:00",
+      "endTime": "2026-06-23T05:30:00+00:00",
+      "courseName": "Creative Narratives",
+      "instructorName": "Damien French",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "2922bdb3-b7ed-45c4-9c0b-a16af7c73fa7",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-23T06:00:00+00:00",
+      "endTime": "2026-06-23T08:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f84074e5-4b98-48b4-9cb2-b204b8a6ac69",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-24T03:30:00+00:00",
+      "endTime": "2026-06-24T05:30:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Quyen Bui (Quyen Booth-Jones)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "886fda88-198e-427f-a7f8-4e8973032876",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-24T05:30:00+00:00",
+      "endTime": "2026-06-24T07:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f6650cf4-56de-4ba3-9cb7-ffefafd96f3a",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-24T07:30:00+00:00",
+      "endTime": "2026-06-24T08:30:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "a11b3a91-91c3-4e2a-9a3f-197221a81c5a",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-25T01:00:00+00:00",
+      "endTime": "2026-06-25T03:00:00+00:00",
+      "courseName": "Global Studies",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "2db615d0-6e13-4861-9557-1f5f852b06a2",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-25T04:30:00+00:00",
+      "endTime": "2026-06-25T06:30:00+00:00",
+      "courseName": "Media: Power and Persuasion",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "58bd8156-30c7-49a2-8912-896dd99899f9",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T03:00:00+00:00",
+      "endTime": "2026-06-26T04:00:00+00:00",
+      "courseName": "Marketing and Communication",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "9bb3d5fe-0ef6-4483-a830-436a8f72f629",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T04:00:00+00:00",
+      "endTime": "2026-06-26T05:00:00+00:00",
+      "courseName": "Marketing and Communication",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "39f9a2a8-9a37-4803-a460-d86c83fb72b9",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T05:00:00+00:00",
+      "endTime": "2026-06-26T06:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Chau Nguyen",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "adf4572a-70f7-4983-b2fd-c5deaa51feaa",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T07:00:00+00:00",
+      "endTime": "2026-06-26T08:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d6a9a428-693e-4763-a148-e70d2b6ef62e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-29T01:00:00+00:00",
+      "endTime": "2026-06-29T03:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1f8fd209-bd3d-4c06-9824-cad5f8387b7f",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-29T05:30:00+00:00",
+      "endTime": "2026-06-29T07:30:00+00:00",
+      "courseName": "Creative Narratives",
+      "instructorName": "Damien French",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "98175b81-b221-4747-91a3-492343426cf3",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-29T07:30:00+00:00",
+      "endTime": "2026-06-29T08:30:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "87659eb5-9784-44f9-a697-969a47b64167",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-30T01:00:00+00:00",
+      "endTime": "2026-06-30T03:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Chau Nguyen",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "3c109b9f-dc2e-484d-b69e-404918ccdbf8",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-30T03:30:00+00:00",
+      "endTime": "2026-06-30T05:30:00+00:00",
+      "courseName": "Creative Narratives",
+      "instructorName": "Damien French",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "048267e5-b0d1-4128-b526-76862da7b036",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-30T06:00:00+00:00",
+      "endTime": "2026-06-30T08:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "ef451867-a52c-4c72-b8af-5478e1bbf4da",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-01T03:30:00+00:00",
+      "endTime": "2026-07-01T05:30:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Quyen Bui (Quyen Booth-Jones)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "fdeba651-4d71-4888-b014-93b5830ad94d",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-01T05:30:00+00:00",
+      "endTime": "2026-07-01T07:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d91a1ceb-3a75-4904-9f1b-4250ef817167",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-07-01T07:30:00+00:00",
+      "endTime": "2026-07-01T08:30:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f0273bb7-5538-4408-bc23-89604d8eea80",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-02T01:00:00+00:00",
+      "endTime": "2026-07-02T03:00:00+00:00",
+      "courseName": "Global Studies",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "5048c7f8-0630-4f65-a492-a13a88db8434",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-02T04:30:00+00:00",
+      "endTime": "2026-07-02T06:30:00+00:00",
+      "courseName": "Media: Power and Persuasion",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e7e84164-1033-4c04-bb5f-889f0acef9bd",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T03:00:00+00:00",
+      "endTime": "2026-07-03T04:00:00+00:00",
+      "courseName": "Marketing and Communication",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "06b7fa06-0462-4314-9803-862d8ac0a6f5",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T04:00:00+00:00",
+      "endTime": "2026-07-03T05:00:00+00:00",
+      "courseName": "Marketing and Communication",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f1fab758-9559-4a0f-95fd-749a58a1708e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T05:00:00+00:00",
+      "endTime": "2026-07-03T06:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Chau Nguyen",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "5182420d-b03e-4643-8432-57cb508bc37a",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T07:00:00+00:00",
+      "endTime": "2026-07-03T08:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "6712a530-101c-4044-a233-d89ff4a76447",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-06T01:00:00+00:00",
+      "endTime": "2026-07-06T03:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "23e78f0d-db76-4ee6-834c-0264a63b3633",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-06T05:30:00+00:00",
+      "endTime": "2026-07-06T07:30:00+00:00",
+      "courseName": "Creative Narratives",
+      "instructorName": "Damien French",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1fb4acfe-dda4-475d-a1cd-66f4e9c11ad7",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-07-06T07:30:00+00:00",
+      "endTime": "2026-07-06T08:30:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "63438328-e91d-44b6-a832-9b3d3df9ca74",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-07T01:00:00+00:00",
+      "endTime": "2026-07-07T03:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Chau Nguyen",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "db59f49d-de49-4ff4-8b4d-261bae086d9a",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-07T03:30:00+00:00",
+      "endTime": "2026-07-07T05:30:00+00:00",
+      "courseName": "Creative Narratives",
+      "instructorName": "Damien French",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "80e22dd7-013b-4ddb-b49c-ad2a8d687bb7",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-07T06:00:00+00:00",
+      "endTime": "2026-07-07T08:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "3857de8a-4c54-4266-b555-b0c16505605c",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-08T03:30:00+00:00",
+      "endTime": "2026-07-08T05:30:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Quyen Bui (Quyen Booth-Jones)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "a0b35c4e-cc75-413b-a6c1-ce19f3f40801",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-08T05:30:00+00:00",
+      "endTime": "2026-07-08T07:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "ad45b094-6ef0-44ae-922f-b79ac011cc39",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-07-08T07:30:00+00:00",
+      "endTime": "2026-07-08T08:30:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "ddead751-1e20-4586-9f35-b5197b9e9c05",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-09T01:00:00+00:00",
+      "endTime": "2026-07-09T03:00:00+00:00",
+      "courseName": "Global Studies",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "133f2509-4d0c-4b83-84ba-2b0ec47b4949",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-09T04:30:00+00:00",
+      "endTime": "2026-07-09T06:30:00+00:00",
+      "courseName": "Media: Power and Persuasion",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "9c724a60-ee52-4471-9075-af506b527ffa",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T03:00:00+00:00",
+      "endTime": "2026-07-10T04:00:00+00:00",
+      "courseName": "Marketing and Communication",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "fc5578c9-980b-4ada-bc60-8264096421d3",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T04:00:00+00:00",
+      "endTime": "2026-07-10T05:00:00+00:00",
+      "courseName": "Marketing and Communication",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "706770f8-847b-4981-ab5a-2f83bba395be",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T05:00:00+00:00",
+      "endTime": "2026-07-10T06:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Chau Nguyen",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0cea708b-a843-4022-bc38-7c9b8a760bde",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T07:00:00+00:00",
+      "endTime": "2026-07-10T08:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f1378374-95d3-4b4a-946f-e01673a2228b",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T01:00:00+00:00",
+      "endTime": "2026-07-13T03:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "9b4e783f-77e4-451a-aacd-5f55f29b9fec",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T05:30:00+00:00",
+      "endTime": "2026-07-13T07:30:00+00:00",
+      "courseName": "Creative Narratives",
+      "instructorName": "Damien French",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "30542c9b-e52b-4fc1-a65f-cc8a0aef6748",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-07-13T07:30:00+00:00",
+      "endTime": "2026-07-13T08:30:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d9b65d6d-5746-494a-821f-e11e5de74542",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-14T01:00:00+00:00",
+      "endTime": "2026-07-14T03:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Chau Nguyen",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "2eb82b1e-b1cd-4321-9029-8d88c2ebfcb2",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-14T03:30:00+00:00",
+      "endTime": "2026-07-14T05:30:00+00:00",
+      "courseName": "Creative Narratives",
+      "instructorName": "Damien French",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "ba47d4dc-f122-4875-b847-ef141817d1b6",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-14T06:00:00+00:00",
+      "endTime": "2026-07-14T08:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "fb2f4fe7-0ac4-4a26-9314-8df5409576fa",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-15T03:30:00+00:00",
+      "endTime": "2026-07-15T05:30:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Quyen Bui (Quyen Booth-Jones)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0f8e105a-b0fd-45ca-aa24-2405138d0254",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-15T05:30:00+00:00",
+      "endTime": "2026-07-15T07:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c987bf0b-1430-432f-b85d-c660fe83fdcf",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-07-15T07:30:00+00:00",
+      "endTime": "2026-07-15T08:30:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "692b6ab1-6a7f-4509-a85b-0fb92888c4be",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-16T01:00:00+00:00",
+      "endTime": "2026-07-16T03:00:00+00:00",
+      "courseName": "Global Studies",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1e35e4a8-f7e3-4429-b6fc-183f5410764c",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-16T04:30:00+00:00",
+      "endTime": "2026-07-16T06:30:00+00:00",
+      "courseName": "Media: Power and Persuasion",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "39d7b7a9-867c-4e44-ab92-72e44f125baf",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T03:00:00+00:00",
+      "endTime": "2026-07-17T04:00:00+00:00",
+      "courseName": "Marketing and Communication",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "8e847279-69e0-4988-bf7b-0668f829fd72",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T04:00:00+00:00",
+      "endTime": "2026-07-17T05:00:00+00:00",
+      "courseName": "Marketing and Communication",
+      "instructorName": "Christian Darnel David",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f6ced50f-8276-4c86-80e9-5aa75acdc45c",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T05:00:00+00:00",
+      "endTime": "2026-07-17T06:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Chau Nguyen",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "5d903d6e-fb75-46b3-8f79-9ee162df8abf",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T07:00:00+00:00",
+      "endTime": "2026-07-17T08:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    }
+  ]
+}

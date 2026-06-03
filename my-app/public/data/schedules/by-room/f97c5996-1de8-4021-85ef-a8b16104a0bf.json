@@ -1,0 +1,895 @@
+{
+  "roomId": "f97c5996-1de8-4021-85ef-a8b16104a0bf",
+  "schedules": [
+    {
+      "id": "05935a9f-ac8d-4a62-8cf6-b20a920aa796",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-02T01:00:00+00:00",
+      "endTime": "2026-06-02T03:00:00+00:00",
+      "courseName": "General Mathematics",
+      "instructorName": "Dao Le",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "668001b2-7203-4fe9-9f24-218ed2c9582e",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-02T03:00:00+00:00",
+      "endTime": "2026-06-02T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e412d722-96a0-486c-b172-c60b4e712a7f",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-02T08:30:00+00:00",
+      "endTime": "2026-06-02T10:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1ec4878c-42a6-42b6-8fd0-73caa852d804",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-03T03:30:00+00:00",
+      "endTime": "2026-06-03T05:30:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "24691b74-c1a8-4d61-9690-a97c626ff6fd",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-03T06:30:00+00:00",
+      "endTime": "2026-06-03T08:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "cf5cea60-4d27-4afb-b59f-928ebb72f985",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-04T03:30:00+00:00",
+      "endTime": "2026-06-04T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "7c0ac055-b311-4863-b1c0-fce80a0edf6c",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-04T06:30:00+00:00",
+      "endTime": "2026-06-04T08:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "594e2fb6-76e5-49d3-80e1-4789b9edf488",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T02:00:00+00:00",
+      "endTime": "2026-06-05T03:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "944daffd-70e8-42e4-84e3-3922b4271ea2",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-05T05:00:00+00:00",
+      "endTime": "2026-06-05T06:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "80a0d90f-6b0b-4fb0-a40f-00229bf5906e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T06:00:00+00:00",
+      "endTime": "2026-06-05T07:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d87653d8-8ea6-4aa9-a62d-bb528504b336",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T07:00:00+00:00",
+      "endTime": "2026-06-05T08:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d1ed2f34-8af9-4521-9d22-e56c60819e72",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-08T03:30:00+00:00",
+      "endTime": "2026-06-08T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "a067d28c-521a-420b-aba5-476edbc350fc",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-08T07:00:00+00:00",
+      "endTime": "2026-06-08T08:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "62dbf990-e414-4f2d-ab3d-6de7035fb708",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-09T01:00:00+00:00",
+      "endTime": "2026-06-09T03:00:00+00:00",
+      "courseName": "General Mathematics",
+      "instructorName": "Dao Le",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f71b98ac-b424-4e14-b934-ddf2277e2f50",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-09T03:00:00+00:00",
+      "endTime": "2026-06-09T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "fb86d428-8f13-4150-a2cc-6487fe433e10",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-09T08:30:00+00:00",
+      "endTime": "2026-06-09T10:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "4073355a-bd66-4b93-b700-0bd81f4487a7",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-10T03:30:00+00:00",
+      "endTime": "2026-06-10T05:30:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "82719c66-12a8-4c56-8262-06d709e76793",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-10T06:30:00+00:00",
+      "endTime": "2026-06-10T08:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "cb60d66e-3e23-476c-9fdf-ce2c536a6e4c",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-11T03:30:00+00:00",
+      "endTime": "2026-06-11T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "6eac0e10-a982-4bdf-a491-1c0a9d935061",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-11T06:30:00+00:00",
+      "endTime": "2026-06-11T08:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "87904e1c-7e73-4b16-a5bc-0098ebe51266",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T02:00:00+00:00",
+      "endTime": "2026-06-12T03:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d72f8095-b473-401a-a461-8906d0578b2f",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-12T05:00:00+00:00",
+      "endTime": "2026-06-12T06:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "500120b3-f9ef-4935-8ac5-053deb7a347d",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T06:00:00+00:00",
+      "endTime": "2026-06-12T07:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "11d5a55e-d04b-4632-bf18-f1cdcf610196",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T07:00:00+00:00",
+      "endTime": "2026-06-12T08:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "174b2d3e-3388-4b7c-a11a-5aba9f5437db",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-15T03:30:00+00:00",
+      "endTime": "2026-06-15T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "bcd86e18-0c01-4d3f-bae6-8fd069b48330",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-15T07:00:00+00:00",
+      "endTime": "2026-06-15T08:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f059dfed-9c14-4ec8-96d4-2ebfbd3e9743",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T03:00:00+00:00",
+      "courseName": "General Mathematics",
+      "instructorName": "Dao Le",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "b3ad69f2-0294-4617-9b7d-fbdb89f2b32f",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-16T03:00:00+00:00",
+      "endTime": "2026-06-16T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "26f671e7-7f69-4757-a23a-210c0407d998",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T08:30:00+00:00",
+      "endTime": "2026-06-16T10:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c5fa7cc2-b927-4c54-8476-d5e7cf335ce0",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-17T03:30:00+00:00",
+      "endTime": "2026-06-17T05:30:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "9a38d2d1-7115-4039-909c-783541effaa2",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-17T06:30:00+00:00",
+      "endTime": "2026-06-17T08:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "a8bba73c-a3a8-4250-865d-e17509af0131",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-18T03:30:00+00:00",
+      "endTime": "2026-06-18T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "25e2ec7b-153b-4833-903c-ff8badb95501",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-18T06:30:00+00:00",
+      "endTime": "2026-06-18T08:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "05fe2e15-c57a-46b6-ac3a-fa42652d73ee",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T02:00:00+00:00",
+      "endTime": "2026-06-19T03:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1c733847-3491-46ff-87c3-59488a225a85",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-19T05:00:00+00:00",
+      "endTime": "2026-06-19T06:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "6f3c4d94-5058-40f8-b889-3bfa3a91a3b7",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T06:00:00+00:00",
+      "endTime": "2026-06-19T07:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "9a75e3a7-f98e-4387-b664-e993b9448b1e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T07:00:00+00:00",
+      "endTime": "2026-06-19T08:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "954f2b74-c17a-4dbd-adb6-ef291a13ebd4",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-22T03:30:00+00:00",
+      "endTime": "2026-06-22T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0962763d-4e4e-4ad7-9ae4-9276008d9f4e",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-22T07:00:00+00:00",
+      "endTime": "2026-06-22T08:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1f33ac81-3035-478e-b161-56279a6601fa",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-23T01:00:00+00:00",
+      "endTime": "2026-06-23T03:00:00+00:00",
+      "courseName": "General Mathematics",
+      "instructorName": "Dao Le",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "3a8a9e1f-3383-4e33-9ba9-8438d4a0a625",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-23T03:00:00+00:00",
+      "endTime": "2026-06-23T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c6358151-1680-4a03-950a-f212df59172f",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-23T08:30:00+00:00",
+      "endTime": "2026-06-23T10:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d253f45f-0ab6-484c-a937-26cacfc257fe",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-24T03:30:00+00:00",
+      "endTime": "2026-06-24T05:30:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "3bb195b4-08ed-416f-87a5-ba4233feb487",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-24T06:30:00+00:00",
+      "endTime": "2026-06-24T08:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "6c93591c-48c0-4e5f-b3de-ec4d5ca21aab",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-25T03:30:00+00:00",
+      "endTime": "2026-06-25T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "a8ace4b5-8ae6-49e7-a1a6-d61e837d79d8",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-25T06:30:00+00:00",
+      "endTime": "2026-06-25T08:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "479ae3f2-7465-4d77-b4ac-58e049eed930",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T02:00:00+00:00",
+      "endTime": "2026-06-26T03:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "9c4bc2cc-5852-47a1-b938-4ced330a45d6",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-26T05:00:00+00:00",
+      "endTime": "2026-06-26T06:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "88149b42-9ca3-4c12-9788-690254622016",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T06:00:00+00:00",
+      "endTime": "2026-06-26T07:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e93d50e0-f337-4e50-9f45-f4d66900b887",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T07:00:00+00:00",
+      "endTime": "2026-06-26T08:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "62f1985a-cac4-4b23-92fb-e5cc77b930c6",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-29T03:30:00+00:00",
+      "endTime": "2026-06-29T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "fd7fe1a1-e6b3-4dc4-b11f-cffc74533959",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-29T07:00:00+00:00",
+      "endTime": "2026-06-29T08:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "47e5b5c3-e7c6-414c-84fd-afb247be286d",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-30T01:00:00+00:00",
+      "endTime": "2026-06-30T03:00:00+00:00",
+      "courseName": "General Mathematics",
+      "instructorName": "Dao Le",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0b49fc1a-fb9d-4c2d-a51a-77bd7b1a1d4d",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-30T03:00:00+00:00",
+      "endTime": "2026-06-30T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "6a812200-ae1f-43ed-a03d-eb7deb18cd6b",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-30T08:30:00+00:00",
+      "endTime": "2026-06-30T10:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "fbedbdd2-de00-4f08-abfa-23c137d9b734",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-01T03:30:00+00:00",
+      "endTime": "2026-07-01T05:30:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "4797a7f0-11f3-4945-b75c-a63dee28bb24",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-01T06:30:00+00:00",
+      "endTime": "2026-07-01T08:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "cc66013b-0fa3-428e-abb2-42d1d14a07b2",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-02T03:30:00+00:00",
+      "endTime": "2026-07-02T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "70717a76-d98f-4450-b848-6830cbc63690",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-02T06:30:00+00:00",
+      "endTime": "2026-07-02T08:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c06e4ab4-eb0c-4e71-ad5d-7c8dbb2a121c",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T02:00:00+00:00",
+      "endTime": "2026-07-03T03:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "fde9dc0f-5b2d-4d5e-a6f9-a139ee89b18a",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-07-03T05:00:00+00:00",
+      "endTime": "2026-07-03T06:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "90c7d16f-21a6-4c51-b057-5346202fa147",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T06:00:00+00:00",
+      "endTime": "2026-07-03T07:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "41cdea40-3903-4afd-ba39-11ff911fa31b",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T07:00:00+00:00",
+      "endTime": "2026-07-03T08:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "63dd676b-54c7-4c8e-a579-598992284eb7",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-06T03:30:00+00:00",
+      "endTime": "2026-07-06T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "75db18bf-d5da-4432-832b-f5ce422da9b3",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-07-06T07:00:00+00:00",
+      "endTime": "2026-07-06T08:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "6f88567d-9863-45fd-89d7-c587eee651e3",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-07T01:00:00+00:00",
+      "endTime": "2026-07-07T03:00:00+00:00",
+      "courseName": "General Mathematics",
+      "instructorName": "Dao Le",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f27dd005-123b-40e7-b937-bc7d5808ec4b",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-07-07T03:00:00+00:00",
+      "endTime": "2026-07-07T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "a150b609-c238-4335-9da7-a8896045f6f5",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-07T08:30:00+00:00",
+      "endTime": "2026-07-07T10:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "b61ddffc-5457-4c7c-94a1-389ec71960ba",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-08T03:30:00+00:00",
+      "endTime": "2026-07-08T05:30:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1ab25444-9dfc-4738-bcf1-07425d50e1ab",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-08T06:30:00+00:00",
+      "endTime": "2026-07-08T08:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "54ae9a8c-dc03-4f20-9b32-5095ae72f7b7",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-09T03:30:00+00:00",
+      "endTime": "2026-07-09T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d61a3205-5a45-46d1-8566-ebd6e9507d5e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-09T06:30:00+00:00",
+      "endTime": "2026-07-09T08:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "ace7b731-ded4-452b-ba88-9c5f74af4276",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T02:00:00+00:00",
+      "endTime": "2026-07-10T03:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1d4b390e-60bb-44fe-aab9-e4eeaa73f8ad",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-07-10T05:00:00+00:00",
+      "endTime": "2026-07-10T06:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d8fdbd01-eef5-481a-9437-aa740fa500f9",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T06:00:00+00:00",
+      "endTime": "2026-07-10T07:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c9b69e47-739e-40c2-9601-282d540f80c5",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T07:00:00+00:00",
+      "endTime": "2026-07-10T08:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "8aaa6b6e-22f2-4e29-aa8c-179a7769741b",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T03:30:00+00:00",
+      "endTime": "2026-07-13T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "28a4c372-9e2a-48b7-bdd2-511bfb759d0d",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-07-13T07:00:00+00:00",
+      "endTime": "2026-07-13T08:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "cfbf6d99-33fa-4eac-8d54-7cdb8f58fa61",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-14T01:00:00+00:00",
+      "endTime": "2026-07-14T03:00:00+00:00",
+      "courseName": "General Mathematics",
+      "instructorName": "Dao Le",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "2882276a-ff5b-4201-82e8-300dcd6d13f8",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-07-14T03:00:00+00:00",
+      "endTime": "2026-07-14T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "ce7695c1-e6b0-46a8-9d20-03dd519ae041",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-14T08:30:00+00:00",
+      "endTime": "2026-07-14T10:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d9b38aa6-d5eb-416c-871d-d86b503fea82",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-15T03:30:00+00:00",
+      "endTime": "2026-07-15T05:30:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "fcbe9808-5049-43c1-956e-978d3e32a88f",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-15T06:30:00+00:00",
+      "endTime": "2026-07-15T08:30:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "470713ac-ac0c-4565-a840-1e573d0a8455",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-16T03:30:00+00:00",
+      "endTime": "2026-07-16T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "37932f84-693e-4f53-9aa1-02a5f9a5fe98",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-16T06:30:00+00:00",
+      "endTime": "2026-07-16T08:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "fca28d73-5352-4f53-b1dd-d2c6d790cdc9",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T02:00:00+00:00",
+      "endTime": "2026-07-17T03:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Marcus Martins",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e8efec21-87f5-48ea-9586-9be932e6095d",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-07-17T05:00:00+00:00",
+      "endTime": "2026-07-17T06:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "77e95431-9d3d-4571-9427-4c43acc0189e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T06:00:00+00:00",
+      "endTime": "2026-07-17T07:00:00+00:00",
+      "courseName": "Principles of Economics",
+      "instructorName": "Nhu Pham",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0a51bbd1-6ba6-4fc9-9992-ac04a823d5bf",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T07:00:00+00:00",
+      "endTime": "2026-07-17T08:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Kevin Burke",
+      "department": "SGS-SEUP-Foundation Studies"
+    }
+  ]
+}

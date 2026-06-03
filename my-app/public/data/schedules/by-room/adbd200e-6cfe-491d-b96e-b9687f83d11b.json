@@ -1,0 +1,825 @@
+{
+  "roomId": "adbd200e-6cfe-491d-b96e-b9687f83d11b",
+  "schedules": [
+    {
+      "id": "8bf2de40-e288-4e3a-820d-0144bf1200cf",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-02T01:00:00+00:00",
+      "endTime": "2026-06-02T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "ee6be54e-450b-4954-bdf3-5275749bd6b2",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-02T03:30:00+00:00",
+      "endTime": "2026-06-02T05:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "b5ab55c2-c0f4-47e9-aa57-a75ebcf6723e",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-03T01:00:00+00:00",
+      "endTime": "2026-06-03T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e938fd07-1096-4ead-8840-ddd9ef3b4efe",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-03T03:30:00+00:00",
+      "endTime": "2026-06-03T05:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e4ebcce0-e38a-4a8e-a914-14895e6d12bf",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-03T08:30:00+00:00",
+      "endTime": "2026-06-03T10:30:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1ccb7834-a0a0-41b7-a242-3307acf84fd2",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-04T08:30:00+00:00",
+      "endTime": "2026-06-04T10:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "6fa5e546-16f1-49f3-a257-23688b0cc1a1",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-05T02:00:00+00:00",
+      "endTime": "2026-06-05T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "8b6a564e-f8d2-49a2-87e9-e41d59246364",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-05T03:00:00+00:00",
+      "endTime": "2026-06-05T04:00:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "49d94881-4e7a-4a39-af36-e505ac9b5b3f",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-05T05:00:00+00:00",
+      "endTime": "2026-06-05T06:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "eb94b64d-64c7-435d-bf75-60c2892ff875",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-05T08:00:00+00:00",
+      "endTime": "2026-06-05T09:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "41265198-242d-4925-929d-bd7af8bb49ea",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-08T06:30:00+00:00",
+      "endTime": "2026-06-08T08:30:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "df1a6419-9e96-4394-8ff2-c5e5f8b1545a",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-08T08:30:00+00:00",
+      "endTime": "2026-06-08T10:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "2041dc82-2492-4b02-b356-06417680e3be",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-09T01:00:00+00:00",
+      "endTime": "2026-06-09T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "b780b107-2a9d-4d4c-a0ef-f9c78ac5ce35",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-09T03:30:00+00:00",
+      "endTime": "2026-06-09T05:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "91e6004b-f1e9-4312-936a-27aee1718f65",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-10T01:00:00+00:00",
+      "endTime": "2026-06-10T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "7928fa2c-d5c0-4d3f-8d34-7ff04add08d4",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-10T03:30:00+00:00",
+      "endTime": "2026-06-10T05:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "10bfee62-e37d-4409-ae63-e586433aff7e",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-10T08:30:00+00:00",
+      "endTime": "2026-06-10T10:30:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c08dd1d2-d619-459d-913d-7b280cd2f571",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-11T08:30:00+00:00",
+      "endTime": "2026-06-11T10:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "494d5d01-ce32-4253-aa29-5779693a7e24",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-12T02:00:00+00:00",
+      "endTime": "2026-06-12T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "6c1b2d58-1d88-4cc9-9bdb-6dbbe10c4968",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-12T03:00:00+00:00",
+      "endTime": "2026-06-12T04:00:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1d6fb7a4-3c60-4273-b0d8-d23c9d76cef2",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-12T05:00:00+00:00",
+      "endTime": "2026-06-12T06:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "20d6a3d9-4457-40ae-97d9-e0149825678f",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-12T08:00:00+00:00",
+      "endTime": "2026-06-12T09:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e5a9d3b4-8adf-46d9-a451-82bccdd7686c",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-15T06:30:00+00:00",
+      "endTime": "2026-06-15T08:30:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "97c42cf2-5572-426f-a8e0-bfee43cb2aeb",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-15T08:30:00+00:00",
+      "endTime": "2026-06-15T10:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "9d45f33d-3e50-47be-a30b-23b198edb5bb",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "2ee8fbd8-083b-481f-b79e-9e8218126e18",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-16T03:30:00+00:00",
+      "endTime": "2026-06-16T05:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "7c5acbd2-7789-472d-b8f8-f80ae7b4b7d7",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-17T01:00:00+00:00",
+      "endTime": "2026-06-17T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0b70bde3-83c6-45e3-98bd-350e73ae07ae",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-17T03:30:00+00:00",
+      "endTime": "2026-06-17T05:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "6998e48f-99ed-4a7b-a921-1d4880d5618e",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-17T08:30:00+00:00",
+      "endTime": "2026-06-17T10:30:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e6e0172d-46ee-4874-9d75-b13be65f7553",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-18T08:30:00+00:00",
+      "endTime": "2026-06-18T10:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "58c74e89-691b-4d29-890c-f0a5cb2aa645",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-19T02:00:00+00:00",
+      "endTime": "2026-06-19T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d8910e21-8668-47c4-a115-3ec1210bb5ee",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-19T03:00:00+00:00",
+      "endTime": "2026-06-19T04:00:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "859eb05c-8fef-4b22-9e97-34e754739de6",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-19T05:00:00+00:00",
+      "endTime": "2026-06-19T06:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "5278d914-fec9-42d0-8c23-b9c19481d26f",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-19T08:00:00+00:00",
+      "endTime": "2026-06-19T09:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d45e9303-c4ab-4120-86d1-98ade37a3e44",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-22T06:30:00+00:00",
+      "endTime": "2026-06-22T08:30:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "aeb45f09-289e-4592-b592-63c43c277a7d",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-22T08:30:00+00:00",
+      "endTime": "2026-06-22T10:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "eb8b7b0d-d95c-4c06-bb75-73c7a7783c66",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-23T01:00:00+00:00",
+      "endTime": "2026-06-23T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f27bf572-41c1-42b9-865b-202ac793d0b3",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-23T03:30:00+00:00",
+      "endTime": "2026-06-23T05:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "2a692d21-f8fd-405f-992c-d865a28d39cc",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-24T01:00:00+00:00",
+      "endTime": "2026-06-24T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "9265ca3b-dc6d-483a-a51f-85e6c0775edc",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-24T03:30:00+00:00",
+      "endTime": "2026-06-24T05:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f47e3166-1a21-4332-b2fa-019fc712e2a4",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-24T08:30:00+00:00",
+      "endTime": "2026-06-24T10:30:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1188b495-e430-41c5-88e8-ba5a07ea3fe8",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-25T08:30:00+00:00",
+      "endTime": "2026-06-25T10:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "8e057e7e-9b3b-45b2-b6a6-d4cb32c224ad",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-26T02:00:00+00:00",
+      "endTime": "2026-06-26T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0bb0c11a-0835-42fa-93c8-969c5f343e0a",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-26T03:00:00+00:00",
+      "endTime": "2026-06-26T04:00:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "85f16cab-bf3e-4190-aa28-97be68c5aee9",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-26T05:00:00+00:00",
+      "endTime": "2026-06-26T06:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "991f5099-8271-4e7e-8a2c-7e3b6215ccd4",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-26T08:00:00+00:00",
+      "endTime": "2026-06-26T09:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e9b14262-3e72-4e2a-82f0-646bbc6f3ff8",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-29T06:30:00+00:00",
+      "endTime": "2026-06-29T08:30:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "563b5d13-d211-4aad-8f4f-2479dfd70fe9",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-29T08:30:00+00:00",
+      "endTime": "2026-06-29T10:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "80a5f846-22a1-4e96-ad0e-dc7efe44e8ac",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-30T01:00:00+00:00",
+      "endTime": "2026-06-30T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "4230d0c8-3b1a-457e-b841-7e8461c58a72",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-06-30T03:30:00+00:00",
+      "endTime": "2026-06-30T05:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "cb601fdb-7376-4c99-8c9c-e2885680cc7e",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-01T01:00:00+00:00",
+      "endTime": "2026-07-01T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "24fe8105-da8d-4302-97a2-465ffe19bb51",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-01T03:30:00+00:00",
+      "endTime": "2026-07-01T05:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "8aa4e24c-7b9d-46db-90fb-8597c074537e",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-01T08:30:00+00:00",
+      "endTime": "2026-07-01T10:30:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "b87f7dfa-1aeb-45a9-989d-bb6f681cbdcb",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-02T08:30:00+00:00",
+      "endTime": "2026-07-02T10:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c9afc070-4168-4ee6-bdb6-a2b2ec5397b6",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-03T02:00:00+00:00",
+      "endTime": "2026-07-03T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "a08e19b3-8281-46f1-815c-f3fb620e7147",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-03T03:00:00+00:00",
+      "endTime": "2026-07-03T04:00:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "99ac00a0-b083-4d92-af9f-c672e33f0ef3",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-03T05:00:00+00:00",
+      "endTime": "2026-07-03T06:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "9ceb45d7-d269-47ed-a1cf-000feec083c0",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-03T08:00:00+00:00",
+      "endTime": "2026-07-03T09:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "9d9affeb-922c-459e-a735-1bc8aed8f4dc",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-06T06:30:00+00:00",
+      "endTime": "2026-07-06T08:30:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1366c94a-3b77-4ba2-adc1-861f78ea48b6",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-06T08:30:00+00:00",
+      "endTime": "2026-07-06T10:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "2ded9bac-aab9-4b66-99dd-16dd6de5f832",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-07T01:00:00+00:00",
+      "endTime": "2026-07-07T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d127bc8c-801c-4a95-b66a-9cc0a3ee1b9f",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-07T03:30:00+00:00",
+      "endTime": "2026-07-07T05:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c9019ff9-450c-4e2d-b382-92a315fb1f89",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-08T01:00:00+00:00",
+      "endTime": "2026-07-08T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "3d2de3e0-3bc5-41e3-ad02-3f99b24d2a5f",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-08T03:30:00+00:00",
+      "endTime": "2026-07-08T05:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "6b083326-3223-4324-b476-98e1e342cb21",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-08T08:30:00+00:00",
+      "endTime": "2026-07-08T10:30:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0b27f112-2242-44fc-babc-a7839c616f33",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-09T08:30:00+00:00",
+      "endTime": "2026-07-09T10:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "ae9d8649-7dc5-474a-8109-eb7d3714a3d7",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-10T02:00:00+00:00",
+      "endTime": "2026-07-10T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "247e2fe8-9aa7-4604-a1c0-a6e7890f5039",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-10T03:00:00+00:00",
+      "endTime": "2026-07-10T04:00:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "b4adf57a-2b99-4262-af8c-021e5698a991",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-10T05:00:00+00:00",
+      "endTime": "2026-07-10T06:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d20d59f1-7243-4393-9416-126d57beeb60",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-10T08:00:00+00:00",
+      "endTime": "2026-07-10T09:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "9b2651d5-9740-40ef-9b58-bf4f02b0fd31",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-13T06:30:00+00:00",
+      "endTime": "2026-07-13T08:30:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "6f1be9dc-0394-49e2-a042-6bde9c58e822",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-13T08:30:00+00:00",
+      "endTime": "2026-07-13T10:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c7bb151d-b052-4eb0-bfde-7d25425be62f",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-14T01:00:00+00:00",
+      "endTime": "2026-07-14T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "3fe62d2c-7f95-4ba1-a2c3-a3879fb7aa00",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-14T03:30:00+00:00",
+      "endTime": "2026-07-14T05:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "4c6393ec-e62b-4871-aae6-c1df1e216bc5",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-15T01:00:00+00:00",
+      "endTime": "2026-07-15T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "85bdca9c-5168-48e8-8f94-0904c49043a9",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-15T03:30:00+00:00",
+      "endTime": "2026-07-15T05:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "97ab8577-9a43-41c8-a75c-3ba645bdcd85",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-15T08:30:00+00:00",
+      "endTime": "2026-07-15T10:30:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "46dc2bef-a87f-4911-acd6-0a99bab60d9c",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-16T08:30:00+00:00",
+      "endTime": "2026-07-16T10:30:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "6303b778-13a8-4890-b0c1-097731ded408",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-17T02:00:00+00:00",
+      "endTime": "2026-07-17T03:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "00ddf124-60b5-438f-8769-f5ee58b36c01",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-17T03:00:00+00:00",
+      "endTime": "2026-07-17T04:00:00+00:00",
+      "courseName": "Software Development",
+      "instructorName": "Quynh Trang Pham (Chan Pham)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0e7928b5-7fdb-4a95-9e36-c5aad932847f",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-17T05:00:00+00:00",
+      "endTime": "2026-07-17T06:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f0c485ec-ffa6-4a69-ac67-23acd93ca22e",
+      "semester": "2691",
+      "activityType": "Lab",
+      "startTime": "2026-07-17T08:00:00+00:00",
+      "endTime": "2026-07-17T09:00:00+00:00",
+      "courseName": "Data Analytics",
+      "instructorName": "Minh Tran (Maxx Tran)",
+      "department": "SGS-SEUP-Foundation Studies"
+    }
+  ]
+}

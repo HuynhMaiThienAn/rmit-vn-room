@@ -1,54 +1,31 @@
 "use client";
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Footer from '../../../components/public/footer';
 
 export default function AdminLoginPage() {
   const router = useRouter();
   const [passcode, setPasscode] = useState('');
-  const [errorMsg, setErrorMsg] = useState('');
-  const [isChecking, setIsChecking] = useState(true);
-
-  useEffect(() => {
-    const expectedKey = process.env.NEXT_PUBLIC_ADMIN_SECRET_KEY?.trim();
-    const storedKey = sessionStorage.getItem('admin_passcode')?.trim();
-
-    if (expectedKey && storedKey === expectedKey) {
-      router.push('/admin/dashboard');
-    } else {
-      setIsChecking(false);
-    }
-  }, [router]);
+  const [feedbackMsg, setFeedbackMsg] = useState('');
+  const [isSuccess, setIsSuccess] = useState(false);
 
   const handleLoginSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    const expectedKey = process.env.NEXT_PUBLIC_ADMIN_SECRET_KEY?.trim();
-
-    if (!expectedKey) {
-      setErrorMsg('Admin key is not configured on the server.');
-      return;
-    }
+    const expectedKey = "I'm gay";
 
     if (passcode.trim() === expectedKey) {
-      sessionStorage.setItem('admin_passcode', passcode.trim());
-      router.push('/admin/dashboard');
+      setIsSuccess(true);
+      setFeedbackMsg('I know 😏');
     } else {
+      setIsSuccess(false);
       const errorOptions = [
         'sus', 'nuh uh', 'nah bro', 'nice try', 'try "password"', ':D', ':b', '>:)', ':0', ':)', '=))', 'haiya', 'really?'
       ];
       const randomIndex = Math.floor(Math.random() * errorOptions.length);
-      setErrorMsg(errorOptions[randomIndex]);
+      setFeedbackMsg(errorOptions[randomIndex]);
     }
   };
-
-  if (isChecking) {
-    return (
-      <main className="min-h-screen bg-slate-50 flex items-center justify-center font-sans">
-        <div className="text-slate-500 text-sm font-medium animate-pulse">Checking authentication...</div>
-      </main>
-    );
-  }
 
   return (
     <main className="min-h-screen bg-slate-50 text-slate-800 antialiased font-sans flex flex-col justify-between">
@@ -74,9 +51,10 @@ export default function AdminLoginPage() {
         </div>
       </header>
 
-      {/* Passcode Card */}
+      {/* Main content body */}
       <div className="flex-1 flex items-center justify-center p-6">
-        <div className="w-full max-w-md bg-white border border-slate-200 rounded-2xl p-6 shadow-sm">
+        <div className="w-full max-w-md bg-white border border-slate-200 rounded-2xl p-6 shadow-sm flex flex-col gap-4">
+          <h2 className="text-center font-bold text-lg text-black">Admin login</h2>
           <form onSubmit={handleLoginSubmit} className="space-y-3">
             <div className="flex flex-col gap-3">
               <input
@@ -84,7 +62,7 @@ export default function AdminLoginPage() {
                 type="text"
                 value={passcode}
                 onChange={(e) => setPasscode(e.target.value)}
-                placeholder="enter your AI api key here :D"
+                placeholder="enter your passcode here :D"
                 className="w-full bg-white border border-slate-300 text-slate-800 placeholder-slate-400 rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:border-[#000054] focus:ring-1 focus:ring-[#000054] transition duration-200"
                 required
                 autoFocus
@@ -96,9 +74,13 @@ export default function AdminLoginPage() {
                 Verify
               </button>
             </div>
-            {errorMsg && (
-              <p className="text-xs text-[#E60028] font-semibold text-left pl-1 pt-1">
-                {errorMsg}
+            {feedbackMsg && (
+              <p
+                className={`text-xs font-semibold text-left pl-1 pt-1 ${
+                  isSuccess ? 'text-green-600' : 'text-[#E60028]'
+                }`}
+              >
+                {feedbackMsg}
               </p>
             )}
           </form>

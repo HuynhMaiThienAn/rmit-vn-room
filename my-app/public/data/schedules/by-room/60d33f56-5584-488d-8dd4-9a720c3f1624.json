@@ -1,0 +1,755 @@
+{
+  "roomId": "60d33f56-5584-488d-8dd4-9a720c3f1624",
+  "schedules": [
+    {
+      "id": "855b7ca1-9aeb-404d-b901-29af8dd05e45",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-02T01:00:00+00:00",
+      "endTime": "2026-06-02T03:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "de1cb89a-bcf8-4473-8239-77f2b534dba1",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-03T01:00:00+00:00",
+      "endTime": "2026-06-03T03:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "30b3a90d-4e39-4813-9b55-37a064329507",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-03T04:00:00+00:00",
+      "endTime": "2026-06-03T06:00:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "66b76ec8-e960-49ab-a09e-db3287b4f770",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-03T07:30:00+00:00",
+      "endTime": "2026-06-03T10:30:00+00:00",
+      "courseName": "Studio Investigation",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e7465d18-5d68-41b8-9b54-1e585c444f9a",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-04T04:00:00+00:00",
+      "endTime": "2026-06-04T06:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "3bf573aa-2dfb-414d-a733-00b4d78325e5",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T01:00:00+00:00",
+      "endTime": "2026-06-05T02:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "bc0d1523-8359-4c64-976e-ff57f9b86181",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T02:00:00+00:00",
+      "endTime": "2026-06-05T04:00:00+00:00",
+      "courseName": "Studio Investigation",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "6cb21e06-74b1-4685-816b-8c48cbf4cb44",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T04:00:00+00:00",
+      "endTime": "2026-06-05T05:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "5ce72a26-77aa-49fa-8cae-9023e85ed9ae",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T05:00:00+00:00",
+      "endTime": "2026-06-05T06:00:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "defb0886-9a13-4398-a9a9-1ba96bc326a4",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-08T01:00:00+00:00",
+      "endTime": "2026-06-08T03:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "06aef32c-c710-448c-a4b6-90dd336e5c65",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-08T03:30:00+00:00",
+      "endTime": "2026-06-08T05:30:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "b364b003-0c35-4133-b80e-50c0a64f66e8",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-09T01:00:00+00:00",
+      "endTime": "2026-06-09T03:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "2e412f3e-4481-4ad8-9883-6354dd427789",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-10T01:00:00+00:00",
+      "endTime": "2026-06-10T03:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "553ae145-596c-49a3-b10e-f36fc47d3951",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-10T04:00:00+00:00",
+      "endTime": "2026-06-10T06:00:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "21f9eb7c-33af-44ec-a531-8a80d2e03c12",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-10T07:30:00+00:00",
+      "endTime": "2026-06-10T10:30:00+00:00",
+      "courseName": "Studio Investigation",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "343b46aa-6c5e-4d0c-a1a4-5138fff244c2",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-11T04:00:00+00:00",
+      "endTime": "2026-06-11T06:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e5c6adab-220d-40ba-960f-4a7c2d66a1d3",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T01:00:00+00:00",
+      "endTime": "2026-06-12T02:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "38202338-fbaf-4284-8cf8-6e94b165df2a",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T02:00:00+00:00",
+      "endTime": "2026-06-12T04:00:00+00:00",
+      "courseName": "Studio Investigation",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "62b3e484-ac41-4930-a413-69be09a965b3",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T04:00:00+00:00",
+      "endTime": "2026-06-12T05:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c5d5e1cf-88f2-4757-b805-3345c65dcafa",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T05:00:00+00:00",
+      "endTime": "2026-06-12T06:00:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d30b1cc0-d2eb-493c-b774-86bf31d06676",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-15T01:00:00+00:00",
+      "endTime": "2026-06-15T03:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "662327ff-e3b5-4822-bffe-8e3eea360e27",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-15T03:30:00+00:00",
+      "endTime": "2026-06-15T05:30:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "09eb7034-017b-4364-8543-b1320be040e6",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T03:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1f56201f-ce8c-40fc-8d71-ddb7575470a7",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-17T01:00:00+00:00",
+      "endTime": "2026-06-17T03:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1ef7e08e-4420-4f58-a999-a4c136bb3cd4",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-17T04:00:00+00:00",
+      "endTime": "2026-06-17T06:00:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "59fdd80f-7062-4128-9127-9bd9581c3f05",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-17T07:30:00+00:00",
+      "endTime": "2026-06-17T10:30:00+00:00",
+      "courseName": "Studio Investigation",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "62384eca-b0ee-4570-82c1-a16025d7d7fa",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-18T04:00:00+00:00",
+      "endTime": "2026-06-18T06:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c57b8964-1120-4a08-a4e2-95cbca786825",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T01:00:00+00:00",
+      "endTime": "2026-06-19T02:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e67c6e66-75bb-446d-b8b6-35e02c3f0b48",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T02:00:00+00:00",
+      "endTime": "2026-06-19T04:00:00+00:00",
+      "courseName": "Studio Investigation",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d2fe73dc-9178-4730-998c-b93d43a2daed",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T04:00:00+00:00",
+      "endTime": "2026-06-19T05:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "7f7139ee-f5a7-4408-863d-054429ce1a70",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T05:00:00+00:00",
+      "endTime": "2026-06-19T06:00:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d231491e-8aef-4f5a-96a3-5eb966bcfb93",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-22T01:00:00+00:00",
+      "endTime": "2026-06-22T03:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "9e62f7f2-c160-49ac-8aa5-49c8c318eb9c",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-22T03:30:00+00:00",
+      "endTime": "2026-06-22T05:30:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "8088ce3e-04f9-43d1-ae4c-5e3238c07632",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-23T01:00:00+00:00",
+      "endTime": "2026-06-23T03:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d8e04a94-c3e9-4534-a094-0c162e0310b1",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-24T01:00:00+00:00",
+      "endTime": "2026-06-24T03:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "b8b4be96-32f7-4d98-894c-dfae95cd515d",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-24T04:00:00+00:00",
+      "endTime": "2026-06-24T06:00:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "8089a18a-a17d-414f-87cd-d6bc9810eb11",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-24T07:30:00+00:00",
+      "endTime": "2026-06-24T10:30:00+00:00",
+      "courseName": "Studio Investigation",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "bf8e80dc-db28-445b-83bf-4bd650f8407e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-25T04:00:00+00:00",
+      "endTime": "2026-06-25T06:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "effe8b83-fe2c-4fe2-b851-fc2c06402bbf",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T01:00:00+00:00",
+      "endTime": "2026-06-26T02:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "a1cb4877-6b86-43c4-9b47-e8806e53f532",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T02:00:00+00:00",
+      "endTime": "2026-06-26T04:00:00+00:00",
+      "courseName": "Studio Investigation",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "7ea2c28e-3ff5-4e5e-9216-cbfd257fa5ff",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T04:00:00+00:00",
+      "endTime": "2026-06-26T05:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "8aaefdf1-e71e-4732-b87a-f6acefd1dd48",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T05:00:00+00:00",
+      "endTime": "2026-06-26T06:00:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e14e231c-c4f1-45d6-b980-e04df2c13c2d",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-29T01:00:00+00:00",
+      "endTime": "2026-06-29T03:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "60f741ab-24d8-4377-98f6-d57461d04d25",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-29T03:30:00+00:00",
+      "endTime": "2026-06-29T05:30:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "6e186663-2c88-4c35-ab85-3e2996746a70",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-30T01:00:00+00:00",
+      "endTime": "2026-06-30T03:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "189c7336-8cbe-4f21-ae8a-a9cb6bb6f973",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-01T01:00:00+00:00",
+      "endTime": "2026-07-01T03:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "417f5f37-b17e-47dc-95c2-08cbf1f934b5",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-01T04:00:00+00:00",
+      "endTime": "2026-07-01T06:00:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0ca34168-f07e-41b0-bc31-6999e550339a",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-01T07:30:00+00:00",
+      "endTime": "2026-07-01T10:30:00+00:00",
+      "courseName": "Studio Investigation",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0a9b6fa1-0e35-4793-a88b-c4decaf54d94",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-02T04:00:00+00:00",
+      "endTime": "2026-07-02T06:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "2fa1c7dd-90b8-4eb6-868e-a46110727389",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T01:00:00+00:00",
+      "endTime": "2026-07-03T02:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "114e81bb-5588-4c93-bb72-7a77117651c7",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T02:00:00+00:00",
+      "endTime": "2026-07-03T04:00:00+00:00",
+      "courseName": "Studio Investigation",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "6fc83fcb-cd1a-43fb-a745-dca4a2cada01",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T04:00:00+00:00",
+      "endTime": "2026-07-03T05:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "2344b437-b8c6-486a-80f4-d88db6887e7e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T05:00:00+00:00",
+      "endTime": "2026-07-03T06:00:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "fc52f700-5e05-484f-83c7-0b752fad92e5",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-06T01:00:00+00:00",
+      "endTime": "2026-07-06T03:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "12230e8b-7682-4cf5-abea-c5778b3d812c",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-06T03:30:00+00:00",
+      "endTime": "2026-07-06T05:30:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "51114808-13ff-4193-9b24-3c7d2d3c4c11",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-07T01:00:00+00:00",
+      "endTime": "2026-07-07T03:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1bbcdb13-15fa-434b-8ac2-36684de70f79",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-08T01:00:00+00:00",
+      "endTime": "2026-07-08T03:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "06b04418-5de8-4a4e-a921-dfb1aec890ef",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-08T04:00:00+00:00",
+      "endTime": "2026-07-08T06:00:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "2119063c-51e9-465a-b4b3-11b4e4e0f4ff",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-08T07:30:00+00:00",
+      "endTime": "2026-07-08T10:30:00+00:00",
+      "courseName": "Studio Investigation",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0ec2ff2e-c033-49cb-a6e7-0f6f53a40d31",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-09T04:00:00+00:00",
+      "endTime": "2026-07-09T06:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "4fbd8a9e-1f19-4a34-9b15-8b14ad29a72b",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T01:00:00+00:00",
+      "endTime": "2026-07-10T02:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "63bd25c5-0cae-42d9-8d39-5ecc364949c2",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T02:00:00+00:00",
+      "endTime": "2026-07-10T04:00:00+00:00",
+      "courseName": "Studio Investigation",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "28eb5f00-5719-4abb-ab5c-ea006b0429fc",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T04:00:00+00:00",
+      "endTime": "2026-07-10T05:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "43c67eb5-df4b-46c4-b98b-8bb3d024de6a",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T05:00:00+00:00",
+      "endTime": "2026-07-10T06:00:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "cae16317-ef9b-4bad-9a19-3c8d8b0b01c0",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T01:00:00+00:00",
+      "endTime": "2026-07-13T03:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "5954a5d9-3eef-4ae1-bae7-c669304d3ed8",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T03:30:00+00:00",
+      "endTime": "2026-07-13T05:30:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f86c1b0a-bca0-4a76-b835-e5e81823172d",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-14T01:00:00+00:00",
+      "endTime": "2026-07-14T03:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e5c62efb-ee75-4576-95c7-4de491a5530f",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-15T01:00:00+00:00",
+      "endTime": "2026-07-15T03:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "fce14644-00f4-4117-ac70-8e21df4973e5",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-15T04:00:00+00:00",
+      "endTime": "2026-07-15T06:00:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "71d4a242-e38f-4a5c-ac9f-eee98f2728ca",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-15T07:30:00+00:00",
+      "endTime": "2026-07-15T10:30:00+00:00",
+      "courseName": "Studio Investigation",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "022876d4-77ed-4199-9168-4d4fee5f0567",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-16T04:00:00+00:00",
+      "endTime": "2026-07-16T06:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "4aa129c0-c8b0-4a81-b104-45e513e18ec4",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T01:00:00+00:00",
+      "endTime": "2026-07-17T02:00:00+00:00",
+      "courseName": "Drawing and Studio Practice",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "98dae550-e6c7-4915-93eb-e0093cebfd35",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T02:00:00+00:00",
+      "endTime": "2026-07-17T04:00:00+00:00",
+      "courseName": "Studio Investigation",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "caa8908f-1b18-431d-acdd-627e21283233",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T04:00:00+00:00",
+      "endTime": "2026-07-17T05:00:00+00:00",
+      "courseName": "Materials and Design",
+      "instructorName": "Chin Seng Tan (Din Tan)",
+      "department": "SGS-SEUP-Foundation Studies"
+    },
+    {
+      "id": "7546d277-bc78-4667-8ef1-b37f94ae0d37",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T05:00:00+00:00",
+      "endTime": "2026-07-17T06:00:00+00:00",
+      "courseName": "Visual Communication",
+      "instructorName": "Hilda Diaz Covarrubias Ruiz",
+      "department": "SGS-SEUP-Foundation Studies"
+    }
+  ]
+}

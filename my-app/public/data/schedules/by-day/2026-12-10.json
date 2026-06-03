@@ -1,0 +1,29 @@
+{
+  "date": "2026-12-10",
+  "schedules": [
+    {
+      "id": "500688e6-cfd8-4f0e-991d-a6d9882f6f80",
+      "activityType": "Booking",
+      "startTime": "2026-12-10T00:00:00+00:00",
+      "endTime": "2026-12-10T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      "roomId": "8f0f9fba-a2d0-400c-a614-c68b27326648"
+    },
+    {
+      "id": "530dd0c7-bc33-4972-960b-74aa90e5a056",
+      "activityType": "Booking",
+      "startTime": "2026-12-10T00:00:00+00:00",
+      "endTime": "2026-12-10T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      "roomId": "d6448f8d-2554-4f99-80e1-6fd67d4c822e"
+    },
+    {
+      "id": "594a457b-fb99-44f7-9ad8-ed42199b7dc5",
+      "activityType": "Booking",
+      "startTime": "2026-12-10T00:00:00+00:00",
+      "endTime": "2026-12-10T14:00:00+00:00",
+      "courseName": "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      "roomId": "3b9066ca-b519-4356-a4d5-dafc66ebf204"
+    }
+  ]
+}

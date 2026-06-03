@@ -2,8 +2,9 @@
 
 import React from 'react';
 import { ChevronRightIcon } from '../../../components/ui/icons';
-import { cleanDescriptionText } from '../utils/format';
+import { cleanDescriptionText } from '../utils/helpers';
 import { RoomStatusCell, getStatusSquareColor } from './RoomStatusCell';
+import { getRoomStatusDetailed } from '../utils/parse';
 import type { RoomRecord } from '../../../types/room';
 
 function renderRoomDescription(desc: string, isTitle = false) {
@@ -26,7 +27,6 @@ function renderRoomDescription(desc: string, isTitle = false) {
   );
 }
 
-
 interface RoomRowProps {
   room: RoomRecord;
   isSelected: boolean;
@@ -35,7 +35,8 @@ interface RoomRowProps {
 }
 
 export function RoomRow({ room, isSelected, nowTime, onSelect }: RoomRowProps) {
-  const squareColor = getStatusSquareColor(room, nowTime);
+  const details = getRoomStatusDetailed(room, nowTime);
+  const squareColor = getStatusSquareColor(details.status);
 
   return (
     <tr
@@ -57,7 +58,7 @@ export function RoomRow({ room, isSelected, nowTime, onSelect }: RoomRowProps) {
       {/* Status Column */}
       <td className="py-2.5 px-2.5 align-middle w-[45%] lg:w-[50%] text-xs md:text-sm lg:text-[11px] xl:text-xs">
         <div className="flex items-center justify-end gap-2">
-          <RoomStatusCell room={room} nowTime={nowTime} />
+          <RoomStatusCell details={details} />
           <ChevronRightIcon className="w-5 h-5 text-slate-400 shrink-0 select-none" />
         </div>
       </td>

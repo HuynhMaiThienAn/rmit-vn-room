@@ -1,8 +1,6 @@
 'use client';
 
-import React from 'react';
-import { getVietnamDateInfo } from '../../utils/date';
-import { formatClock } from '../../utils/format';
+import { getVietnamDateInfo, getCalendarPlacement } from '../../utils/helpers';
 import { ScheduleCard } from './ScheduleCard';
 import type { ScheduleRecord } from '../../../../types/room';
 
@@ -85,26 +83,21 @@ export function DayCalendar({
             {/* Single Day Column */}
             <div className="relative h-full z-10">
               {daySchedules.map((schedule) => {
-                const startInfo = getVietnamDateInfo(schedule.startTime);
-                const endInfo = getVietnamDateInfo(schedule.endTime);
-
-                const decimalStart = startInfo.hours + startInfo.minutes / 60;
-                const decimalEnd = endInfo.hours + endInfo.minutes / 60;
-
-                if (decimalEnd <= START_HOUR || decimalStart >= END_HOUR) return null;
-
-                const displayStart = Math.max(START_HOUR, decimalStart);
-                const displayEnd = Math.min(END_HOUR, decimalEnd);
-
-                const topOffset = (displayStart - START_HOUR) * ROW_HEIGHT;
-                const blockHeight = (displayEnd - displayStart) * ROW_HEIGHT;
+                const placement = getCalendarPlacement(
+                  schedule.startTime,
+                  schedule.endTime,
+                  START_HOUR,
+                  END_HOUR,
+                  ROW_HEIGHT
+                );
+                if (!placement) return null;
 
                 return (
                   <ScheduleCard
                     key={schedule.id}
                     schedule={schedule}
-                    topOffset={topOffset}
-                    blockHeight={blockHeight}
+                    topOffset={placement.topOffset}
+                    blockHeight={placement.blockHeight}
                   />
                 );
               })}

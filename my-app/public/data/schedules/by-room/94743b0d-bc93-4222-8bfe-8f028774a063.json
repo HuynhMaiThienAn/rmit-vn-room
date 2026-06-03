@@ -1,0 +1,965 @@
+{
+  "roomId": "94743b0d-bc93-4222-8bfe-8f028774a063",
+  "schedules": [
+    {
+      "id": "b14a31cd-1dee-46f2-abb3-6359bbf92465",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-02T01:00:00+00:00",
+      "endTime": "2026-06-02T03:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "674fb3c4-fc57-4b76-81da-0f991ddbff32",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-02T03:30:00+00:00",
+      "endTime": "2026-06-02T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0e42a6b7-aebe-4f16-b101-f8bb5102e8e8",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-03T01:00:00+00:00",
+      "endTime": "2026-06-03T03:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "610d4e9b-e0c8-4067-9ddd-d57d0f6f3088",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-03T03:30:00+00:00",
+      "endTime": "2026-06-03T05:30:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "88075b97-c3d0-4fa9-9e4e-6396942d7ccd",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-04T01:00:00+00:00",
+      "endTime": "2026-06-04T03:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f98c46ea-7e99-4073-875d-0f273ffe815d",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-04T03:30:00+00:00",
+      "endTime": "2026-06-04T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "22a194c5-90c1-4400-9189-6b7f2e0745d2",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T02:00:00+00:00",
+      "endTime": "2026-06-05T03:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "582d617f-4a7b-403b-9f90-ba3931febda3",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-05T03:00:00+00:00",
+      "endTime": "2026-06-05T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "aeaf37d3-5c4d-4640-b22d-41f38a6a9de3",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T04:00:00+00:00",
+      "endTime": "2026-06-05T05:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f13a1913-a7e7-4bec-baf4-5a0b7b561d9f",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T05:00:00+00:00",
+      "endTime": "2026-06-05T06:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "13fc3e9d-72cf-4b2e-9e40-b9f19bfd0bd6",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T06:00:00+00:00",
+      "endTime": "2026-06-05T07:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "745fd8b7-a75d-49b3-b6a4-9d6070719882",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-05T07:00:00+00:00",
+      "endTime": "2026-06-05T08:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "54c2d478-96b2-4fd9-aab9-2d19001fb40f",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-08T01:00:00+00:00",
+      "endTime": "2026-06-08T03:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "eb97cc48-3f96-45e4-9b0e-2908be9f02cb",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-08T03:30:00+00:00",
+      "endTime": "2026-06-08T05:30:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "3bd5ebe5-49fe-4dad-827a-386fce72f922",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-09T01:00:00+00:00",
+      "endTime": "2026-06-09T03:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "fc2038ea-05c3-4bb5-9385-501f2a4a82a1",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-09T03:30:00+00:00",
+      "endTime": "2026-06-09T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d5e931f7-6998-4171-b004-8900f3e701b1",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-10T01:00:00+00:00",
+      "endTime": "2026-06-10T03:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d60a99c1-0d11-487e-9f8e-d322ee4c86af",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-10T03:30:00+00:00",
+      "endTime": "2026-06-10T05:30:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "6e80315d-8514-4c43-9702-60aea8a08d73",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-11T01:00:00+00:00",
+      "endTime": "2026-06-11T03:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "13906e70-8d31-44f6-95f3-ace0da51c1b5",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-11T03:30:00+00:00",
+      "endTime": "2026-06-11T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "577f8923-4fbc-49ac-a248-117c82111073",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T02:00:00+00:00",
+      "endTime": "2026-06-12T03:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0b068085-bb88-45b1-aa9a-bece1d4dbb8a",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-12T03:00:00+00:00",
+      "endTime": "2026-06-12T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "35c8808e-5209-4272-bcf4-ec400eac7601",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T04:00:00+00:00",
+      "endTime": "2026-06-12T05:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "a3823634-ef52-4366-ba71-3d39705a06c9",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T05:00:00+00:00",
+      "endTime": "2026-06-12T06:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c653f176-5c22-4437-9970-754078b1220e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T06:00:00+00:00",
+      "endTime": "2026-06-12T07:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "655a9330-2698-489c-958d-714ae918f50b",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-12T07:00:00+00:00",
+      "endTime": "2026-06-12T08:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "ec80fceb-d0ae-43f4-95d5-b7a775937bde",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-15T01:00:00+00:00",
+      "endTime": "2026-06-15T03:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "dd809b58-ec77-4705-99eb-937bf75bcd25",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-15T03:30:00+00:00",
+      "endTime": "2026-06-15T05:30:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "81cff6d4-d03b-4afb-aa35-9ec1b3ef7556",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T01:00:00+00:00",
+      "endTime": "2026-06-16T03:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f15bfcfa-24ff-45de-882d-bb84d1a5bb6e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-16T03:30:00+00:00",
+      "endTime": "2026-06-16T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "b1add359-aba9-478c-a694-fd98151a1f12",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-17T01:00:00+00:00",
+      "endTime": "2026-06-17T03:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "6d82d915-3b9c-4006-a77f-58fd36c5fc5a",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-17T03:30:00+00:00",
+      "endTime": "2026-06-17T05:30:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "c4be3a8e-07f7-438f-82e3-c8d75561f3a6",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-18T01:00:00+00:00",
+      "endTime": "2026-06-18T03:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e785252a-31a8-4f03-abfb-0880201d67e2",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-18T03:30:00+00:00",
+      "endTime": "2026-06-18T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "3f4f2e09-67bc-4397-87f8-c5fcefc7a57e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T02:00:00+00:00",
+      "endTime": "2026-06-19T03:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "afdbb8c7-de16-41b0-bbc5-735003652f28",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-19T03:00:00+00:00",
+      "endTime": "2026-06-19T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "cedddf00-cdc8-4731-93f0-5a02b2a4d5c6",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T04:00:00+00:00",
+      "endTime": "2026-06-19T05:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1a79301a-2215-45a3-a7a7-ba238fbf2755",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T05:00:00+00:00",
+      "endTime": "2026-06-19T06:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "f0d79af8-37f1-4c60-88fe-7816ba447861",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T06:00:00+00:00",
+      "endTime": "2026-06-19T07:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "813f492b-8b64-4670-abbd-18da00ed855c",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-19T07:00:00+00:00",
+      "endTime": "2026-06-19T08:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "ab4394c1-6e4d-4715-b1a8-1102a6c6bd9f",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-22T01:00:00+00:00",
+      "endTime": "2026-06-22T03:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "113e98e7-e403-4440-b7ac-2693ae0e6dc0",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-22T03:30:00+00:00",
+      "endTime": "2026-06-22T05:30:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "630293f0-4efa-4f16-94ef-8d35d9901def",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-23T01:00:00+00:00",
+      "endTime": "2026-06-23T03:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "3f5111f1-f192-47af-9606-fdbfde8b1957",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-23T03:30:00+00:00",
+      "endTime": "2026-06-23T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "a7f220e4-1ea1-4e89-b7fd-c3330bb33a61",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-24T01:00:00+00:00",
+      "endTime": "2026-06-24T03:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "9eb2df54-0adf-458c-937e-0655d2b4053d",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-24T03:30:00+00:00",
+      "endTime": "2026-06-24T05:30:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "ff1456c4-d869-4ff2-91c7-519c27efa03f",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-25T01:00:00+00:00",
+      "endTime": "2026-06-25T03:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "22b69611-7791-4a52-8631-2a4777262b4d",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-25T03:30:00+00:00",
+      "endTime": "2026-06-25T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "6f56db5a-29f0-46dc-b434-93eeb2b71c60",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T02:00:00+00:00",
+      "endTime": "2026-06-26T03:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "314fe485-611f-4186-b244-05d3802980d7",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-06-26T03:00:00+00:00",
+      "endTime": "2026-06-26T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "fa1c86ea-2d77-4f7f-ae46-6c34e074b786",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T04:00:00+00:00",
+      "endTime": "2026-06-26T05:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0ba5b97b-e7ad-4ad8-b753-275a1d4f34ba",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T05:00:00+00:00",
+      "endTime": "2026-06-26T06:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "9a9552e3-2b50-43d5-ba08-8a2a7f77b170",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T06:00:00+00:00",
+      "endTime": "2026-06-26T07:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "06adba55-f9f9-44ab-b9db-23a1aeaf62bb",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-26T07:00:00+00:00",
+      "endTime": "2026-06-26T08:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "8311f8fe-6989-46bc-a771-643cd276a8a7",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-29T01:00:00+00:00",
+      "endTime": "2026-06-29T03:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "babb2e97-4b08-48d4-8598-476eb4e1e607",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-29T03:30:00+00:00",
+      "endTime": "2026-06-29T05:30:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "6c7c9206-1a0b-4678-ab81-1735f777d0b7",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-30T01:00:00+00:00",
+      "endTime": "2026-06-30T03:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "576bf099-fb71-4850-8920-619664dc6a1b",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-06-30T03:30:00+00:00",
+      "endTime": "2026-06-30T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "8b9475e3-b489-4c61-84c5-4a16cd1aefd4",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-01T01:00:00+00:00",
+      "endTime": "2026-07-01T03:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "637f4899-5fcc-449e-92ba-c2b2c2c53d41",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-01T03:30:00+00:00",
+      "endTime": "2026-07-01T05:30:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "a3e6bd2c-ea2c-44cd-9090-87338379d081",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-02T01:00:00+00:00",
+      "endTime": "2026-07-02T03:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e2740e76-4aa5-4e14-a080-31df18d4995b",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-02T03:30:00+00:00",
+      "endTime": "2026-07-02T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "9c567fde-281b-46d7-8056-a5723dc53d9a",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T02:00:00+00:00",
+      "endTime": "2026-07-03T03:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "cb4f0e65-6dff-47a3-beac-bbfc3874fefd",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-07-03T03:00:00+00:00",
+      "endTime": "2026-07-03T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "bfd81d31-d42c-4c5b-a156-3172ed83166c",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T04:00:00+00:00",
+      "endTime": "2026-07-03T05:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "092352cf-e577-433d-81b3-4faf57bace5e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T05:00:00+00:00",
+      "endTime": "2026-07-03T06:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "914460aa-5438-4a1b-9e42-0d5609b191c0",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T06:00:00+00:00",
+      "endTime": "2026-07-03T07:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "e70b44ca-957f-46c7-848a-5b00cf519478",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-03T07:00:00+00:00",
+      "endTime": "2026-07-03T08:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "3fd085a8-c7d9-4d2b-9477-e45ddfb713cc",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-06T01:00:00+00:00",
+      "endTime": "2026-07-06T03:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d07afc11-e467-4fcc-a9cc-8f37df72d438",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-06T03:30:00+00:00",
+      "endTime": "2026-07-06T05:30:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "6ba6b2b9-cefa-4fd9-81d0-4cb4cbf46068",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-07T01:00:00+00:00",
+      "endTime": "2026-07-07T03:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "b4f15e82-31a9-4e12-a35d-eef98deb00cf",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-07T03:30:00+00:00",
+      "endTime": "2026-07-07T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "3f58fd9c-8a8e-4513-8637-0b242dafc568",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-08T01:00:00+00:00",
+      "endTime": "2026-07-08T03:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "609c6263-955f-4f3b-8791-9603491ce111",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-08T03:30:00+00:00",
+      "endTime": "2026-07-08T05:30:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "a3183662-d7bb-42ce-be4c-6e372743c861",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-09T01:00:00+00:00",
+      "endTime": "2026-07-09T03:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "7c380a05-11f0-4219-a25d-1e0e35c7e790",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-09T03:30:00+00:00",
+      "endTime": "2026-07-09T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "8d1ac38d-8387-4452-b005-3c9938e4a76e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T02:00:00+00:00",
+      "endTime": "2026-07-10T03:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "0e8fefda-2842-4588-855f-2624a644e383",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-07-10T03:00:00+00:00",
+      "endTime": "2026-07-10T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "aafe263a-cb75-4d60-97cc-8e497534c166",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T04:00:00+00:00",
+      "endTime": "2026-07-10T05:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "98de7a69-5832-40d6-a548-1fe68085ce13",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T05:00:00+00:00",
+      "endTime": "2026-07-10T06:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "8a9d1e08-3369-423c-a74e-8b71e47617e5",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T06:00:00+00:00",
+      "endTime": "2026-07-10T07:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "8ab33b6e-7b8a-478a-8af7-d7a11d8e4a25",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-10T07:00:00+00:00",
+      "endTime": "2026-07-10T08:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "a8243794-3cd8-4cf2-a499-27e4a683042b",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T01:00:00+00:00",
+      "endTime": "2026-07-13T03:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "a3c43b42-abaf-49f0-8d88-3fbd36433f43",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-13T03:30:00+00:00",
+      "endTime": "2026-07-13T05:30:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "1f4995c2-e110-43a6-8108-2027aeb3ceb6",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-14T01:00:00+00:00",
+      "endTime": "2026-07-14T03:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "90f6e322-f3d7-4dca-8838-b40b90cc0aa8",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-14T03:30:00+00:00",
+      "endTime": "2026-07-14T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "75ec0ceb-43f2-4d58-bb58-a9463125b6ff",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-15T01:00:00+00:00",
+      "endTime": "2026-07-15T03:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "3724f040-71fa-4f6e-8203-0372fce50543",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-15T03:30:00+00:00",
+      "endTime": "2026-07-15T05:30:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "205d6f01-2a50-45fe-8fab-37dff94c164e",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-16T01:00:00+00:00",
+      "endTime": "2026-07-16T03:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "41948184-24ae-4418-b569-4904876676a1",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-16T03:30:00+00:00",
+      "endTime": "2026-07-16T05:30:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "5c509863-5e65-4d1d-8654-751bb2c61bb6",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T02:00:00+00:00",
+      "endTime": "2026-07-17T03:00:00+00:00",
+      "courseName": "Statistics and Probability",
+      "instructorName": "Luca Burlon",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "80b7e26e-1d59-4524-8420-55694ecb6fa4",
+      "semester": "2691",
+      "activityType": "Lecture",
+      "startTime": "2026-07-17T03:00:00+00:00",
+      "endTime": "2026-07-17T04:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "05292bef-2af2-4593-a69a-332aed146a62",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T04:00:00+00:00",
+      "endTime": "2026-07-17T05:00:00+00:00",
+      "courseName": "Foundation Accounting",
+      "instructorName": "Ha Tran (Aiken Tran)",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "48176041-9bd6-4625-b5d8-e4eddbf5a434",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T05:00:00+00:00",
+      "endTime": "2026-07-17T06:00:00+00:00",
+      "courseName": "Law and Society",
+      "instructorName": "Chi Tran",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "33d03376-d66a-4343-afa4-84d9654eaa32",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T06:00:00+00:00",
+      "endTime": "2026-07-17T07:00:00+00:00",
+      "courseName": "Exploring Narratives",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    },
+    {
+      "id": "d5d555bd-8e35-421e-b982-272f3cd76855",
+      "semester": "2691",
+      "activityType": "Tutorial",
+      "startTime": "2026-07-17T07:00:00+00:00",
+      "endTime": "2026-07-17T08:00:00+00:00",
+      "courseName": "Comparative Texts",
+      "instructorName": "Huong Phung",
+      "department": "HN-SEUP-Foundation Studies"
+    }
+  ]
+}

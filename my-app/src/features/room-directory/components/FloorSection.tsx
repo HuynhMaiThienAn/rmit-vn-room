@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { ChevronDownIcon } from '../../../components/ui/icons';
-import { formatBuildingLabel } from '../utils/format';
+import { formatBuildingLabel } from '../utils/helpers';
 import { RoomRow } from './RoomRow';
 import type { RoomRecord } from '../../../types/room';
 

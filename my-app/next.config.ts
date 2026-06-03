@@ -16,6 +16,7 @@ if (fs.existsSync(faviconPath)) {
 
 const nextConfig: NextConfig = {
   /* config options here */
+  output: "export",
 };
 
 export default nextConfig;

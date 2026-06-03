@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { formatClock, getActivityColor } from '../../utils/format';
+import { formatClock, getActivityColor } from '../../utils/helpers';
 import type { ScheduleRecord } from '../../../../types/room';
 
 interface ScheduleCardProps {
@@ -12,7 +12,7 @@ interface ScheduleCardProps {
 
 export function ScheduleCard({ schedule, topOffset, blockHeight }: ScheduleCardProps) {
   const colorClasses = getActivityColor(schedule.activityType);
-  const titleText = schedule.courseName ?? schedule.course?.subjectDescription ?? 'Reserved';
+  const titleText = schedule.courseName ?? 'Reserved';
 
   return (
     <div

@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { cleanDescriptionText, formatCampusName } from '../../utils/format';
+import { cleanDescriptionText, formatCampusName } from '../../utils/helpers';
 import type { RoomRecord, CalendarView } from '../../../../types/room';
 
 interface TimetableHeaderProps {

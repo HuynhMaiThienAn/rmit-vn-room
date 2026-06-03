@@ -1,73 +1,22 @@
-// Data normalization and business logic for room availability. Zero React dependencies.
-
-import { isSameVietnamDay } from './date';
-import { parseFlexibleNumber, formatClock, formatScheduleDate, formatDurationLeft } from './format';
-import type { CourseRecord, ScheduleRecord, RoomRecord, TimetableMatrix } from '../../../types/room';
+import { isSameVietnamDay, getVietnamDateInfo, formatClock, formatScheduleDate } from './helpers';
+import { getCampusAccessHoursInfo } from './campus';
+import type { ScheduleRecord, RoomRecord, TimetableMatrix } from '../../../types/room';
 
 export function normalizeSchedule(input: Record<string, unknown>, index: number): ScheduleRecord {
-  const courseValue = input.course;
-  const courseName =
-    typeof input.courseName === 'string'
-      ? input.courseName
-      : typeof courseValue === 'object' && courseValue !== null && typeof (courseValue as Record<string, unknown>).subjectDescription === 'string'
-        ? String((courseValue as Record<string, unknown>).subjectDescription)
-        : undefined;
-
-  const instructorName =
-    typeof input.instructorName === 'string'
-      ? input.instructorName
-      : typeof courseValue === 'object' && courseValue !== null && typeof (courseValue as Record<string, unknown>).instructorName === 'string'
-        ? String((courseValue as Record<string, unknown>).instructorName)
-        : undefined;
-
-  const department =
-    typeof input.department === 'string'
-      ? input.department
-      : typeof courseValue === 'object' && courseValue !== null && typeof (courseValue as Record<string, unknown>).department === 'string'
-        ? String((courseValue as Record<string, unknown>).department)
-        : undefined;
-
   return {
     id: String(input.id ?? `schedule-${index}`),
     semester: String(input.semester ?? ''),
-    activityType: String(input.activityType ?? input.activity_type ?? 'Booking'),
-    startTime: String(input.startTime ?? input.start_time ?? ''),
-    endTime: String(input.endTime ?? input.end_time ?? ''),
-    courseName,
-    instructorName,
-    department,
-    course:
-      typeof courseValue === 'object' && courseValue !== null
-        ? {
-            subjectDescription:
-              typeof (courseValue as Record<string, unknown>).subjectDescription === 'string'
-                ? String((courseValue as Record<string, unknown>).subjectDescription)
-                : courseName ?? 'Unknown course',
-            instructorName,
-            department,
-          }
-        : undefined,
+    activityType: String(input.activityType ?? 'Booking'),
+    startTime: String(input.startTime ?? ''),
+    endTime: String(input.endTime ?? ''),
+    courseName: typeof input.courseName === 'string' ? input.courseName : undefined,
+    instructorName: typeof input.instructorName === 'string' ? input.instructorName : undefined,
+    department: typeof input.department === 'string' ? input.department : undefined,
   };
-}
-
-export function deriveScheduleOverlap(schedule: ScheduleRecord, queryStart?: string, queryEnd?: string) {
-  if (!queryStart || !queryEnd) {
-    const now = Date.now();
-    const start = new Date(schedule.startTime).getTime();
-    const end = new Date(schedule.endTime).getTime();
-    return start <= now && now <= end;
-  }
-
-  const queryStartTime = new Date(queryStart).getTime();
-  const queryEndTime = new Date(queryEnd).getTime();
-  const scheduleStart = new Date(schedule.startTime).getTime();
-  const scheduleEnd = new Date(schedule.endTime).getTime();
-  return scheduleStart < queryEndTime && scheduleEnd > queryStartTime;
 }
 
 export function normalizeRoom(input: Record<string, unknown>, index: number): RoomRecord {
   const schedulesRaw = Array.isArray(input.schedules) ? input.schedules : [];
-  const busySlotsRaw = Array.isArray(input.busySlots) ? input.busySlots : [];
 
   const schedules = schedulesRaw
     .map((schedule, scheduleIndex) => {
@@ -76,56 +25,17 @@ export function normalizeRoom(input: Record<string, unknown>, index: number): Ro
     })
     .filter((s): s is ScheduleRecord => s !== null);
 
-  const derivedBusySlots = busySlotsRaw
-    .map((slot, slotIndex) => {
-      if (typeof slot !== 'object' || slot === null) return null;
-      const casted = slot as Record<string, unknown>;
-      const startTime = casted.startTime;
-      const endTime = casted.endTime;
-      if (typeof startTime !== 'string' || typeof endTime !== 'string') return null;
-      return normalizeSchedule(
-        { id: casted.id ?? `legacy-schedule-${slotIndex}`, activityType: casted.activityType ?? 'Booking', startTime, endTime },
-        slotIndex,
-      );
-    })
-    .filter((s): s is ScheduleRecord => s !== null);
-
-  const normalizedSchedules = schedules.length > 0 ? schedules : derivedBusySlots;
-  const activeSchedule = normalizedSchedules.find((s) => deriveScheduleOverlap(s));
-
-  const nowMs = Date.now();
-  const nextSchedule = normalizedSchedules.find((s) => {
-    const sStartMs = new Date(s.startTime).getTime();
-    if (sStartMs <= nowMs) return false;
-    return isSameVietnamDay(sStartMs, nowMs);
-  });
-  const fallbackMinutesLeft = nextSchedule
-    ? Math.round((new Date(nextSchedule.startTime).getTime() - nowMs) / 60000)
-    : null;
-
   return {
     id: String(input.id ?? `room-${index}`),
-    roomName: String(input.roomName ?? input.name ?? `Room ${index + 1}`),
-    locationCode: String(input.locationCode ?? input.location_code ?? ''),
-    description: String(input.description ?? input.locationCode ?? input.location_code ?? ''),
+    roomName: String(input.roomName ?? `Room ${index + 1}`),
+    locationCode: String(input.locationCode ?? ''),
+    description: String(input.description ?? ''),
     campus: String(input.campus ?? 'SGS').toUpperCase(),
     building: String(input.building ?? 'Unknown'),
-    floorLevel: parseFlexibleNumber(input.floorLevel ?? input.floor_level) ?? 0,
-    capacity: parseFlexibleNumber(input.capacity) ?? 0,
-    roomType: String(input.roomType ?? input.room_type ?? ''),
-    status:
-      String(input.status ?? (normalizedSchedules.length > 0 ? 'BUSY' : 'AVAILABLE')).toUpperCase() === 'BUSY'
-        ? 'BUSY'
-        : 'AVAILABLE',
-    activeCourseName:
-      typeof input.activeCourseName === 'string'
-        ? input.activeCourseName
-        : activeSchedule?.courseName ?? activeSchedule?.course?.subjectDescription,
-    minutesLeft:
-      typeof input.minutesLeft === 'number' || input.minutesLeft === null
-        ? (input.minutesLeft as number | null)
-        : fallbackMinutesLeft,
-    schedules: normalizedSchedules,
+    floorLevel: Number(input.floorLevel ?? 0),
+    capacity: typeof input.capacity === 'number' ? input.capacity : undefined,
+    roomType: typeof input.roomType === 'string' ? input.roomType : undefined,
+    schedules,
   };
 }
 
@@ -148,78 +58,77 @@ export function parseAvailabilityMatrix(payload: unknown): TimetableMatrix {
   };
 }
 
-export function getActiveSchedule(room: RoomRecord, queryStart?: string, queryEnd?: string) {
-  return room.schedules.find((s) => deriveScheduleOverlap(s, queryStart, queryEnd));
-}
+export function getRoomStatusDetailed(room: RoomRecord, nowTime: string) {
+  const refIso = nowTime || new Date().toISOString();
+  const refTimeMs = new Date(refIso).getTime();
 
-export function deriveRoomStatus(room: RoomRecord, queryStart?: string, queryEnd?: string) {
-  const activeSchedule = getActiveSchedule(room, queryStart, queryEnd);
-  if (activeSchedule) {
+  // Check if campus is closed first!
+  const accessInfo = getCampusAccessHoursInfo(refIso, room.campus);
+  const info = getVietnamDateInfo(refIso);
+
+  if (info.hours >= 21 || accessInfo.isClosed) {
     return {
-      status: 'BUSY' as const,
-      courseName: activeSchedule.courseName ?? activeSchedule.course?.subjectDescription,
-      activeSchedule,
+      status: 'CLOSED' as const,
+      activeClass: undefined,
+      nextClass: undefined,
+      timeRemainingStr: undefined,
+      minutesToNextClass: undefined,
     };
   }
-  return { status: 'AVAILABLE' as const, courseName: undefined, activeSchedule: undefined };
-}
 
-export function getCurrentRoomState(room: RoomRecord) {
-  const now = Date.now();
-  const sorted = room.schedules.slice().sort(
-    (l, r) => new Date(l.startTime).getTime() - new Date(r.startTime).getTime(),
+  const todaySchedules = (room.schedules || []).filter((s) => {
+    const sInfo = getVietnamDateInfo(s.startTime);
+    return sInfo.dateString === info.dateString;
+  });
+
+  const sortedTodaySchedules = [...todaySchedules].sort(
+    (a, b) => new Date(a.startTime).getTime() - new Date(b.startTime).getTime(),
   );
 
-  const activeSchedule = sorted.find((s) => {
-    const startTime = new Date(s.startTime).getTime();
-    const endTime = new Date(s.endTime).getTime();
-    return startTime <= now && now <= endTime;
+  const activeClass = sortedTodaySchedules.find((s) => {
+    const startMs = new Date(s.startTime).getTime();
+    const endMs = new Date(s.endTime).getTime();
+    return startMs <= refTimeMs && refTimeMs <= endMs;
   });
 
-  const nextSchedule = sorted.find((s) => {
-    const sStartMs = new Date(s.startTime).getTime();
-    if (sStartMs <= now) return false;
-    return isSameVietnamDay(sStartMs, now);
+  const nextClass = sortedTodaySchedules.find((s) => {
+    const startMs = new Date(s.startTime).getTime();
+    return startMs > refTimeMs;
   });
 
-  if (activeSchedule) {
+  if (activeClass) {
     return {
-      tone: 'BUSY' as const,
-      className: 'border-l-4 border-l-slate-300 bg-slate-50 opacity-75',
-      title: `🚫 Occupied • Free at ${formatClock(activeSchedule.endTime)}`,
-      detail: activeSchedule.courseName ?? activeSchedule.course?.subjectDescription ?? 'Reserved now',
-      nextEventStart: activeSchedule.endTime,
+      status: 'BUSY' as const,
+      activeClass,
+      nextClass,
+      timeRemainingStr: undefined,
+      minutesToNextClass: undefined,
     };
   }
 
-  if (!nextSchedule) {
-    return {
-      tone: 'SECURE' as const,
-      className: 'border-l-4 border-l-green-500 bg-white',
-      title: '🟢 Free for the rest of today',
-      detail: 'No upcoming reservations found',
-      nextEventStart: undefined,
-    };
-  }
+  let timeRemainingStr = '';
+  let minutesToNextClass = undefined;
 
-  const minutesLeft = (new Date(nextSchedule.startTime).getTime() - now) / (1000 * 60);
+  if (nextClass) {
+    const diffMs = new Date(nextClass.startTime).getTime() - refTimeMs;
+    const diffMins = Math.max(0, Math.floor(diffMs / 60000));
+    minutesToNextClass = diffMins;
 
-  if (minutesLeft > 20) {
-    return {
-      tone: 'SECURE' as const,
-      className: 'border-l-4 border-l-green-500 bg-white',
-      title: `🟢 Free until ${formatClock(nextSchedule.startTime)} (${formatDurationLeft(minutesLeft)})`,
-      detail: nextSchedule.courseName ?? nextSchedule.course?.subjectDescription ?? 'Upcoming reservation',
-      nextEventStart: nextSchedule.startTime,
-    };
+    if (diffMins < 60) {
+      timeRemainingStr = `${diffMins} min${diffMins !== 1 ? 's' : ''}`;
+    } else {
+      const h = Math.floor(diffMins / 60);
+      const m = diffMins % 60;
+      timeRemainingStr = m > 0 ? `${h}h ${m}m` : `${h}h`;
+    }
   }
 
   return {
-    tone: 'WARNING' as const,
-    className: 'border-l-4 border-l-amber-500 bg-amber-50/40',
-    title: `⚠️ Transitioning Soon • Only ${Math.ceil(minutesLeft)} mins left`,
-    detail: nextSchedule.courseName ?? nextSchedule.course?.subjectDescription ?? 'Upcoming reservation',
-    nextEventStart: nextSchedule.startTime,
+    status: 'AVAILABLE' as const,
+    activeClass: undefined,
+    nextClass,
+    timeRemainingStr,
+    minutesToNextClass,
   };
 }
 
@@ -229,9 +138,9 @@ export function getRoomDetailRows(room: RoomRecord) {
     .sort((l, r) => new Date(l.startTime).getTime() - new Date(r.startTime).getTime())
     .map((schedule) => ({
       ...schedule,
-      courseLabel: schedule.courseName ?? schedule.course?.subjectDescription ?? 'Unknown course',
-      instructorLabel: schedule.instructorName ?? schedule.course?.instructorName ?? 'TBA',
-      departmentLabel: schedule.department ?? schedule.course?.department ?? 'Unknown',
+      courseLabel: schedule.courseName ?? 'Unknown course',
+      instructorLabel: schedule.instructorName ?? 'TBA',
+      departmentLabel: schedule.department ?? 'Unknown',
       windowLabel: `${formatScheduleDate(schedule.startTime)} • ${formatClock(schedule.startTime)} - ${formatClock(schedule.endTime)}`,
     }));
 }
