@@ -88,18 +88,66 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'WebApplication',
-  name: 'RMIT Rooms',
-  url: `${baseUrl}/rooms`,
-  description:
-    'Real-time empty study room finder and classroom timetable directory for RMIT University Vietnam.',
-  applicationCategory: 'EducationalApplication',
-  operatingSystem: 'All',
-  offers: {
-    '@type': 'Offer',
-    price: '0',
-    priceCurrency: 'VND',
-  },
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': `${baseUrl}/#website`,
+      url: baseUrl,
+      name: 'RMIT Rooms',
+      description:
+        'Find free empty study spaces and live classroom schedules across RMIT University Vietnam.',
+      publisher: {
+        '@type': 'Person',
+        name: 'Huynh Mai Thien An',
+      },
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: {
+          '@type': 'EntryPoint',
+          urlTemplate: `${baseUrl}/rooms?q={search_term_string}`,
+        },
+        'query-input': 'required name=search_term_string',
+      },
+    },
+    {
+      '@type': 'WebApplication',
+      '@id': `${baseUrl}/#webapp`,
+      name: 'RMIT Rooms',
+      url: `${baseUrl}/rooms`,
+      description:
+        'Real-time empty study room finder and classroom timetable directory for RMIT University Vietnam.',
+      applicationCategory: 'EducationalApplication',
+      operatingSystem: 'All',
+      offers: {
+        '@type': 'Offer',
+        price: '0',
+        priceCurrency: 'VND',
+      },
+    },
+    {
+      '@type': 'ItemList',
+      '@id': `${baseUrl}/#sitelinks`,
+      name: 'RMIT Rooms Navigation',
+      itemListElement: [
+        {
+          '@type': 'SiteNavigationElement',
+          position: 1,
+          name: 'Room Directory & Schedules',
+          description:
+            'Explore full room directory and hourly timetable grid for SGS and Hanoi campuses.',
+          url: `${baseUrl}/rooms`,
+        },
+        {
+          '@type': 'SiteNavigationElement',
+          position: 2,
+          name: 'How to Update',
+          description:
+            '1-click sync guide to synchronize the latest semester timetable data from RMIT MyTimetable.',
+          url: `${baseUrl}/admin`,
+        },
+      ],
+    },
+  ],
 };
 
 export default function RootLayout({
