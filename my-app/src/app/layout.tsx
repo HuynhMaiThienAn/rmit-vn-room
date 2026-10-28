@@ -39,13 +39,13 @@ export const metadata: Metadata = {
     google: 'd0c8b34a4df7b0ff',
   },
   alternates: {
-    canonical: '/rooms',
+    canonical: '/',
   },
   openGraph: {
     title: 'RMIT Rooms - Find Free Empty Rooms at RMIT Vietnam',
     description:
       'Check live room availability, empty classrooms, and study spaces across RMIT Vietnam SGS and Hanoi campuses.',
-    url: `${baseUrl}/rooms`,
+    url: `${baseUrl}`,
     siteName: 'RMIT Rooms',
     images: [
       {
