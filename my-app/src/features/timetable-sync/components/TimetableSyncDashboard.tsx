@@ -43,11 +43,23 @@ export function TimetableSyncDashboard() {
       </header>
 
       {/* Non-scrolling centered RMIT-style card */}
-      <div className="flex-1 overflow-hidden flex items-center justify-center px-4">
+      <div className="flex-1 overflow-hidden flex flex-col items-center justify-center px-4 gap-3">
         <div className="w-full max-w-lg bg-white border border-black rounded-lg overflow-hidden shadow-xs">
           <DatasetStatusCard stats={stats} loading={loadingStats} />
           <OneClickSyncCard />
         </div>
+        <p className="text-xs text-slate-500 text-center max-w-lg">
+          All timetable data is publicly referenced from{' '}
+          <a
+            href="https://mytimetable.rmit.edu.vn/even/timetable/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#000054] hover:text-[#E60028] transition underline font-medium"
+          >
+            RMIT MyTimetable
+          </a>
+          .
+        </p>
       </div>
 
       <Footer />
