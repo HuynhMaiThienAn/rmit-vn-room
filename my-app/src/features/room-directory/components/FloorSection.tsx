@@ -1,8 +1,9 @@
 'use client';
 
-import React from 'react';
+import React, { useMemo } from 'react';
 import { ChevronDownIcon } from '../../../components/ui/icons';
 import { RoomRow } from './RoomRow';
+import { getRoomStatusDetailed } from '../utils/parse';
 import type { RoomRecord } from '../../../types/room';
 
 interface FloorSectionProps {
@@ -41,6 +42,18 @@ export function FloorSection({
 }: FloorSectionProps) {
   const floorColorClass = FLOOR_BRANCH_COLORS[branchIndex % FLOOR_BRANCH_COLORS.length];
 
+  // Calculate free room count on this floor for the current moment
+  const freeRoomsCount = useMemo(() => {
+    let count = 0;
+    for (const room of rooms) {
+      const details = getRoomStatusDetailed(room, nowTime);
+      if (details.status === 'AVAILABLE') {
+        count++;
+      }
+    }
+    return count;
+  }, [rooms, nowTime]);
+
   return (
     <div className="flex flex-col">
       {/* Level 2: Nested Floor Branch (Distinct Color per Floor) */}
@@ -57,12 +70,32 @@ export function FloorSection({
             Floor {floor}
           </h3>
         </div>
-        <div className="flex items-center opacity-80 pr-0.5">
-          <ChevronDownIcon
-            className={`w-4 h-4 transition-transform duration-200 ${
-              isCollapsed ? 'rotate-0' : 'rotate-180'
-            }`}
-          />
+
+        <div className="flex items-center gap-2">
+          {/* Free rooms count badge */}
+          {freeRoomsCount > 0 ? (
+            <span
+              className="text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 border border-emerald-300"
+              title={`${freeRoomsCount} free room${freeRoomsCount > 1 ? 's' : ''} right now`}
+            >
+              {freeRoomsCount} free
+            </span>
+          ) : (
+            <span
+              className="text-[10px] font-medium px-1.5 py-0.5 rounded-full bg-slate-200/80 text-slate-600"
+              title="0 free rooms right now"
+            >
+              0 free
+            </span>
+          )}
+
+          <div className="flex items-center opacity-80 pr-0.5">
+            <ChevronDownIcon
+              className={`w-4 h-4 transition-transform duration-200 ${
+                isCollapsed ? 'rotate-0' : 'rotate-180'
+              }`}
+            />
+          </div>
         </div>
       </div>
 
