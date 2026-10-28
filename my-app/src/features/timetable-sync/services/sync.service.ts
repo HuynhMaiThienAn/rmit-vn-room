@@ -21,30 +21,51 @@ export interface SyncApiResponse {
 }
 
 export async function fetchDatasetStats(): Promise<DatasetStats> {
-  const res = await fetch('/data/rooms.json', { cache: 'no-store' });
-  if (!res.ok) {
-    return { generatedAt: null, totalRooms: 0, sgsRooms: 0, hnRooms: 0 };
-  }
-  const payload = await res.json();
   let totalRooms = 0;
   let sgsRooms = 0;
   let hnRooms = 0;
   let generatedAt: string | null = null;
 
-  if (Array.isArray(payload)) {
-    // Option B compact tuple format: [roomName, description]
-    totalRooms = payload.length;
-    for (const item of payload) {
-      const roomName = Array.isArray(item) ? String(item[0]) : '';
-      if (roomName.startsWith('VH')) hnRooms++;
-      else sgsRooms++;
+  try {
+    const metaRes = await fetch('/data/meta.json', { cache: 'no-store' });
+    if (metaRes.ok) {
+      const meta = await metaRes.json();
+      if (meta && typeof meta === 'object') {
+        generatedAt = typeof meta.generatedAt === 'string' ? meta.generatedAt : null;
+        if (typeof meta.totalRooms === 'number') totalRooms = meta.totalRooms;
+        if (typeof meta.sgsRooms === 'number') sgsRooms = meta.sgsRooms;
+        if (typeof meta.hnRooms === 'number') hnRooms = meta.hnRooms;
+      }
     }
-  } else if (payload && Array.isArray(payload.rooms)) {
-    const rooms: RoomRecord[] = payload.rooms;
-    totalRooms = rooms.length;
-    sgsRooms = rooms.filter((r) => r.campus === 'SGS').length;
-    hnRooms = rooms.filter((r) => r.campus === 'HN').length;
-    generatedAt = typeof payload.generatedAt === 'string' ? payload.generatedAt : null;
+  } catch {
+    // meta.json fallback
+  }
+
+  if (totalRooms === 0) {
+    try {
+      const res = await fetch('/data/rooms.json', { cache: 'no-store' });
+      if (res.ok) {
+        const payload = await res.json();
+        if (Array.isArray(payload)) {
+          totalRooms = payload.length;
+          for (const item of payload) {
+            const roomName = Array.isArray(item) ? String(item[0]) : '';
+            if (roomName.startsWith('VH')) hnRooms++;
+            else sgsRooms++;
+          }
+        } else if (payload && Array.isArray(payload.rooms)) {
+          const rooms: RoomRecord[] = payload.rooms;
+          totalRooms = rooms.length;
+          sgsRooms = rooms.filter((r) => r.campus === 'SGS').length;
+          hnRooms = rooms.filter((r) => r.campus === 'HN').length;
+          if (!generatedAt) {
+            generatedAt = typeof payload.generatedAt === 'string' ? payload.generatedAt : null;
+          }
+        }
+      }
+    } catch {
+      // rooms fallback
+    }
   }
 
   return {

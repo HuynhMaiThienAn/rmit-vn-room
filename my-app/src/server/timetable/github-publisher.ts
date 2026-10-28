@@ -88,6 +88,12 @@ async function writeShardsToLocalDisk(sharded: ShardedTimetableOutput): Promise<
       'utf-8',
     );
 
+    await fs.writeFile(
+      path.join(dataDir, 'meta.json'),
+      JSON.stringify(sharded.metaPayload, null, 2),
+      'utf-8',
+    );
+
     return true;
   } catch {
     return false;
@@ -160,6 +166,12 @@ async function commitShardsViaGitHubApi(
       mode: '100644',
       type: 'blob',
       content: JSON.stringify(sharded.schedulesPayload, null, 2),
+    },
+    {
+      path: 'my-app/public/data/meta.json',
+      mode: '100644',
+      type: 'blob',
+      content: JSON.stringify(sharded.metaPayload, null, 2),
     },
   ];
 

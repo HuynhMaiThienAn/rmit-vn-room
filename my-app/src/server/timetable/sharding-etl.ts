@@ -24,6 +24,14 @@ export interface ShardedTimetableOutput {
   totalSchedules: number;
   roomsPayload: Array<[string, string]>;
   schedulesPayload: Record<string, unknown[][]>;
+  metaPayload: {
+    generatedAt: string;
+    totalRooms: number;
+    sgsRooms: number;
+    hnRooms: number;
+    totalDays: number;
+    totalSchedules: number;
+  };
   byRoomFiles: Record<string, { roomId: string; schedules: Record<string, unknown>[] }>;
   byDayFiles: Record<string, { d: string; s: unknown[][] }>;
 }
@@ -161,6 +169,14 @@ export function buildShardedTimetable(
     totalSchedules,
     roomsPayload: compactRoomsList,
     schedulesPayload,
+    metaPayload: {
+      generatedAt,
+      totalRooms: updatedRoomsList.length,
+      sgsRooms: sgsCount,
+      hnRooms: hnCount,
+      totalDays: Object.keys(byDayFiles).length,
+      totalSchedules,
+    },
     byRoomFiles,
     byDayFiles,
   };
