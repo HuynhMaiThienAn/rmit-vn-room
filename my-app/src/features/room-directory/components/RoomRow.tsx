@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { memo } from 'react';
 import { ChevronRightIcon } from '../../../components/ui/icons';
 import { cleanDescriptionText } from '../utils/helpers';
 import type { RoomRecord } from '../../../types/room';
@@ -30,7 +30,7 @@ interface RoomRowProps {
   onSelect: () => void;
 }
 
-export function RoomRow({ room, isSelected, onSelect }: RoomRowProps) {
+export const RoomRow = memo(function RoomRow({ room, isSelected, onSelect }: RoomRowProps) {
   return (
     <tr
       onClick={onSelect}
@@ -48,4 +48,4 @@ export function RoomRow({ room, isSelected, onSelect }: RoomRowProps) {
       </td>
     </tr>
   );
-}
+});

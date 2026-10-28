@@ -68,7 +68,7 @@ export function FloorSection({
 
       {/* Level 3: Indented Room List inside Floor (White Background) */}
       <div
-        className={`grid transition-all duration-200 ease-in-out ${
+        className={`grid transition-[grid-template-rows,opacity] duration-150 ease-out will-change-[grid-template-rows,opacity] ${
           isCollapsed ? 'grid-rows-[0fr] opacity-0' : 'grid-rows-[1fr] opacity-100'
         }`}
       >

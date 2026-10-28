@@ -175,7 +175,7 @@ export function RoomList({
 
               {/* Level 2: Building Branches inside Campus */}
               <div
-                className={`grid transition-all duration-200 ease-in-out ${
+                className={`grid transition-[grid-template-rows,opacity] duration-150 ease-out will-change-[grid-template-rows,opacity] ${
                   isCampusExpanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'
                 }`}
               >
@@ -217,7 +217,7 @@ export function RoomList({
 
                             {/* Level 3: Floor Branches inside Building */}
                             <div
-                              className={`grid transition-all duration-200 ease-in-out ${
+                              className={`grid transition-[grid-template-rows,opacity] duration-150 ease-out will-change-[grid-template-rows,opacity] ${
                                 isBuildingExpanded
                                   ? 'grid-rows-[1fr] opacity-100'
                                   : 'grid-rows-[0fr] opacity-0'
