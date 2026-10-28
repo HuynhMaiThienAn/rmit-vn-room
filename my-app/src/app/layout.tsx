@@ -35,6 +35,9 @@ export const metadata: Metadata = {
     'RMIT study spaces',
   ],
   authors: [{ name: 'Huynh Mai Thien An' }],
+  verification: {
+    google: 'd0c8b34a4df7b0ff',
+  },
   alternates: {
     canonical: '/rooms',
   },
