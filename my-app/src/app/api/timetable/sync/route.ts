@@ -10,7 +10,7 @@ export type RawRoomMap = Record<string, Record<string, unknown>>;
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'POST, OPTIONS',
-  'Access-Control-Allow-Headers': 'Content-Type',
+  'Access-Control-Allow-Headers': 'Content-Type, Authorization',
   'Access-Control-Allow-Private-Network': 'true',
 };
 
@@ -24,6 +24,32 @@ function isRawRoomMap(val: unknown): val is RawRoomMap {
 
 export async function POST(request: NextRequest) {
   try {
+    // 1. Authorization Guard
+    const syncSecret = process.env.SYNC_SECRET?.trim();
+    if (syncSecret) {
+      const authHeader = request.headers.get('authorization') || request.headers.get('Authorization');
+      if (!authHeader || !authHeader.startsWith('Bearer ')) {
+        return NextResponse.json(
+          {
+            success: false,
+            error: 'Unauthorized: Missing or invalid Bearer token',
+          },
+          { status: 401, headers: CORS_HEADERS },
+        );
+      }
+
+      const token = authHeader.slice(7).trim();
+      if (token !== syncSecret) {
+        return NextResponse.json(
+          {
+            success: false,
+            error: 'Unauthorized: Invalid sync secret',
+          },
+          { status: 401, headers: CORS_HEADERS },
+        );
+      }
+    }
+
     const body = (await request.json()) as {
       sgs?: unknown;
       hn?: unknown;
