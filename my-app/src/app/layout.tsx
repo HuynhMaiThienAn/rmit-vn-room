@@ -13,18 +13,21 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rmit-rooms.vercel.app';
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rmitspace.app';
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'RMIT Rooms - Find Free Empty Rooms at RMIT Vietnam',
-    template: '%s | RMIT Rooms',
+    default: 'RMIT Space - Find Free Empty Rooms at RMIT Vietnam',
+    template: '%s | RMIT Space',
   },
   description:
-    'Find empty study rooms and live classroom schedules across RMIT University Vietnam (Saigon South & Hanoi campuses). Free, real-time timetable updates.',
+    'Find empty study spaces and live classroom schedules across RMIT University Vietnam (Saigon South & Hanoi campuses). Free, real-time timetable updates on rmitspace.app.',
   keywords: [
     'RMIT',
+    'RMIT Space',
+    'rmitspace',
+    'rmitspace.app',
     'RMIT Vietnam',
     'RMIT empty rooms',
     'RMIT room finder',
@@ -42,17 +45,17 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: 'RMIT Rooms - Find Free Empty Rooms at RMIT Vietnam',
+    title: 'RMIT Space - Find Free Empty Rooms at RMIT Vietnam',
     description:
       'Check live room availability, empty classrooms, and study spaces across RMIT Vietnam SGS and Hanoi campuses.',
     url: `${baseUrl}`,
-    siteName: 'RMIT Rooms',
+    siteName: 'RMIT Space',
     images: [
       {
         url: '/logo.png',
         width: 512,
         height: 512,
-        alt: 'RMIT Rooms Logo',
+        alt: 'RMIT Space Logo',
       },
     ],
     locale: 'en_US',
@@ -60,9 +63,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary',
-    title: 'RMIT Rooms - RMIT Vietnam Empty Room Finder',
+    title: 'RMIT Space - RMIT Vietnam Empty Room Finder',
     description:
-      'Find empty study rooms and live classroom schedules across RMIT Vietnam SGS & Hanoi campuses.',
+      'Find empty study rooms and live classroom schedules across RMIT Vietnam SGS & Hanoi campuses on rmitspace.app.',
     images: ['/logo.png'],
   },
   robots: {
@@ -93,7 +96,7 @@ const jsonLd = {
       '@type': 'WebSite',
       '@id': `${baseUrl}/#website`,
       url: baseUrl,
-      name: 'RMIT Rooms',
+      name: 'RMIT Space',
       description:
         'Find free empty study spaces and live classroom schedules across RMIT University Vietnam.',
       publisher: {
@@ -112,7 +115,7 @@ const jsonLd = {
     {
       '@type': 'WebApplication',
       '@id': `${baseUrl}/#webapp`,
-      name: 'RMIT Rooms',
+      name: 'RMIT Space',
       url: `${baseUrl}/rooms`,
       description:
         'Real-time empty study room finder and classroom timetable directory for RMIT University Vietnam.',
@@ -127,7 +130,7 @@ const jsonLd = {
     {
       '@type': 'ItemList',
       '@id': `${baseUrl}/#sitelinks`,
-      name: 'RMIT Rooms Navigation',
+      name: 'RMIT Space Navigation',
       itemListElement: [
         {
           '@type': 'SiteNavigationElement',

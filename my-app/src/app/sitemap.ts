@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rmit-rooms.vercel.app';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://rmitspace.app';
   const now = new Date();
 
   return [

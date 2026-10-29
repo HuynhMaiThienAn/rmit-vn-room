@@ -11,7 +11,7 @@ export function Footer() {
         
         {/* Column 1: Brand & Slogan */}
         <div className="flex items-center gap-2">
-          <h4 className="text-[11px] md:text-xs font-bold uppercase tracking-wider text-white">RMIT Rooms</h4>
+          <h4 className="text-[11px] md:text-xs font-bold uppercase tracking-wider text-white">RMIT Space</h4>
           <span className="text-slate-500">•</span>
           <span className="text-[11px] md:text-xs text-slate-300">
             A smol website to find empty rooms 🥀

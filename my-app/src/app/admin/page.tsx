@@ -2,9 +2,9 @@ import type { Metadata } from 'next';
 import { TimetableSyncDashboard } from '../../features/timetable-sync/components/TimetableSyncDashboard';
 
 export const metadata: Metadata = {
-  title: 'How to Update Timetable Data',
+  title: 'How to Update Timetable Data | RMIT Space',
   description:
-    'Step-by-step guide and 1-click bookmarklet to synchronize the latest semester schedule from RMIT MyTimetable to RMIT Rooms.',
+    'Step-by-step guide and 1-click bookmarklet to synchronize the latest semester schedule from RMIT MyTimetable to RMIT Space (rmitspace.app).',
   alternates: {
     canonical: '/admin',
   },

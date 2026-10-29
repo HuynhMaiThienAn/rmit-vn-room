@@ -21,7 +21,7 @@ export function DirectoryHeader({
         <div className="flex items-center gap-2.5 shrink-0">
           <div>
             <h1 className="text-lg md:text-xl font-semibold text-white tracking-tight leading-tight">
-              RMIT Rooms
+              RMIT Space
             </h1>
             <p className="text-xs text-slate-300 font-normal leading-tight">
               Saigon South &amp; Hanoi Campuses

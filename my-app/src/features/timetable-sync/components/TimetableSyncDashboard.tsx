@@ -27,7 +27,7 @@ export function TimetableSyncDashboard() {
             />
             <div>
               <h1 className="text-lg md:text-xl font-normal text-white tracking-tight leading-tight">
-                RMIT Rooms
+                RMIT Space
               </h1>
               <p className="text-xs text-slate-300 font-normal leading-tight">How to Update</p>
             </div>
