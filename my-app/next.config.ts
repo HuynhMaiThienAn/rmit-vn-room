@@ -5,6 +5,28 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       {
+        // Global security headers
+        source: "/:path*",
+        headers: [
+          {
+            key: "X-Frame-Options",
+            value: "DENY",
+          },
+          {
+            key: "X-Content-Type-Options",
+            value: "nosniff",
+          },
+          {
+            key: "Referrer-Policy",
+            value: "strict-origin-when-cross-origin",
+          },
+          {
+            key: "Permissions-Policy",
+            value: "camera=(self), microphone=()",
+          },
+        ],
+      },
+      {
         // 1. Static images and icons in public folder: Cache for 1 year immutable
         source: "/:all*(svg|jpg|jpeg|png|webp|avif|ico)",
         headers: [

@@ -30,7 +30,7 @@ export function Footer() {
 
           <a
             href="mailto:s3998345@rmit.edu.vn"
-            className="text-[#E60028] hover:text-white font-semibold transition underline"
+            className="text-red-300 hover:text-white font-semibold transition underline"
           >
             s3998345@rmit.edu.vn
           </a>
@@ -53,5 +53,6 @@ export function Footer() {
 }
 
 export default Footer;
+
 
 
