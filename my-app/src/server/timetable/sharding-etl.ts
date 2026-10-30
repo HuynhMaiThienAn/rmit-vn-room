@@ -24,6 +24,12 @@ export interface ShardedTimetableOutput {
   totalSchedules: number;
   roomsPayload: Array<[string, string]>;
   schedulesPayload: Record<string, unknown[][]>;
+  todayPayload: {
+    date: string;
+    generatedAt: string;
+    entries: unknown[][];
+  };
+  byRoomShards: Record<string, { roomIndex: number; roomName: string; schedules: Array<[string, string, string, string]> }>;
   metaPayload: {
     generatedAt: string;
     totalRooms: number;
@@ -141,6 +147,14 @@ export function buildShardedTimetable(
   }
 
   const byRoomFiles: Record<string, { roomId: string; schedules: Record<string, unknown>[] }> = {};
+  const byRoomShards: Record<string, { roomIndex: number; roomName: string; schedules: Array<[string, string, string, string]> }> = {};
+  for (let i = 0; i < updatedRoomsList.length; i++) {
+    byRoomShards[updatedRoomsList[i].id] = {
+      roomIndex: i,
+      roomName: updatedRoomsList[i].roomName,
+      schedules: [],
+    };
+  }
 
   const byDayFiles: Record<string, { d: string; s: unknown[][] }> = {};
   const schedulesPayload: Record<string, unknown[][]> = {};
@@ -148,6 +162,19 @@ export function buildShardedTimetable(
     scheds.sort((a, b) => String(a[0]).localeCompare(String(b[0])));
     byDayFiles[dayKey] = { d: dayKey, s: scheds };
     schedulesPayload[dayKey] = scheds;
+
+    for (const item of scheds) {
+      const roomIdx = typeof item[3] === 'number' ? item[3] : -1;
+      const targetRoom = updatedRoomsList[roomIdx];
+      if (targetRoom && byRoomShards[targetRoom.id]) {
+        byRoomShards[targetRoom.id].schedules.push([
+          String(item[0]),
+          String(item[1]),
+          String(item[2]),
+          dayKey,
+        ]);
+      }
+    }
   }
 
   const generatedAt = getVietnamIsoNow();
@@ -169,6 +196,12 @@ export function buildShardedTimetable(
     totalSchedules,
     roomsPayload: compactRoomsList,
     schedulesPayload,
+    todayPayload: {
+      date: generatedAt.slice(0, 10),
+      generatedAt,
+      entries: schedulesPayload[generatedAt.slice(0, 10)] || [],
+    },
+    byRoomShards,
     metaPayload: {
       generatedAt,
       totalRooms: updatedRoomsList.length,

@@ -5,7 +5,12 @@ import { useDirectoryState } from '../hooks/use-directory-state';
 import { DirectoryHeader } from './DirectoryHeader';
 import { RoomList } from './RoomList';
 import { TimetablePanel } from './timetable/TimetablePanel';
-import { QrScannerModal } from './QrScannerModal';
+import dynamic from 'next/dynamic';
+
+const QrScannerModal = dynamic(
+  () => import('./QrScannerModal').then((mod) => mod.QrScannerModal),
+  { ssr: false }
+);
 import Footer from '../../../components/public/footer';
 import { cleanDescriptionText } from '../utils/helpers';
 

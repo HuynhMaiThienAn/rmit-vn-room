@@ -89,6 +89,23 @@ async function writeShardsToLocalDisk(sharded: ShardedTimetableOutput): Promise<
     );
 
     await fs.writeFile(
+      path.join(dataDir, 'today.json'),
+      JSON.stringify(sharded.todayPayload, null, 2),
+      'utf-8',
+    );
+
+    const roomsShardsDir = path.join(dataDir, 'rooms');
+    await fs.mkdir(roomsShardsDir, { recursive: true });
+    for (const [roomId, shardData] of Object.entries(sharded.byRoomShards)) {
+      const safeFileName = encodeURIComponent(shardData.roomName || roomId) + '.json';
+      await fs.writeFile(
+        path.join(roomsShardsDir, safeFileName),
+        JSON.stringify(shardData),
+        'utf-8',
+      );
+    }
+
+    await fs.writeFile(
       path.join(dataDir, 'meta.json'),
       JSON.stringify(sharded.metaPayload, null, 2),
       'utf-8',

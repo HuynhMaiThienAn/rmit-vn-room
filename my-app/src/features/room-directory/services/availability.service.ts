@@ -9,10 +9,16 @@ let cachedRoomsPromise: Promise<RoomRecord[]> | null = null;
 
 let cachedGeneratedAt = '';
 
-let cachedSchedulesMap: Record<string, unknown[][]> | null = null;
-let cachedSchedulesPromise: Promise<Record<string, unknown[][]>> | null = null;
+// In-memory cache for today's snapshot
+let cachedTodayPromise: Promise<{ date: string; entries: unknown[][] }> | null = null;
 
-async function getCachedRooms(): Promise<RoomRecord[]> {
+// In-memory cache for individual room schedules: roomId -> schedule records
+const cachedRoomShards = new Map<string, Promise<Array<[string, string, string, string]>>>();
+
+// Fallback full schedules cache (only fetched if a non-today date or non-sharded route is requested)
+let cachedFullSchedulesPromise: Promise<Record<string, unknown[][]>> | null = null;
+
+export async function getCachedRooms(): Promise<RoomRecord[]> {
   if (cachedRooms) return cachedRooms;
   if (!cachedRoomsPromise) {
     cachedRoomsPromise = fetch('/data/rooms.json', { cache: 'default' })
@@ -40,25 +46,65 @@ async function getCachedRooms(): Promise<RoomRecord[]> {
   return cachedRoomsPromise;
 }
 
-async function getCachedSchedules(): Promise<Record<string, unknown[][]>> {
-  if (cachedSchedulesMap) return cachedSchedulesMap;
-  if (!cachedSchedulesPromise) {
-    cachedSchedulesPromise = fetch('/data/schedules.json', { cache: 'default' })
+async function getCachedToday(): Promise<{ date: string; entries: unknown[][] }> {
+  if (!cachedTodayPromise) {
+    cachedTodayPromise = fetch('/data/today.json', { cache: 'default' })
+      .then((res) => {
+        if (!res.ok) throw new Error('Failed to load today schedules snapshot');
+        return res.json();
+      })
+      .catch(() => {
+        // Fallback if today.json is not yet available: return empty entries
+        return { date: '', entries: [] };
+      });
+  }
+  return cachedTodayPromise;
+}
+
+async function getCachedRoomShard(
+  roomIdentifier: string,
+): Promise<Array<[string, string, string, string]>> {
+  const normalizedKey = roomIdentifier.trim();
+  const existing = cachedRoomShards.get(normalizedKey);
+  if (existing) return existing;
+
+  const promise = fetch(`/data/rooms/${encodeURIComponent(normalizedKey)}.json`, { cache: 'default' })
+    .then((res) => {
+      if (!res.ok) throw new Error(`Room shard not found: ${normalizedKey}`);
+      return res.json();
+    })
+    .then((data) => {
+      if (data && Array.isArray(data.schedules)) {
+        return data.schedules as Array<[string, string, string, string]>;
+      }
+      return [];
+    })
+    .catch((err) => {
+      console.warn(`Could not load room shard for ${normalizedKey}:`, err);
+      return [];
+    });
+
+  cachedRoomShards.set(normalizedKey, promise);
+  return promise;
+}
+
+async function getCachedFullSchedules(): Promise<Record<string, unknown[][]>> {
+  if (!cachedFullSchedulesPromise) {
+    cachedFullSchedulesPromise = fetch('/data/schedules.json', { cache: 'default' })
       .then((res) => {
         if (!res.ok) throw new Error('Failed to load schedules');
         return res.json();
       })
       .then((data) => {
-        cachedSchedulesMap = data && typeof data === 'object' ? data : {};
-        return cachedSchedulesMap!;
+        return data && typeof data === 'object' ? data : {};
       })
       .catch((err) => {
-        cachedSchedulesPromise = null;
+        cachedFullSchedulesPromise = null;
         console.warn('Could not load schedules.json:', err);
         return {};
       });
   }
-  return cachedSchedulesPromise;
+  return cachedFullSchedulesPromise;
 }
 
 /**
@@ -98,24 +144,34 @@ export async function fetchAvailabilityMatrix(
   queryEnd: string,
   selectedSemester: string,
 ): Promise<TimetableMatrix> {
-  // 1. Fetch the static rooms list and all schedules
-  const [rooms, schedulesMap] = await Promise.all([getCachedRooms(), getCachedSchedules()]);
+  // 1. Fetch rooms list
+  const rooms = await getCachedRooms();
 
-  // 2. Fetch the schedules for the specific date of queryStart
+  // 2. Determine target query date in Vietnam timezone
   const dateInfo = getVietnamDateInfo(queryStart);
   const dateStr = dateInfo.dateString;
 
-  const rawEntries = schedulesMap[dateStr] || [];
+  // 3. Try to use today's lightweight snapshot first (~13 KB vs ~2.4 MB)
+  let rawEntries: unknown[][] = [];
+  const todaySnapshot = await getCachedToday();
+  if (todaySnapshot.date === dateStr && todaySnapshot.entries.length > 0) {
+    rawEntries = todaySnapshot.entries;
+  } else {
+    // Fallback to full schedules only if query date doesn't match today's pre-computed snapshot
+    const schedulesMap = await getCachedFullSchedules();
+    rawEntries = schedulesMap[dateStr] || [];
+  }
+
   let daySchedules: RawSchedulePayload[] = rawEntries
     .map((entry, idx) => unpackDaySchedule(entry, dateStr, idx, rooms))
     .filter((s): s is RawSchedulePayload => s !== null);
 
-  // 3. Filter schedules by semester if applicable
+  // 4. Filter schedules by semester if applicable
   if (selectedSemester !== 'ALL') {
     daySchedules = daySchedules.filter((s) => s.semester === selectedSemester);
   }
 
-  // 4. Map schedules by roomId for quick lookup
+  // 5. Map schedules by roomId for quick lookup
   const scheduleMap = new Map<string, RawSchedulePayload[]>();
   for (const s of daySchedules) {
     const roomId = typeof s.roomId === 'string' ? s.roomId : String(s.roomId ?? '');
@@ -125,7 +181,7 @@ export async function fetchAvailabilityMatrix(
     scheduleMap.set(roomId, bucket);
   }
 
-  // 5. Attach daily schedules to the rooms
+  // 6. Attach daily schedules to the rooms
   const roomsWithSchedules = rooms.map((room) => {
     const roomSchedules = scheduleMap.get(room.id) ?? [];
     return {
@@ -142,8 +198,15 @@ export async function fetchAvailabilityMatrix(
 
 export async function fetchDaySchedules(dateStr: string): Promise<RawSchedulePayload[]> {
   try {
-    const [rooms, schedulesMap] = await Promise.all([getCachedRooms(), getCachedSchedules()]);
-    const rawEntries = schedulesMap[dateStr] || [];
+    const rooms = await getCachedRooms();
+    const todaySnapshot = await getCachedToday();
+    let rawEntries: unknown[][] = [];
+    if (todaySnapshot.date === dateStr && todaySnapshot.entries.length > 0) {
+      rawEntries = todaySnapshot.entries;
+    } else {
+      const schedulesMap = await getCachedFullSchedules();
+      rawEntries = schedulesMap[dateStr] || [];
+    }
     return rawEntries
       .map((entry, idx) => unpackDaySchedule(entry, dateStr, idx, rooms))
       .filter((s): s is RawSchedulePayload => s !== null);
@@ -158,7 +221,34 @@ export async function fetchRoomSchedulesForDates(
 ): Promise<ScheduleRecord[]> {
   if (!roomId || dates.length === 0) return [];
 
-  const [rooms, schedulesMap] = await Promise.all([getCachedRooms(), getCachedSchedules()]);
+  const rooms = await getCachedRooms();
+  const room = rooms.find((r) => r.id === roomId || r.roomName === roomId);
+  const roomIdentifier = room?.roomName || roomId;
+
+  // Fast path: load only this room's tiny sharded JSON (~3 - 15 KB)
+  const roomSchedules = await getCachedRoomShard(roomIdentifier);
+  if (roomSchedules.length > 0) {
+    const targetDates = new Set(dates);
+    const matchingSchedules: ScheduleRecord[] = [];
+
+    for (let i = 0; i < roomSchedules.length; i++) {
+      const [stShort, etShort, courseName, dayKey] = roomSchedules[i];
+      if (targetDates.has(dayKey)) {
+        const rawItem: RawSchedulePayload = {
+          id: `sched-${dayKey}-${roomId}-${i}`,
+          startTime: `${dayKey}T${stShort}:00+00:00`,
+          endTime: `${dayKey}T${etShort}:00+00:00`,
+          courseName,
+          roomId: room ? room.id : roomId,
+        };
+        matchingSchedules.push(normalizeSchedule(rawItem, matchingSchedules.length));
+      }
+    }
+    return matchingSchedules;
+  }
+
+  // Graceful fallback: inspect full schedules.json if room shard was empty or failed
+  const schedulesMap = await getCachedFullSchedules();
   const matchingSchedules: ScheduleRecord[] = [];
 
   for (const dateStr of dates) {
@@ -167,9 +257,9 @@ export async function fetchRoomSchedulesForDates(
       const entry = rawEntries[i];
       if (Array.isArray(entry)) {
         const roomIdx = entry[3];
-        const room = typeof roomIdx === 'number' ? rooms[roomIdx] : null;
-        const sRoomId = room ? String(room.id) : String(roomIdx ?? '');
-        if (sRoomId === roomId) {
+        const r = typeof roomIdx === 'number' ? rooms[roomIdx] : null;
+        const sRoomId = r ? String(r.id) : String(roomIdx ?? '');
+        if (sRoomId === roomId || (r && r.roomName === roomId)) {
           const unpacked = unpackDaySchedule(entry, dateStr, i, rooms);
           if (unpacked) {
             matchingSchedules.push(normalizeSchedule(unpacked, matchingSchedules.length));
