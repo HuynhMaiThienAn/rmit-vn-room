@@ -22,6 +22,7 @@ export function Footer() {
         <div className="flex flex-wrap items-center justify-center md:justify-end gap-3 md:gap-4 text-[11px] md:text-xs text-slate-400">
           <Link
             href="/admin"
+            prefetch={false}
             className="hover:text-white transition font-semibold text-slate-300 underline"
           >
             How to Update
@@ -52,3 +53,5 @@ export function Footer() {
 }
 
 export default Footer;
+
+
