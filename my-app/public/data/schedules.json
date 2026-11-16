@@ -16601,12 +16601,6 @@
     [
       "07:30",
       "09:00",
-      "Adhoc Room Bookings - Sem 3 - Saigon Campus",
-      137
-    ],
-    [
-      "07:30",
-      "09:00",
       "Industry 4.0",
       141
     ],
@@ -20686,6 +20680,12 @@
     ],
     [
       "03:00",
+      "07:00",
+      "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      57
+    ],
+    [
+      "03:00",
       "05:00",
       "Innovation Management",
       59
@@ -21781,6 +21781,12 @@
       "11:00",
       "Understanding the Bus Environ",
       127
+    ],
+    [
+      "09:00",
+      "11:00",
+      "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      132
     ],
     [
       "09:00",
@@ -23397,6 +23403,12 @@
       "11:00",
       "Understanding the Bus Environ",
       127
+    ],
+    [
+      "09:00",
+      "11:00",
+      "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      132
     ],
     [
       "09:00",
@@ -66083,6 +66095,12 @@
       35
     ],
     [
+      "04:00",
+      "05:00",
+      "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      138
+    ],
+    [
       "04:30",
       "07:30",
       "Digital Apps Fashion Ent 1",
@@ -66225,6 +66243,12 @@
       "07:00",
       "Eco-tourism",
       115
+    ],
+    [
+      "05:00",
+      "07:00",
+      "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      116
     ],
     [
       "05:00",
@@ -67997,6 +68021,12 @@
       "05:00",
       "Cognitive Psychology",
       35
+    ],
+    [
+      "04:00",
+      "05:00",
+      "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      138
     ],
     [
       "04:30",
@@ -116882,6 +116912,12 @@
     ],
     [
       "03:00",
+      "05:00",
+      "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      57
+    ],
+    [
+      "03:00",
       "04:00",
       "Law and Society",
       57
@@ -116957,6 +116993,12 @@
       "05:00",
       "Acct Data Analy Vis",
       109
+    ],
+    [
+      "03:00",
+      "05:00",
+      "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      111
     ],
     [
       "03:00",
@@ -117543,6 +117585,12 @@
     [
       "05:30",
       "07:00",
+      "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      133
+    ],
+    [
+      "05:30",
+      "07:00",
       "Engineering Science",
       141
     ],
@@ -117767,6 +117815,12 @@
       "09:00",
       "Global Trade Operations",
       119
+    ],
+    [
+      "07:00",
+      "09:00",
+      "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      121
     ],
     [
       "07:00",
@@ -133143,6 +133197,12 @@
     [
       "01:00",
       "03:00",
+      "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      113
+    ],
+    [
+      "01:00",
+      "03:00",
       "Derivatives & Risk Management",
       116
     ],
@@ -133421,6 +133481,12 @@
       "05:00",
       "Interactive Media 1",
       52
+    ],
+    [
+      "03:00",
+      "05:00",
+      "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      57
     ],
     [
       "03:00",
@@ -147741,6 +147807,12 @@
       58
     ],
     [
+      "05:00",
+      "09:00",
+      "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      107
+    ],
+    [
       "05:30",
       "07:00",
       "Discrete Mathematics",
@@ -148874,9 +148946,33 @@
   "2026-11-22": [
     [
       "00:00",
+      "11:00",
+      "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      45
+    ],
+    [
+      "00:00",
       "14:00",
       "Adhoc Room Bookings - Sem 3 - Saigon Campus",
       48
+    ],
+    [
+      "00:00",
+      "11:00",
+      "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      59
+    ],
+    [
+      "00:00",
+      "11:00",
+      "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      60
+    ],
+    [
+      "00:00",
+      "11:00",
+      "Adhoc Room Bookings - Sem 3 - Saigon Campus",
+      61
     ],
     [
       "00:30",
@@ -149074,6 +149170,12 @@
       "05:30",
       "07:00",
       "Deep Learning",
+      58
+    ],
+    [
+      "07:00",
+      "11:00",
+      "Adhoc Room Bookings - Sem 3 - Saigon Campus",
       58
     ]
   ],
